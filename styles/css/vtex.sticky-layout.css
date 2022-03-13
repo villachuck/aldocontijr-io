@@ -1,0 +1,7 @@
+.wrapper--stuck:not(:hover) .flexRowContent--main-header {
+    background-color: #A3DDCB;
+}
+
+.wrapper--stuck .flexRowContent--main-header {
+    background-color: #A3DDCB;
+}

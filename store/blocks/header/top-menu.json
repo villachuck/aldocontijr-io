@@ -1,13 +1,13 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#telefono"
     ]
   },
-  "menu-item#shop": {
+  "menu-item#telefono": {
     "props": {
       "id": "menu-item-shop",
+      "blockClass": "phone-highlight",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -15,28 +15,28 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "Telefono",
+        "text": "800 3980 000"
       }
     }
   },
-  "vtex.menu@2.x:menu#institutional": {
+  "vtex.menu@2.x:menu#envios-gratuitos": {
     "children": [
-      "menu-item#vtex-website"
+      "menu-item#texto-gratuitos"
     ]
   },
-  "menu-item#vtex-website": {
+  "menu-item#texto-gratuitos": {
     "props": {
-      "id": "menu-item-vtex-website",
+      "id": "menu-item-texto-gratuitos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "Envíos gratuitos",
+        "text": "Envíos gratuitos en compras mayores a $600"
       }
     }
   }

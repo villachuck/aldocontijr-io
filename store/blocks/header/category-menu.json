@@ -4,201 +4,623 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#categoria-ropa",
+      "menu-item#categoria-accesorios",
+      "menu-item#categoria-zapatos",
+      "menu-item#categoria-adultos",
+      "menu-item#categoria-sucursales"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#categoria-ropa": {
     "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/",
-        "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:submenu#category-apparel": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-apparel": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
-    ]
-  },
-  "menu-item#category-apparel-clothing": {
-    "props": {
-      "id": "menu-item-category-apparel-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/clothing/",
-        "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-  "menu-item#category-apparel-accessories": {
-    "props": {
-      "id": "menu-item-category-apparel-accessories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/accessories/",
-        "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-apparel-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
-      }
-    }
-  },
-  "menu-item#more": {
-    "props": {
-      "id": "menu-item-custom-sale",
+      "id": "menu-item-categoria-ropa",
+      "blockClass": "principal-categories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
-        "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "noFollow": false,
+        "tagTitle": "Ropa",
+        "text": "Ropa"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#categoria-ropa"
     ]
   },
-  "vtex.menu@2.x:submenu#more": {
+  "vtex.menu@2.x:submenu#categoria-ropa": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#menu-more"
+      "flex-layout.row#categoria-ropa"
     ]
   },
-  "flex-layout.row#menu-more": {
+  "flex-layout.row#categoria-ropa": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#ropa-columna-1",
+      "flex-layout.col#ropa-columna-2"
     ]
   },
-  "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
+  "flex-layout.col#ropa-columna-1": {
+    "children":[
+      "vtex.menu@2.x:menu#categoria-ropa"
     ]
   },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
+  "flex-layout.col#ropa-columna-2": {
+    "children":[
+      "vtex.menu@2.x:menu#categoria-ropa-2"
     ]
   },
-  "vtex.menu@2.x:menu#more": {
+
+  "vtex.menu@2.x:menu#categoria-ropa": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#subcategoria-abrigos",
+      "menu-item#subcategoria-bermudas",
+      "menu-item#subcategoria-camisas",
+      "menu-item#subcategoria-chalecos",
+      "menu-item#subcategoria-chamarras",
+      "menu-item#subcategoria-conjuntos",
+      "menu-item#subcategoria-guayaberas",
+      "menu-item#subcategoria-jeans"
     ]
   },
-  "menu-item#about-us": {
+  "menu-item#subcategoria-abrigos": {
     "props": {
-      "id": "menu-item-about-us",
+      "id": "menu-item-subcategoria-abrigos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
-        "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "href": "/nino/ropa/abrigos",
+        "noFollow": false,
+        "tagTitle": "Abrigos",
+        "text": "Abrigos"
       }
     }
   },
-  "menu-item#faq": {
+  "menu-item#subcategoria-bermudas": {
     "props": {
-      "id": "menu-item-faq",
+      "id": "menu-item-subcategoria-bermudas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
+        "href": "/nino/ropa/bermudas",
+        "noFollow": false,
+        "tagTitle": "Bermudas",
+        "text": "Bermudas"
       }
     }
   },
-  "menu-item#contact-us": {
+  "menu-item#subcategoria-camisas": {
     "props": {
-      "id": "menu-item-contact-us",
+      "id": "menu-item-subcategoria-camisas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
+        "href": "/nino/ropa/camisas",
+        "noFollow": false,
+        "tagTitle": "Camisas",
+        "text": "Camisas"
+      }
+    }
+  },
+  "menu-item#subcategoria-chalecos": {
+    "props": {
+      "id": "menu-item-subcategoria-chalecos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/chalecos",
+        "noFollow": false,
+        "tagTitle": "Chalecos",
+        "text": "Chalecos"
+      }
+    }
+  },
+  "menu-item#subcategoria-chamarras": {
+    "props": {
+      "id": "menu-item-subcategoria-chamarras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/chamarras",
+        "noFollow": false,
+        "tagTitle": "Chamarras",
+        "text": "Chamarras"
+      }
+    }
+  },
+  "menu-item#subcategoria-conjuntos": {
+    "props": {
+      "id": "menu-item-subcategoria-conjuntos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/pants",
+        "noFollow": false,
+        "tagTitle": "Conjuntos",
+        "text": "Conjuntos"
+      }
+    }
+  },
+  "menu-item#subcategoria-guayaberas": {
+    "props": {
+      "id": "menu-item-subcategoria-guayaberas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/guayaberas",
+        "noFollow": false,
+        "tagTitle": "Guayaberas",
+        "text": "Guayaberas"
+      }
+    }
+  },
+  "menu-item#subcategoria-jeans": {
+    "props": {
+      "id": "menu-item-subcategoria-jeans",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/jeans",
+        "noFollow": false,
+        "tagTitle": "Jeans",
+        "text": "Jeans"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#categoria-ropa-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#subcategoria-pantalones",
+      "menu-item#subcategoria-playeras",
+      "menu-item#subcategoria-sacos",
+      "menu-item#subcategoria-sudaderas",
+      "menu-item#subcategoria-sueteres",
+      "menu-item#subcategoria-trajes",
+      "menu-item#subcategoria-todos"
+    ]
+  },
+  "menu-item#subcategoria-pantalones": {
+    "props": {
+      "id": "menu-item-subcategoria-pantalones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/pantalones",
+        "noFollow": false,
+        "tagTitle": "Pantalones",
+        "text": "Pantalones"
+      }
+    }
+  },
+  "menu-item#subcategoria-playeras": {
+    "props": {
+      "id": "menu-item-subcategoria-playeras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/playera",
+        "noFollow": false,
+        "tagTitle": "Playeras",
+        "text": "Playeras"
+      }
+    }
+  },
+  "menu-item#subcategoria-sacos": {
+    "props": {
+      "id": "menu-item-subcategoria-sacos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/sacos",
+        "noFollow": false,
+        "tagTitle": "Sacos",
+        "text": "Sacos"
+      }
+    }
+  },
+  "menu-item#subcategoria-sudaderas": {
+    "props": {
+      "id": "menu-item-subcategoria-sudaderas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/sudaderas",
+        "noFollow": false,
+        "tagTitle": "Sudaderas",
+        "text": "Sudaderas"
+      }
+    }
+  },
+  "menu-item#subcategoria-sueteres": {
+    "props": {
+      "id": "menu-item-subcategoria-sueteres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/sueteres",
+        "noFollow": false,
+        "tagTitle": "Suéteres",
+        "text": "Suéteres"
+      }
+    }
+  },
+  "menu-item#subcategoria-trajes": {
+    "props": {
+      "id": "menu-item-subcategoria-trajes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/trajes",
+        "noFollow": false,
+        "tagTitle": "Trajes",
+        "text": "Trajes"
+      }
+    }
+  },
+  "menu-item#subcategoria-todos": {
+    "props": {
+      "id": "menu-item-subcategoria-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ropa/",
+        "noFollow": false,
+        "tagTitle": "todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+  "menu-item#categoria-accesorios": {
+    "props": {
+      "id": "menu-item-categoria-accesorios",
+      "blockClass": "principal-categories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#categoria-accesorios"
+    ]
+  },
+  "vtex.menu@2.x:submenu#categoria-accesorios": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#categoria-accesorios"
+    ]
+  },
+  "flex-layout.row#categoria-accesorios": {
+    "children": [
+      "flex-layout.col#accesorios-columna-1",
+      "flex-layout.col#accesorios-columna-2"
+    ]
+  },
+  "flex-layout.col#accesorios-columna-1": {
+    "children":[
+      "vtex.menu@2.x:menu#categoria-accesorios"
+    ]
+  },
+  "flex-layout.col#accesorios-columna-2": {
+    "children":[
+      "vtex.menu@2.x:menu#categoria-accesorios-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#categoria-accesorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#subcategoria-backpack",
+      "menu-item#subcategoria-bufandas",
+      "menu-item#subcategoria-calcetines",
+      "menu-item#subcategoria-carteras",
+      "menu-item#subcategoria-cinturones",
+      "menu-item#subcategoria-corbatas",
+      "menu-item#subcategoria-gorros"
+    ]
+  },
+  "menu-item#subcategoria-backpack": {
+    "props": {
+      "id": "menu-item-subcategoria-backpack",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/backpak",
+        "noFollow": false,
+        "tagTitle": "Backpack",
+        "text": "Backpack"
+      }
+    }
+  },
+  "menu-item#subcategoria-bufandas": {
+    "props": {
+      "id": "menu-item-subcategoria-bufandas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/bufandas",
+        "noFollow": false,
+        "tagTitle": "Bufandas",
+        "text": "Bufandas"
+      }
+    }
+  },
+  "menu-item#subcategoria-calcetines": {
+    "props": {
+      "id": "menu-item-subcategoria-calcetines",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/calcetines",
+        "noFollow": false,
+        "tagTitle": "Calcetines",
+        "text": "Calcetines"
+      }
+    }
+  },
+  "menu-item#subcategoria-carteras": {
+    "props": {
+      "id": "menu-item-subcategoria-carteras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/carteras",
+        "noFollow": false,
+        "tagTitle": "Carteras",
+        "text": "Carteras"
+      }
+    }
+  },
+  "menu-item#subcategoria-cinturones": {
+    "props": {
+      "id": "menu-item-subcategoria-cinturones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/cinturones",
+        "noFollow": false,
+        "tagTitle": "Cinturones",
+        "text": "Cinturones"
+      }
+    }
+  },
+  "menu-item#subcategoria-corbatas": {
+    "props": {
+      "id": "menu-item-subcategoria-corbatas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/corbatas",
+        "noFollow": false,
+        "tagTitle": "Corbatas",
+        "text": "Corbatas"
+      }
+    }
+  },
+  "menu-item#subcategoria-gorros": {
+    "props": {
+      "id": "menu-item-subcategoria-gorros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/gorros",
+        "noFollow": false,
+        "tagTitle": "Gorros",
+        "text": "Gorros"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#categoria-accesorios-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#subcategoria-lentes",
+      "menu-item#subcategoria-monos",
+      "menu-item#subcategoria-panuelos",
+      "menu-item#subcategoria-sombreros",
+      "menu-item#subcategoria-tirantes",
+      "menu-item#subcategoria-todos-accesorios"
+    ]
+  },
+  "menu-item#subcategoria-lentes": {
+    "props": {
+      "id": "menu-item-subcategoria-lentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/lentes",
+        "noFollow": false,
+        "tagTitle": "Lentes",
+        "text": "Lentes"
+      }
+    }
+  },
+  "menu-item#subcategoria-monos": {
+    "props": {
+      "id": "menu-item-subcategoria-monos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/monos",
+        "noFollow": false,
+        "tagTitle": "Moños",
+        "text": "Moños"
+      }
+    }
+  },
+  "menu-item#subcategoria-panuelos": {
+    "props": {
+      "id": "menu-item-subcategoria-panuelos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/panuelos",
+        "noFollow": false,
+        "tagTitle": "Pañuelos",
+        "text": "Pañuelos"
+      }
+    }
+  },
+  "menu-item#subcategoria-sombreros": {
+    "props": {
+      "id": "menu-item-subcategoria-sombreros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/sombreros",
+        "noFollow": false,
+        "tagTitle": "Sombreros",
+        "text": "Sombreros"
+      }
+    }
+  },
+  "menu-item#subcategoria-tirantes": {
+    "props": {
+      "id": "menu-item-subcategoria-tirantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/tirantes",
+        "noFollow": false,
+        "tagTitle": "Tirantes",
+        "text": "Tirantes"
+      }
+    }
+  },
+  "menu-item#subcategoria-todos-accesorios": {
+    "props": {
+      "id": "menu-item-subcategoria-todos-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/accesorios/",
+        "noFollow": false,
+        "tagTitle": "Ver todo",
+        "text": "Ver todo"
+      }
+    }
+  },
+
+  "menu-item#categoria-zapatos": {
+    "props": {
+      "id": "menu-item-categoria-zapatos",
+      "blockClass": "principal-categories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/zapatos/",
         "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
+        "tagTitle": "Zapatos",
+        "text": "Zapatos"
+      }
+    }
+  },
+  "menu-item#categoria-adultos": {
+    "props": {
+      "id": "menu-item-categoria-adultos",
+      "blockClass": "principal-categories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.aldoconti.com/",
+        "noFollow": true,
+        "tagTitle": "Adultos",
+        "text": "Adultos"
+      }
+    }
+  },
+  "menu-item#categoria-sucursales": {
+    "props": {
+      "id": "menu-item-categoria-sucursales",
+      "blockClass": "principal-categories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursales/",
+        "noFollow": true,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
       }
     }
   }
-}
+}  

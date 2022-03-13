@@ -1,0 +1,20 @@
+.openIconContainer :global(.vtex-button):hover {
+    background: #A3DDCB;
+}
+
+.openIconContainer :global(.vtex-button):focus {
+    background: #A3DDCB;
+}
+
+.openIconContainer :global(.vtex-button):active {
+    background: #A3DDCB;
+}
+
+.minicartIconContainer::after {
+    content: url('https://aldocontijr.myvtex.com/arquivos/bag-io-ion_40.png');
+    visibility: visible;
+}
+
+.cartIcon {
+    visibility: hidden;
+}

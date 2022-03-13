@@ -111,3 +111,7 @@
   font-weight: bold;
   font-size: 30px;
 }
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: 0;
+}

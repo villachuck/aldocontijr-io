@@ -17,23 +17,24 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
+  background-color: #E6B566;
   color: #fff;
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #A3DDCB !important;
 }
 
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #A3DDCB;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: #ffffff;
+  color: #000;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {

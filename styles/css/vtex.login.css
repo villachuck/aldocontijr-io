@@ -1,0 +1,20 @@
+.label {
+    visibility: hidden;
+}
+
+.label::after {
+    content: url('https://aldocontijr.myvtex.com/arquivos/user-io-ion_40.png');
+    visibility: visible;
+}
+
+.container :global(.vtex-button):hover {
+    background: #A3DDCB;
+}
+
+.container :global(.vtex-button):focus {
+    background: #A3DDCB;
+}
+
+.container :global(.vtex-button):active {
+    background: #A3DDCB;
+}
