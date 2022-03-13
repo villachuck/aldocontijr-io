@@ -17,7 +17,7 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #E6B566;
+  background-color: #E8E9A1;
   color: #fff;
 }
 
@@ -33,7 +33,7 @@
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #000;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
 }
 
@@ -92,4 +92,11 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+@media screen and (max-width:768px) {
+  .flexRow--main-header-mobile :global(.vtex-login-2-x-label)::after {
+    content: url('https://aldocontijr.myvtex.com/arquivos/io-user-icon_35x.png');
+    visibility: visible;
+  }
 }

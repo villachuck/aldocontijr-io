@@ -2,3 +2,14 @@
     color: #000;
     font-size: 14px;
 }
+
+.styledLinkContent--phone-highlight {
+    margin-left: 25px;
+}
+
+.styledLinkContent--phone-highlight::before {
+    content: url('/arquivos/phone-icon_20.png');
+    position: absolute;
+    left: 30px;
+    top: 13px;
+}
