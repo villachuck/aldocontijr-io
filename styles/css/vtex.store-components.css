@@ -115,3 +115,21 @@
 .searchBarContainer :global(.vtex-input-prefix__group) {
   border: 0;
 }
+
+/* Inicia bloque de search */
+
+.productBrandName--summaryListDesktop {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0067C7;
+  font-size: .875rem;
+}
+
+.productBrandName--summaryListMobile {
+  text-decoration: none;
+  color: #0067C7;
+  font-size: .875rem;
+}
+
+
+/* Finaliza bloque de search */
