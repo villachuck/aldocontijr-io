@@ -13,6 +13,8 @@
 .minicartIconContainer::after {
     content: url('https://aldocontijr.myvtex.com/arquivos/io-bag-icon_35.png');
     visibility: visible;
+    position: absolute;
+    top: -11px;
 }
 
 .cartIcon {

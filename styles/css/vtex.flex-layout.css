@@ -28,7 +28,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #A3DDCB;
+  background-color: #A3DDCB !important;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -100,6 +100,7 @@
     visibility: visible;
     position: absolute;
     top: 0;
+    left: 0;
   }
 }
 
@@ -196,3 +197,15 @@
 }
 
 /* Finaliza search */
+
+.flexColChild--banners-menu-desk {
+  padding: 5px 0;
+}
+
+.flexRow--banners-principales {
+  padding: 5px;
+}
+
+.flexCol--slider-home {
+  padding-right: 6%;
+}

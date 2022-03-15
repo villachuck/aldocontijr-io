@@ -1,11 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
+      "flex-layout.row#banners-principales",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
@@ -14,18 +10,35 @@
       "newsletter"
     ]
   },
-
+  "flex-layout.row#banners-principales": {
+    "children": [
+      "flex-layout.col#slider-home",
+      "flex-layout.col#promotional-banners"
+    ],
+    "props": {
+      "blockClass": "banners-principales"
+    }
+  },
+  "flex-layout.col#slider-home": {
+    "children":[
+      "list-context.image-list#demo"
+    ],
+    "props":{
+      "blockClass": "slider-home",
+      "width": "70%"
+    }
+  },
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "image": "https://aldocontijr.myvtex.com/arquivos/banner-slider-demo.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "image": "https://aldocontijr.myvtex.com/arquivos/banner-slider-demo.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]
@@ -43,7 +56,38 @@
       "blockClass": "carousel"
     }
   },
-
+  "flex-layout.col#promotional-banners": {
+    "children":[
+      "flex-layout.row#promotional-banner-1",
+      "flex-layout.row#promotional-banner-2"
+    ],
+    "props":{
+      "blockClass": "promotional-banners",
+      "width": "30%"
+    }
+  },
+  "flex-layout.row#promotional-banner-1": {
+    "children":[
+      "image#promotional-banner-1"
+    ]
+  },
+  "flex-layout.row#promotional-banner-2": {
+    "children":[
+      "image#promotional-banner-2"
+    ]
+  },
+  "image#promotional-banner-1": {
+    "props": {
+      "src": "https://aldocontijr.myvtex.com/arquivos/banner-promocional.png",
+      "maxHeight": 290
+    }
+  },
+  "image#promotional-banner-2": {
+    "props": {
+      "src": "https://aldocontijr.myvtex.com/arquivos/banner-promocional.png",
+      "maxHeight": "auto"
+    }
+  },
   "rich-text#shelf-title": {
     "props": {
       "text": "## Summer",

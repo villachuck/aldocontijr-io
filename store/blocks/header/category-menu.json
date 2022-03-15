@@ -41,7 +41,8 @@
   "flex-layout.row#categoria-ropa": {
     "children": [
       "flex-layout.col#ropa-columna-1",
-      "flex-layout.col#ropa-columna-2"
+      "flex-layout.col#ropa-columna-2",
+      "flex-layout.col#ropa-columna-3"
     ]
   },
   "flex-layout.col#ropa-columna-1": {
@@ -54,7 +55,37 @@
       "vtex.menu@2.x:menu#categoria-ropa-2"
     ]
   },
-
+  "flex-layout.col#ropa-columna-3": {
+    "children":[
+      "flex-layout.row#banner-highlight-1",
+      "flex-layout.row#banner-highlight-2"
+    ],
+    "props": {
+      "blockClass": "banners-menu-desk"
+    }
+  },
+  "flex-layout.row#banner-highlight-1": {
+    "children":[
+      "image#banner-highlight-1"
+    ]
+  },
+  "image#banner-highlight-1": {
+    "props": {
+      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-desktop.png",
+      "maxHeight": 200
+    }
+  },
+  "flex-layout.row#banner-highlight-2": {
+    "children":[
+      "image#banner-highlight-2"
+    ]
+  },
+  "image#banner-highlight-2": {
+    "props": {
+      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-desktop.png",
+      "maxHeight": 200
+    }
+  },
   "vtex.menu@2.x:menu#categoria-ropa": {
     "props": {
       "orientation": "vertical"
@@ -339,7 +370,8 @@
   "flex-layout.row#categoria-accesorios": {
     "children": [
       "flex-layout.col#accesorios-columna-1",
-      "flex-layout.col#accesorios-columna-2"
+      "flex-layout.col#accesorios-columna-2",
+      "flex-layout.col#accesorios-columna-3"
     ]
   },
   "flex-layout.col#accesorios-columna-1": {
@@ -351,6 +383,37 @@
     "children":[
       "vtex.menu@2.x:menu#categoria-accesorios-2"
     ]
+  },
+  "flex-layout.col#accesorios-columna-3": {
+    "children":[
+      "flex-layout.row#accesorios-highlight-1",
+      "flex-layout.row#accesorios-highlight-2"
+    ],
+    "props": {
+      "blockClass": "banners-menu-desk"
+    }
+  },
+  "flex-layout.row#accesorios-highlight-1": {
+    "children":[
+      "image#accesorios-highlight-1"
+    ]
+  },
+  "image#accesorios-highlight-1": {
+    "props": {
+      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-desktop.png",
+      "maxHeight": 200
+    }
+  },
+  "flex-layout.row#accesorios-highlight-2": {
+    "children":[
+      "image#accesorios-highlight-2"
+    ]
+  },
+  "image#accesorios-highlight-2": {
+    "props": {
+      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-desktop.png",
+      "maxHeight": 200
+    }
   },
   "vtex.menu@2.x:menu#categoria-accesorios": {
     "props": {
