@@ -108,3 +108,18 @@
 }
 
 /* Finaliza bloque de search */
+
+.container--home-category-title {
+  width: auto !important;
+}
+
+.paragraph--home-category-title {
+  width: 100%;
+  text-align: center;
+}
+
+.link--home-category-title {
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+}
