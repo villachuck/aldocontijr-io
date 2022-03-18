@@ -12,6 +12,7 @@
 .paginationDotsContainer {
   margin-top: .5rem;
   margin-bottom: .5rem;
+  display: none;
 }
 
 .layoutContainer--shelf {
@@ -28,4 +29,28 @@
 
 .sliderLayoutContainer--slider-categories {
   padding-top: 40px;
+}
+
+.paginationDot--shelf-recomendados {
+  height: 3px !important;
+  width: 40px !important;
+  border-radius: 0px;
+}
+
+@media screen and (max-width:768px) {
+  .sliderLayoutContainer--slider-categories {
+    padding: 40px 10px 0 10px;
+  }
+  
+  .sliderLayoutContainer--shelf-recomendados {
+    padding: 0 10px !important;
+  }
+
+  .sliderLeftArrow--shelf-recomendados {
+    left: -10px;
+  }
+
+  .sliderRightArrow--shelf-recomendados {
+    right: -10px;
+  }
 }

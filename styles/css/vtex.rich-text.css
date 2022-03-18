@@ -123,3 +123,17 @@
   text-decoration: none;
   font-size: 17px;
 }
+
+.wrapper--shelfTitle-recomendados {
+  width: 100%;
+  padding-top: 25px;
+}
+
+.container--shelfTitle-recomendados {
+  text-align: center;
+  color: #000;
+}
+
+.headingLevel3--shelfTitle-recomendados {
+  margin-bottom: 0;
+}

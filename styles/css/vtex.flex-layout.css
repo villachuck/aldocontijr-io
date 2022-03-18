@@ -210,6 +210,10 @@
   padding-right: 6%;
 }
 
+.flexRowContent--block-prices {
+  justify-content: center;
+}
+
 @media screen and (max-width:768px) {
   .flexCol--slider-home {
     padding-right: 0;

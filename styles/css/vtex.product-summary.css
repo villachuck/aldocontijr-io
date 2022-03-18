@@ -18,15 +18,15 @@
 }
 
 .nameContainer {
-  justify-content: start;
+  justify-content: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
 .brandName {
   font-weight: 600;
-  font-size: 18px;
-  color: #2E2E2E;
+  font-size: 17px;
+  color: #000;
 }
 
 .container {
@@ -78,3 +78,14 @@
 
 
 /* Finaliza bloque de search */
+
+.nameWrapper {
+  text-align: center;
+}
+
+.containerNormal :global(.vtex-button) {
+  width: 80%;
+  margin: 0 auto;
+  background: #E5707E;
+  border: #E5707E;
+}

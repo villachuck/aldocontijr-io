@@ -4,7 +4,7 @@
       "flex-layout.row#banners-principales",
       "slider-layout#help-categories",
       "rich-text#shelf-title",
-      "flex-layout.row#shelf",
+      "flex-layout.row#shelf-recomendados",
       "info-card#home",
       "rich-text#question",
       "rich-text#link",
@@ -372,30 +372,30 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
+      "text": "### Te recomendamos",
+      "blockClass": "shelfTitle-recomendados"
     }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+  "flex-layout.row#shelf-recomendados": {
+    "children": ["list-context.product-list#recomendados"]
   },
-  "list-context.product-list#demo1": {
+  "list-context.product-list#recomendados": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["slider-layout#recomendados-products"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#recomendados-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf"
+      "blockClass": "shelf-recomendados"
     }
   },
 

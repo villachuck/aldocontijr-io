@@ -21,7 +21,20 @@
     visibility: hidden;
 }
 
+.minicartQuantityBadgeDefault {
+    top: -0.7rem;
+    right: -40px;
+    z-index: 9;
+}
+
 @media screen and (max-width:768px) {
+
+    .minicartQuantityBadgeDefault {
+        top: -0.7rem;
+        right: -25px;
+        z-index: 9;
+    }
+
     .minicartIconContainer::after {
         content: url('https://aldocontijr.myvtex.com/arquivos/io-bag-icon_35.png');
         visibility: visible;

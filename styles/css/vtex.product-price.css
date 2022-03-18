@@ -77,3 +77,20 @@
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
+
+.currencyContainer--slider-price {
+  font-size: 25px;
+  color: #000;
+}
+
+.listPrice--summary {
+  text-align: center;
+}
+
+.listPriceValue--summary {
+  text-align: center;
+}
+
+.currencyContainer--summary {
+  text-align: center;
+}
