@@ -35,3 +35,22 @@
   height: 0;
   overflow: hidden;
 }
+
+.trigger--ropa-title-mobile--hidden,
+.trigger--accesorios-title-mobile--hidden {
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.trigger--ropa-title-mobile--visible,
+.trigger--accesorios-title-mobile--visible {
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ccc;
+}

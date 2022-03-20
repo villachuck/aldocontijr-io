@@ -1,18 +1,28 @@
 {
-  "vtex.menu@2.x:menu#Products": {
+  "vtex.menu@2.x:menu#guia-compras": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "rich-text#guia-compras",
+      "menu-item#como-comprar",
+      "menu-item#preguntas-frecuentes",
+      "menu-item#pagos",
+      "menu-item#envio",
+      "menu-item#cambios-devoluciones",
+      "menu-item#rastrea-pedido",
+      "menu-item#facturacion"
     ]
   },
-  "menu-item#news": {
+  "rich-text#guia-compras": {
     "props": {
-      "id": "menu-item-news",
+      "text": "Guía de compras",
+      "blockClass": "title-footer"
+    }
+  },
+  "menu-item#como-comprar": {
+    "props": {
+      "id": "menu-item-como-comprar",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -20,14 +30,15 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
-      }
+        "tagTitle": "¿Cómo comprar?",
+        "text": "¿Cómo comprar?"
+      },
+      "blockClass": "list-footer"
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#preguntas-frecuentes": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-preguntas-frecuentes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -35,14 +46,15 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
-      }
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      },
+      "blockClass": "list-footer"
     }
   },
-  "menu-item#sale": {
+  "menu-item#pagos": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-pagos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -50,14 +62,15 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
+        "tagTitle": "Pagos",
+        "text": "Pagos"
+      },
+      "blockClass": "list-footer"
     }
   },
-  "menu-item#personalization": {
+  "menu-item#envio": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-envio",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -65,142 +78,327 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
-      }
+        "tagTitle": "Envío",
+        "text": "Envío"
+      },
+      "blockClass": "list-footer"
+    }
+  },
+  "menu-item#cambios-devoluciones": {
+    "props": {
+      "id": "menu-item-cambios-devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cambios y devoluciones",
+        "text": "Cambios y devoluciones"
+      },
+      "blockClass": "list-footer"
+    }
+  },
+  "menu-item#rastrea-pedido": {
+    "props": {
+      "id": "menu-item-rastrea-pedido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Rastrea tu pedido",
+        "text": "Rastrea tu pedido"
+      },
+      "blockClass": "list-footer"
+    }
+  },
+  "menu-item#facturacion": {
+    "props": {
+      "id": "menu-item-facturacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Facturación",
+        "text": "Facturación"
+      },
+      "blockClass": "list-footer"
     }
   },
 
-  "vtex.menu@2.x:menu#footer-decoration": {
+  "vtex.menu@2.x:menu#empresa": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "rich-text#empresa",
+      "menu-item#quien-somos",
+      "menu-item#contacto",
+      "menu-item#nuestras-marcas",
+      "menu-item#proveedores",
+      "menu-item#ventas-corporativas",
+      "menu-item#sucursales"
     ]
   },
-
-  "menu-item#smartphones": {
+  "rich-text#empresa": {
     "props": {
-      "id": "menu-item-smartphones",
+      "text": "Empresa",
+      "blockClass": "title-footer"
+    }
+  },
+  "menu-item#quien-somos": {
+    "props": {
+      "id": "menu-item-quien-somos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
-      }
+        "tagTitle": "¿Quiénes somos?",
+        "text": "¿Quiénes somos?"
+      },
+      "blockClass": "list-footer"
     }
   },
-
-  "menu-item#videogames": {
+  "menu-item#contacto": {
     "props": {
-      "id": "menu-item-videogames",
+      "id": "menu-item-contacto",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
-        "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
-      }
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      },
+      "blockClass": "list-footer"
     }
   },
-
-  "menu-item#tvs": {
+  "menu-item#nuestras-marcas": {
     "props": {
-      "id": "menu-item-tvs",
+      "id": "menu-item-nuestras-marcas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
-      }
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nuestras marcas",
+        "text": "Nuestras marcas"
+      },
+      "blockClass": "list-footer"
+    }
+  },
+  "menu-item#proveedores": {
+    "props": {
+      "id": "menu-item-proveedores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Proveedores",
+        "text": "Proveedores"
+      },
+      "blockClass": "list-footer"
+    }
+  },
+  "menu-item#ventas-corporativas": {
+    "props": {
+      "id": "menu-item-ventas-corporativas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ventas corporativas",
+        "text": "Ventas corporativas"
+      },
+      "blockClass": "list-footer"
+    }
+  },
+  "menu-item#sucursales": {
+    "props": {
+      "id": "menu-item-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      },
+      "blockClass": "list-footer"
     }
   },
 
-  "vtex.menu@2.x:menu#footer-bags": {
+  "vtex.menu@2.x:menu#politicas": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "rich-text#politicas",
+      "menu-item#privacidad",
+      "menu-item#cookies",
+      "menu-item#candidatos",
+      "menu-item#politica-compra",
+      "menu-item#tyc",
+      "menu-item#aviso-de-privacidad",
+      "menu-item#promo-tu-escoges",
+      "menu-item#tyc-promociones"
     ]
   },
-
-  "menu-item#bags": {
+  "rich-text#politicas": {
     "props": {
-      "id": "menu-item-bags",
+      "text": "Políticas",
+      "blockClass": "title-footer"
+    }
+  },
+  "menu-item#privacidad": {
+    "props": {
+      "id": "menu-item-privacidad",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/d",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
-      }
+        "tagTitle": "Políticas de privacidad",
+        "text": "Políticas de privacidad"
+      },
+      "blockClass": "list-footer"
     }
   },
-
-  "menu-item#backpacks": {
+  "menu-item#cookies": {
     "props": {
-      "id": "menu-item-backpacks",
+      "id": "menu-item-cookies",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
-      }
+        "tagTitle": "Políticas de cookies",
+        "text": "Políticas de cookies"
+      },
+      "blockClass": "list-footer"
     }
   },
-
-  "menu-item#necessaire": {
+  "menu-item#candidatos": {
     "props": {
-      "id": "menu-item-necessaire",
+      "id": "menu-item-candidatos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
-      }
+        "tagTitle": "Políticas de candidatos",
+        "text": "Políticas de candidatos"
+      },
+      "blockClass": "list-footer"
     }
   },
-
-  "vtex.menu@2.x:menu#footer-clothing": {
+  "menu-item#politica-compra": {
     "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
-    ]
+      "id": "menu-item-politica-compra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Políticas de compra",
+        "text": "Políticas de compra"
+      },
+      "blockClass": "list-footer"
+    }
+  },
+  "menu-item#tyc": {
+    "props": {
+      "id": "menu-item-tyc",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      },
+      "blockClass": "list-footer"
+    }
+  },
+  "menu-item#aviso-de-privacidad": {
+    "props": {
+      "id": "menu-item-aviso-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Aviso de privacidad",
+        "text": "Aviso de privacidad"
+      },
+      "blockClass": "list-footer"
+    }
+  },
+  "menu-item#promo-tu-escoges": {
+    "props": {
+      "id": "menu-item-promo-tu-escoges",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Términos y condiciones promoción 'Tú escoges'",
+        "text": "Términos y condiciones promoción 'Tú escoges'"
+      },
+      "blockClass": "list-footer"
+    }
+  },
+  "menu-item#tyc-promociones": {
+    "props": {
+      "id": "menu-item-tyc-promociones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Términos y condiciones promocionales",
+        "text": "Términos y condiciones promocionales"
+      },
+      "blockClass": "list-footer"
+    }
   },
 
   "vtex.menu@2.x:menu#footer-mobile": {
@@ -208,9 +406,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+
     ]
   },
 
@@ -239,11 +435,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+   
     ]
   },
 
@@ -265,9 +457,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+
     ]
   },
 
@@ -289,105 +479,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+
     ]
-  },
-
-  "menu-item#clothing": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-
-  "menu-item#shorts": {
-    "props": {
-      "id": "menu-item-shorts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shorts",
-        "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
-      }
-    }
-  },
-
-  "menu-item#tank-tops": {
-    "props": {
-      "id": "menu-item-tank-tops",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/tank-tops",
-        "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
-      }
-    }
-  },
-
-  "menu-item#shirts": {
-    "props": {
-      "id": "menu-item-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shirts",
-        "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
-      }
-    }
-  },
-
-  "menu-item#sweatshirt": {
-    "props": {
-      "id": "menu-item-sweat-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/sweatshirt",
-        "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
-      }
-    }
-  },
-
-  "menu-item#cropped": {
-    "props": {
-      "id": "menu-item-cropped",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/cropped",
-        "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
-      }
-    }
   }
+
+  
 }

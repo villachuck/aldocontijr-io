@@ -1,0 +1,84 @@
+{
+    "disclosure-layout#categoria-ropa": {
+        "children": [
+            "disclosure-trigger#ropa", 
+            "disclosure-content#ropa"
+        ],
+        "props": {
+            "blockClass": "accordion-category"
+        }
+    },
+    "disclosure-trigger#ropa": {
+        "children":[
+            "rich-text#disclosure-ropa"
+        ],
+        "props":{
+            "blockClass": "ropa-title-mobile"
+        }
+    },
+    "rich-text#disclosure-ropa": {
+        "props":{
+            "text": "Ropa",
+            "blockClass": "ropa-title-mobile"
+        }
+    },
+    "disclosure-content#ropa": {
+        "children": [
+            "menu-item#subcategoria-abrigos",
+            "menu-item#subcategoria-bermudas",
+            "menu-item#subcategoria-camisas",
+            "menu-item#subcategoria-chalecos",
+            "menu-item#subcategoria-chamarras",
+            "menu-item#subcategoria-conjuntos",
+            "menu-item#subcategoria-guayaberas",
+            "menu-item#subcategoria-jeans",
+            "menu-item#subcategoria-pantalones",
+            "menu-item#subcategoria-playeras",
+            "menu-item#subcategoria-sacos",
+            "menu-item#subcategoria-sudaderas",
+            "menu-item#subcategoria-sueteres",
+            "menu-item#subcategoria-trajes",
+            "menu-item#subcategoria-todos"
+        ]
+    },
+    "disclosure-layout#categoria-accesorios": {
+        "children": [
+            "disclosure-trigger#accesorios", 
+            "disclosure-content#accesorios"
+        ],
+        "props": {
+            "blockClass": "accordion-category"
+        }
+    },
+    "disclosure-trigger#accesorios": {
+        "children":[
+            "rich-text#disclosure-accesorios"
+        ],
+        "props":{
+            "blockClass": "accesorios-title-mobile"
+        }
+    },
+    "rich-text#disclosure-accesorios": {
+        "props":{
+            "text": "Accesorios",
+            "blockClass": "accesorios-title-mobile"
+        }
+    },
+    "disclosure-content#accesorios": {
+        "children":[
+            "menu-item#subcategoria-backpack",
+            "menu-item#subcategoria-bufandas",
+            "menu-item#subcategoria-calcetines",
+            "menu-item#subcategoria-carteras",
+            "menu-item#subcategoria-cinturones",
+            "menu-item#subcategoria-corbatas",
+            "menu-item#subcategoria-gorros",
+            "menu-item#subcategoria-lentes",
+            "menu-item#subcategoria-monos",
+            "menu-item#subcategoria-panuelos",
+            "menu-item#subcategoria-sombreros",
+            "menu-item#subcategoria-tirantes",
+            "menu-item#subcategoria-todos-accesorios"
+        ]
+    }
+}

@@ -4,6 +4,7 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "newsletter",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
@@ -11,17 +12,34 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
+      "flex-layout.row#logo-footer",
+      "vtex.menu@2.x:menu#guia-compras",
+      "vtex.menu@2.x:menu#empresa",
+      "vtex.menu@2.x:menu#politicas",
       "social-networks"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
+    }
+  },
+  "flex-layout.row#logo-footer": {
+    "children":[
+      "image#logo-footer"
+    ],
+    "props": {
+      "blockClass": "logo-footer"
+    }
+  },
+  "image#logo-footer": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/aldocontijr.logo2.png",
+      "link": {
+        "url": "#"
+      },
+      "maxWidth": 180,
+      "blockClass": "logo-footer"
     }
   },
 
@@ -39,10 +57,6 @@
         {
           "name": "Twitter",
           "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
         }
       ]
     }

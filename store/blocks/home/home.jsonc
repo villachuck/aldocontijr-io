@@ -2,15 +2,20 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#banners-principales",
-      "slider-layout#help-categories",
+      "slider-layout#help-categories",      
       "rich-text#shelf-title",
       "flex-layout.row#shelf-recomendados",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "flex-layout.row#banner-middle",
+      "rich-text#shelf-title2",
+      "flex-layout.row#shelf-vendidos",
+      "flex-layout.row#couple-banners",
+      "flex-layout.row#last-banner"
+      //"newsletter"
     ]
   },
+
+  /* Inicio de banners principales */
+
   "flex-layout.row#banners-principales": {
     "children": [
       "flex-layout.col#slider-home",
@@ -89,6 +94,10 @@
       "maxHeight": "auto"
     }
   },
+
+  /* Finalizan banners principales */
+
+  /* Inician categorías principales */
 
   "slider-layout#help-categories": {
     "props": {
@@ -370,6 +379,10 @@
     }
   },
 
+  /* Finalizan categorías principales */
+
+  /* Vitrina de recomendados */
+
   "rich-text#shelf-title": {
     "props": {
       "text": "### Te recomendamos",
@@ -399,31 +412,165 @@
     }
   },
 
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+/* FInaliza vitrina de recomendados */
+
+  /* Inicia banner medio*/
+
+  "flex-layout.row#banner-middle": {
+    "children":[
+      "flex-layout.col#banner-middle"
+    ],
+    "props":{
+      "blockClass": "banner-middle"
     }
   },
 
-  "rich-text#question": {
+  "flex-layout.col#banner-middle": {
+    "children":[
+      "list-context.image-list#banner-middle"
+    ],
+    "props":{
+      "blockClass": "banner-middle"
+    }
+  },
+  "list-context.image-list#banner-middle": {
+    "children": ["slider-layout#single-banners"],
+    "props":{
+      "images":[
+        {
+          "image": "https://aldocontijr.myvtex.com/arquivos/new-banner-middle.png",
+          "mobileImage": "https://aldocontijr.myvtex.com/arquivos/new-banner-middle_mobile.png",
+          "width": "100%"
+        }
+      ],
+      "preload": true
+    }
+  },
+  "slider-layout#single-banners": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
     }
   },
 
-  "rich-text#link": {
+  /* Finaliza banner medio */
+
+    /* Vitrina de más vendidos */
+
+  "rich-text#shelf-title2": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "text": "### Lo más vendido",
+      "blockClass": "shelfTitle-recomendados"
+    }
+  },
+  "flex-layout.row#shelf-vendidos": {
+    "children": ["list-context.product-list#vendidos"]
+  },
+  "list-context.product-list#vendidos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#vendidos-products"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#vendidos-products": {
+    "props": {
+      "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-recomendados"
+    }
+  },
+  
+  /* FInaliza vitrina de más vendidos */
+
+  /* Inicia par de banners */
+
+  "flex-layout.row#couple-banners": {
+    "children":[
+      "flex-layout.col#banner-izquierda",
+      "flex-layout.col#banner-derecha"
+    ],
+    "props":{
+      "blockClass": "couple-banners"
+    }
+  },
+  "flex-layout.col#banner-izquierda": {
+    "children":[
+      "image#banner-izquierda"
+    ],
+    "props":{
+      "blockClass": "couple-banners-left"
+    }
+  },
+  "image#banner-izquierda": {
+    "props": {
+      "src": "https://aldocontijr.vteximg.com.br/arquivos/banner-izq-new.png",
+      "link": {
+        "url": "#"
+      },
+      "maxHeight": 600
+    }
+  },
+  "flex-layout.col#banner-derecha": {
+    "children":[
+      "image#banner-derecha"
+    ],
+    "props":{
+      "blockClass": "couple-banners-right"
+    }
+  },
+  "image#banner-derecha": {
+    "props": {
+      "src": "https://aldocontijr.vteximg.com.br/arquivos/banner-izq-new.png",
+      "link": {
+        "url": "#"
+      },
+      "maxHeight": 600
+    }    
+  },
+
+  /* Finaliza par de banners */
+
+  /* Inicia último banner */
+
+  "flex-layout.row#last-banner": {
+    "children":[
+      "flex-layout.col#last-banner"
+    ],
+    "props":{
+      "blockClass": "banner-last"
+    }
+  },
+  "flex-layout.col#last-banner": {
+    "children":[
+      "list-context.image-list#last-banner"
+    ],
+    "props":{
+      "blockClass": "banner-last"
+    }
+  },
+  "list-context.image-list#last-banner": {
+    "children": ["slider-layout#single-banners"],
+    "props":{
+      "images":[
+        {
+          "image": "https://aldocontijr.myvtex.com/arquivos/new-banner-middle.png",
+          "mobileImage": "https://aldocontijr.myvtex.com/arquivos/new-banner-middle_mobile.png",
+          "width": "100%"
+        }
+      ],
+      "preload": true
     }
   }
+
+  /* Finaliza último banner */
 }

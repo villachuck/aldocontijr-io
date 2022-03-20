@@ -9,3 +9,36 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.socialNetworkWrapper {
+  margin: auto;
+}
+
+.socialNetworksContainer {
+  justify-content: center;
+}
+
+.socialNetworkImage--facebook, .socialNetworkImage--instagram,
+.socialNetworkImage--twitter {
+  visibility: hidden;
+}
+
+.socialNetworkLink--facebook {
+  position: relative;
+}
+
+.socialNetworkLink--facebook::after {
+  content: url(https://aldocontijr.myvtex.com/arquivos/fb-logo_mini.png);
+  position: absolute;
+  left: 35%;
+}
+
+.socialNetworkLink--instagram::after {
+  content: url(https://aldocontijr.myvtex.com/arquivos/insta-logo_mini.png);
+  position: absolute;
+}
+
+.socialNetworkLink--twitter::after {
+  content: url(https://aldocontijr.myvtex.com/arquivos/tw-logo_mini.png);
+  position: absolute;
+}

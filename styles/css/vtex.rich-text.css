@@ -137,3 +137,16 @@
 .headingLevel3--shelfTitle-recomendados {
   margin-bottom: 0;
 }
+
+.wrapper--ropa-title-mobile,
+.wrapper--accesorios-title-mobile {
+  font-size: 17px;
+  color: #000;
+  margin-left: 5px;
+}
+
+.paragraph--title-footer {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}

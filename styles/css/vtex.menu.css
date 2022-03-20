@@ -1,6 +1,6 @@
 .styledLinkContent--principal-categories {
     color: #000;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .styledLinkContent--phone-highlight {
@@ -12,4 +12,42 @@
     position: absolute;
     left: 30px;
     top: 13px;
+}
+
+.styledLinkContent--category-list {
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+}
+
+.styledLinkContent--category-see-all {
+    font-size: 16px;
+    color: #000;
+    text-decoration: underline;
+    line-height: 30px;
+}
+
+.menuContainerNav--mobile-menu {
+    width: 100%;
+}
+
+.styledLinkContainer--list-footer {
+    margin-left: 0;
+}
+
+.styledLinkContent--list-footer {
+    font-size: 14px;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .styledLinkContainer--principal-categories {
+        margin-left: 10px;
+    }
+
+    .menuItem--principal-categories--isClosed {
+        padding: 16px 0;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
 }

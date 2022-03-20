@@ -27,6 +27,11 @@
     z-index: 9;
 }
 
+.minicartCheckoutButton :global(.vtex-button) {
+    background: #e5707e;
+    border: #e5707e;
+}
+
 @media screen and (max-width:768px) {
 
     .minicartQuantityBadgeDefault {

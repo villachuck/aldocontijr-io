@@ -109,14 +109,17 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#categoria-ropa",
-      "menu-item#categoria-accesorios",
+      "disclosure-layout#categoria-ropa",
+      "disclosure-layout#categoria-accesorios",
       "menu-item#categoria-zapatos",
       "menu-item#categoria-adultos",
       "menu-item#categoria-sucursales"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "slideDirection": "leftToRight",
+      "renderingStrategy": "lazy",
+      "blockClass": "mobile-menu"
     }
   },
 

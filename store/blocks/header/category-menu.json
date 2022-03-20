@@ -71,8 +71,8 @@
   },
   "image#banner-highlight-1": {
     "props": {
-      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-desktop.png",
-      "maxHeight": 200
+      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-inside-menu.png",
+      "maxHeight": 300
     }
   },
   "flex-layout.row#banner-highlight-2": {
@@ -82,8 +82,8 @@
   },
   "image#banner-highlight-2": {
     "props": {
-      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-desktop.png",
-      "maxHeight": 200
+      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-inside-menu.png",
+      "maxHeight": 300
     }
   },
   "vtex.menu@2.x:menu#categoria-ropa": {
@@ -113,7 +113,8 @@
         "noFollow": false,
         "tagTitle": "Abrigos",
         "text": "Abrigos"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-bermudas": {
@@ -128,7 +129,8 @@
         "noFollow": false,
         "tagTitle": "Bermudas",
         "text": "Bermudas"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-camisas": {
@@ -143,7 +145,8 @@
         "noFollow": false,
         "tagTitle": "Camisas",
         "text": "Camisas"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-chalecos": {
@@ -158,7 +161,8 @@
         "noFollow": false,
         "tagTitle": "Chalecos",
         "text": "Chalecos"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-chamarras": {
@@ -173,7 +177,8 @@
         "noFollow": false,
         "tagTitle": "Chamarras",
         "text": "Chamarras"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-conjuntos": {
@@ -188,7 +193,8 @@
         "noFollow": false,
         "tagTitle": "Conjuntos",
         "text": "Conjuntos"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-guayaberas": {
@@ -203,7 +209,8 @@
         "noFollow": false,
         "tagTitle": "Guayaberas",
         "text": "Guayaberas"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-jeans": {
@@ -218,7 +225,8 @@
         "noFollow": false,
         "tagTitle": "Jeans",
         "text": "Jeans"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "vtex.menu@2.x:menu#categoria-ropa-2": {
@@ -247,7 +255,8 @@
         "noFollow": false,
         "tagTitle": "Pantalones",
         "text": "Pantalones"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-playeras": {
@@ -262,7 +271,8 @@
         "noFollow": false,
         "tagTitle": "Playeras",
         "text": "Playeras"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-sacos": {
@@ -277,7 +287,8 @@
         "noFollow": false,
         "tagTitle": "Sacos",
         "text": "Sacos"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-sudaderas": {
@@ -292,7 +303,8 @@
         "noFollow": false,
         "tagTitle": "Sudaderas",
         "text": "Sudaderas"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-sueteres": {
@@ -307,7 +319,8 @@
         "noFollow": false,
         "tagTitle": "Suéteres",
         "text": "Suéteres"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-trajes": {
@@ -322,7 +335,8 @@
         "noFollow": false,
         "tagTitle": "Trajes",
         "text": "Trajes"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-todos": {
@@ -337,7 +351,8 @@
         "noFollow": false,
         "tagTitle": "todos",
         "text": "Ver todos"
-      }
+      },
+      "blockClass": "category-see-all"
     }
   },
   "menu-item#categoria-accesorios": {
@@ -400,8 +415,8 @@
   },
   "image#accesorios-highlight-1": {
     "props": {
-      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-desktop.png",
-      "maxHeight": 200
+      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-inside-menu.png",
+      "maxHeight": 300
     }
   },
   "flex-layout.row#accesorios-highlight-2": {
@@ -411,8 +426,8 @@
   },
   "image#accesorios-highlight-2": {
     "props": {
-      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-desktop.png",
-      "maxHeight": 200
+      "src": "https://aldocontijr.myvtex.com/arquivos/highlight-inside-menu.png",
+      "maxHeight": 300
     }
   },
   "vtex.menu@2.x:menu#categoria-accesorios": {
@@ -441,7 +456,8 @@
         "noFollow": false,
         "tagTitle": "Backpack",
         "text": "Backpack"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-bufandas": {
@@ -456,7 +472,8 @@
         "noFollow": false,
         "tagTitle": "Bufandas",
         "text": "Bufandas"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-calcetines": {
@@ -471,7 +488,8 @@
         "noFollow": false,
         "tagTitle": "Calcetines",
         "text": "Calcetines"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-carteras": {
@@ -486,7 +504,8 @@
         "noFollow": false,
         "tagTitle": "Carteras",
         "text": "Carteras"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-cinturones": {
@@ -501,7 +520,8 @@
         "noFollow": false,
         "tagTitle": "Cinturones",
         "text": "Cinturones"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-corbatas": {
@@ -516,7 +536,8 @@
         "noFollow": false,
         "tagTitle": "Corbatas",
         "text": "Corbatas"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-gorros": {
@@ -531,7 +552,8 @@
         "noFollow": false,
         "tagTitle": "Gorros",
         "text": "Gorros"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "vtex.menu@2.x:menu#categoria-accesorios-2": {
@@ -559,7 +581,8 @@
         "noFollow": false,
         "tagTitle": "Lentes",
         "text": "Lentes"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-monos": {
@@ -574,7 +597,8 @@
         "noFollow": false,
         "tagTitle": "Moños",
         "text": "Moños"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-panuelos": {
@@ -589,7 +613,8 @@
         "noFollow": false,
         "tagTitle": "Pañuelos",
         "text": "Pañuelos"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-sombreros": {
@@ -604,7 +629,8 @@
         "noFollow": false,
         "tagTitle": "Sombreros",
         "text": "Sombreros"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-tirantes": {
@@ -619,7 +645,8 @@
         "noFollow": false,
         "tagTitle": "Tirantes",
         "text": "Tirantes"
-      }
+      },
+      "blockClass": "category-list"
     }
   },
   "menu-item#subcategoria-todos-accesorios": {
@@ -634,7 +661,8 @@
         "noFollow": false,
         "tagTitle": "Ver todo",
         "text": "Ver todo"
-      }
+      },
+      "blockClass": "category-see-all"
     }
   },
 
