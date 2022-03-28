@@ -42,3 +42,14 @@
   content: url(https://aldocontijr.myvtex.com/arquivos/tw-logo_mini.png);
   position: absolute;
 }
+
+@media screen and (max-width: 768px) {
+  .socialNetworksContainer {
+    padding-top: 10px;
+  }
+
+  .socialNetworkLink--facebook, .socialNetworkLink--instagram,
+  .socialNetworkLink--twitter {
+    margin: 0 5px;
+  }
+}

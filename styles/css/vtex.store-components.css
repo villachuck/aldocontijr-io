@@ -14,13 +14,14 @@
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-color: #E6B566;
   max-width: 1528px;
   margin: 0 auto;
 }
 
 .newsletter .container {
-  padding: 60px 10px;
+  background-color: #E6B566;
+  padding: 40px 10px;
 }
 
 .label {
@@ -30,7 +31,7 @@
 
 .inputGroup {
   padding-bottom: 4px;
-  display: flex;
+  display: flow-root;
   color: #fff;
 }
 
@@ -46,10 +47,10 @@
 }
 
 .inputGroup :global(.vtex-button) {
-  background-color: transparent;
+  background-color: #000;
   color: #fff;
   border: none;
-  margin-right: -24px;
+  margin-top: 15px;
 }
 
 .buttonContainer {
@@ -66,12 +67,9 @@
 }
 
 @media only screen and (min-width: 640px) {
-  .newsletter .container {
-    padding: 140px;
-  }
 
   .label {
-    font-size: 40px;
+    font-size: 25px;
   }
 
   .infoCardContainer--info-card-home .infoCardTextContainer {
@@ -136,3 +134,4 @@
 .imageElementLink--logo-footer {
   text-align: center;
 }
+

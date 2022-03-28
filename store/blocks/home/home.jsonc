@@ -10,8 +10,10 @@
       "flex-layout.row#shelf-vendidos",
       "flex-layout.row#couple-banners",
       "flex-layout.row#last-banner"
-      //"newsletter"
-    ]
+    ],
+    "props": {
+      "blockClass": "mi-home"
+    }
   },
 
   /* Inicio de banners principales */

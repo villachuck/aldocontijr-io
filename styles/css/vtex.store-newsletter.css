@@ -1,0 +1,26 @@
+.newsletterForm--newsletter {
+    padding: 50px;
+    background-color: #E6B566;
+}
+
+.formSubmitContainer {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.emailInputContainer--news-input :global(.vtex-input-prefix__group) {
+    border: #E6B566;
+    border-radius: 0;
+    border-bottom: 2px solid #fff;
+    color: #000;
+}
+
+.emailInputContainer--news-input :global(.vtex-styleguide-9-x-input) {
+    background: #E6B566;
+    border: #E6B566;
+}
+
+.formSubmitContainer :global(.vtex-button) {
+    background-color: #000;
+    border: #000;
+}

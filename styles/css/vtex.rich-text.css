@@ -121,7 +121,7 @@
 .link--home-category-title {
   color: #000;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .wrapper--shelfTitle-recomendados {
@@ -148,5 +148,49 @@
 .paragraph--title-footer {
   font-weight: bold;
   font-size: 18px;
+  color: #000;
+}
+
+.wrapper--title-footer-media {
+  margin: 0 auto;
+}
+
+.paragraph--title-footer-media {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+}
+
+.wrapper--rights-reserved {
+  width: 100%;
+}
+
+.paragraph--rights-reserved {
+  text-align: center;
+  font-size: 13px;
+  color: #000;
+}
+
+.wrapper--text-newsletter {
+  width: 100%;
+}
+
+.paragraph--text-newsletter {
+  text-align: center;
+  margin: 0;
+  color: #000;
+  font-size: 13px;
+}
+
+.headingLevel4--text-newsletter {
+  text-align: center;
+  color: #000;
+  margin: 0;
+  font-weight: 600;
+}
+
+.paragraph--footer {
+  text-align: center;
   color: #000;
 }

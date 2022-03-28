@@ -232,14 +232,42 @@
 
 .flexRow--banner-last {
   padding-top: 15px;
+  padding-bottom: 25px;
 }
 
 .flexRow--logo-footer {
   margin: auto;
 }
 
-.flexRow--menu-row {
+.flexRow--menu-row, .flexRow--payment-methods-acjr {
   background: #e8e9a1;
+  padding: 10px 0;
+}
+
+.flexRow--credits, .flexRow--footer-mobile {
+  background: #e8e9a1;
+}
+
+.flexColChild--payments-block {
+  margin: 0 auto;
+}
+
+.flexRowContent--payment-methods-acjr {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flexRowContent--payment-methods-acjr .stretchChildrenWidth {
+  margin: 0 auto;
+}
+
+.flexRow--newsletter {
+  background: #E6B566;
+}
+
+.flexRowContent--newsletter {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width:768px) {

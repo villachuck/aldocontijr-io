@@ -4,19 +4,54 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "newsletter",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-3-desktop",
+      "flex-layout.row#footer-4-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
+    "children":[
+      "newsletter-form"
+    ],
+    "props":{
+      "blockClass": "newsletter"
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "rich-text#welcome-newsletter",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props":{
+      "blockClass": "newsletter"
+    }
+  },
+  "rich-text#welcome-newsletter": {
+    "props":{
+      "text": "Ingresa tu mail para encontrar lo mejor para los campeones del hogar\n #### Suscríbete",
+      "blockClass": "text-newsletter"
+    }
+  },
+  "newsletter-input-email": {
+    "props":{
+      "placeholderText": "",
+      "blockClass": "news-input"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Suscribirme"
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
     "children": [
       "flex-layout.row#logo-footer",
       "vtex.menu@2.x:menu#guia-compras",
       "vtex.menu@2.x:menu#empresa",
       "vtex.menu@2.x:menu#politicas",
-      "social-networks"
+      "flex-layout.col#follow-media"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -42,89 +77,191 @@
       "blockClass": "logo-footer"
     }
   },
-
+  "flex-layout.col#follow-media": {
+    "children":[
+      "rich-text#follow-us",
+      "social-networks"
+    ],
+    "props":{
+      "blockClass": "follow-media"
+    }
+  },
+  "rich-text#follow-us": {
+    "props": {
+      "text": "Síguenos",
+      "blockClass": "title-footer-media"
+    }
+  },
   "social-networks": {
     "props": {
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.facebook.com/AldoContiJunior/?fref=ts"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.instagram.com/aldocontijr/"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
+          "url": "https://twitter.com/AldoContiJR"
         }
       ]
     }
   },
 
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "image#method1",
+      "image#method2",
+      "image#method3",
+      "image#method4",
+      "image#method5",
+      "image#method6",
+      "image#method7",
+      "image#method8",
+      "image#method9",
+      "image#method10",
+      "image#method11",
+      "image#method12"
+    ],
     "props": {
-      "blockClass": "payment-methods"
-    }
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "blockClass": "payment-methods-acjr"
     }
   },
 
-  "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+  "vtex.menu@2.x:menu#categoria-perre": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      
+    ]
+  },
+  "image#method1": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/bbva-ban-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method2": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/stder-ban-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method3": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/scotia-ban-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method4": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/ppal-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method5": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/mpago-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method6": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/sev-elev-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method7": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/oxxo-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method8": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/mcard-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method9": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/visa-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method10": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/amex-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method11": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/ixe-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+  "image#method12": {
+    "props": {
+      "src": "https://www.aldoconti-jr.com/arquivos/estafeta-size.png",
+      "maxHeight": 25,
+      "blockClass": "imgs-payments"
+    }
+  },
+
+  "flex-layout.row#footer-4-desktop": {
+    "children": [
+      "rich-text#rights-reserved"
+    ],
     "props": {
       "blockClass": "credits"
     }
   },
-  "rich-text#footer": {
+  "rich-text#rights-reserved": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
+      "text": "Aldo Conti Jr. Derechos reservados 2022",
+      "blockClass": "rights-reserved"
     }
   },
 
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#footer-mobile"
     ]
   },
-  "flex-layout.row#2-footer-mobile": {
+  "flex-layout.row#footer-mobile": {
     "children": ["flex-layout.col#footer-1-mobile"],
     "props": {
-      "blockClass": "payment-methods",
+      "blockClass": "footer-mobile",
       "paddingTop": 4,
       "paddingBottom": 4
     }
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
       "social-networks",
-      "rich-text#footer-mobile"
+      "rich-text#rights-reserved"
     ],
     "props": {
-      "blockClass": "payment-methods",
+      "blockClass": "footer-mobile",
       "paddingTop": 4,
       "paddingBottom": 4,
       "rowGap": 4
-    }
-  },
-  "flex-layout.row#1-footer-mobile": {
-    "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
-    },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
-  },
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
     }
   }
 }
