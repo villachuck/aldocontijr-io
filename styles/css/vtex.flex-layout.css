@@ -270,6 +270,28 @@
   margin: 0 auto;
 }
 
+.flexRowContent--mobile-search :global(.vtex-store-components-3-x-searchBarContainer) {
+  background: #fff;
+}
+
+.flexRowContent--mobile-search :global(.vtex-store-components-3-x-searchBarInnerContainer) {
+  border: 2px solid #000;
+  border-radius: 10px
+}
+
+.flexRowContent--mobile-search :global(.vtex-input-prefix__group) {
+  border: 10px;
+  border-radius: 10px;
+}
+
+.flexRow--mobile-search {
+  box-shadow: 0 4px 5px rgb(0 0 0 / 10%);
+}
+
+.flexRow--mobile-search :global(.vtex-store-components-3-x-container) {
+  background: #fff;
+}
+
 @media screen and (max-width:768px) {
   .flexCol--slider-home {
     padding-right: 0;

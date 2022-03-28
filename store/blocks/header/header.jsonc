@@ -86,7 +86,10 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -106,7 +109,6 @@
   "drawer": {
     "children": ["menu#drawer"]
   },
-
   "menu#drawer": {
     "children": [
       "disclosure-layout#categoria-ropa",
@@ -122,13 +124,21 @@
       "blockClass": "mobile-menu"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "https://www.aldoconti-jr.com/arquivos/aldocontijr.logo2.png",
       "width": "125"
+    }
+  },
+
+  "flex-layout.row#2-mobile": {
+    "children":[
+      "search-bar"
+    ],
+    "props":{
+      "blockClass": "mobile-search"
     }
   }
 }
