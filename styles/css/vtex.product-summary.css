@@ -89,3 +89,7 @@
   background: #E5707E;
   border: #E5707E;
 }
+
+.containerNormal :global(.vtex-button) {
+  
+}

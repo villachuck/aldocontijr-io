@@ -14,9 +14,99 @@
   justify-content: center;
   overflow: hidden;
   width: auto !important;
-  align-self: center
+  align-self: center;
+  display: none;
 }
 
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
+}
+
+.container--layout--search-body {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.galleryTitle--layout {
+  margin: 10px 0;
+  font-size: 18px;
+  background: #E8E9A1;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.filterMessage, .filterTitleSpan, .filterAvailable {
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.filterContent :global(.vtex-checkbox__label) {
+  font-size: 15px;
+  color: #000;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__base-internal),
+.filterTemplateOverflow :global(.vtex-slider__selector) {
+  background-color: #E6B566;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__left-value),
+.filterTemplateOverflow :global(.vtex-slider__dash),
+.filterTemplateOverflow :global(.vtex-slider__right-value) {
+  color: #000;
+}
+
+
+.totalProductsMessage {
+  color: #000;
+}
+
+.buttonShowMore {
+  padding: 20px 0;
+}
+
+.buttonShowMore :global(.vtex-button) {
+  background: #fff;
+  border: 2px solid #000;
+  width: 35%;
+}
+
+.buttonShowMore :global(.vtex-button__label) {
+  width:100%;
+  color: #000;
+}
+
+.orderByText, .filterPopupTitle {
+  color: #000;
+}
+
+.filterBreadcrumbsText,
+.filterBreadcrumbsItemName {
+  font-size: 23px;
+  color: #000;
+}
+
+.filterAccordionBreadcrumbs,
+.accordionFilterContainer--marca,
+.accordionFilterContainer--talla,
+.accordionFilterContainer--gama-de-precios {
+  border-bottom: 2px solid #000;
+}
+
+.accordionFilterItemTitle {
+  color: #000;
+}
+
+.filterBreadcrumbsItem {
+  color: #000;
+  padding-left: 10px;
+}
+
+.accordionFilterOpen--marca :global(.vtex-checkbox__label),
+.accordionFilterOpen--talla :global(.vtex-checkbox__label),
+.filterTitleSpan {
+  color: #000;
+  font-size: 18px;
 }

@@ -74,6 +74,15 @@
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
   "logo#desktop": {
     "props": {
       "title": "Logo",
