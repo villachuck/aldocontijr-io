@@ -105,8 +105,32 @@
 }
 
 .accordionFilterOpen--marca :global(.vtex-checkbox__label),
-.accordionFilterOpen--talla :global(.vtex-checkbox__label),
-.filterTitleSpan {
+.accordionFilterOpen--talla :global(.vtex-checkbox__label) {
   color: #000;
   font-size: 18px;
+}
+
+.filterClearButtonWrapper :global(.vtex-button) {
+  background: #fff;
+  border: 2px solid #000;
+}
+
+.filterClearButtonWrapper :global(.vtex-button__label) {
+  color: #000;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button) {
+  background: #E5707E;
+  border: #E5707E;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button__label) {
+  color: #fff;
+}
+
+@media screen and (max-width:768px) {
+  .filterTitleSpan {
+    color: #000;
+    font-size: 18px;
+  }
 }
