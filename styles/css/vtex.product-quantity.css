@@ -1,0 +1,7 @@
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button__text) {
+    color: #000;
+}
+
+.quantitySelectorTitle {
+    color: #000;
+}

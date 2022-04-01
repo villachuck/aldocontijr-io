@@ -292,6 +292,30 @@
   background: #fff;
 }
 
+.flexRowContent--breadcrumb-pdp {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.flexRow--body-pdp {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.flexCol--prices-on {
+  border-right: 2px solid #ccc;
+}
+
+.flexColChild--prices-on {
+ margin-right: 5px;
+}
+
+.flexRowContent--cta-pdp :global(.vtex-button) {
+  background: #E5707E;
+  border: #E5707E;
+}
+
 @media screen and (max-width:768px) {
   .flexCol--slider-home {
     padding-right: 0;
@@ -314,5 +338,9 @@
 
   .flexRow--banner-last {
     padding-top: 10px;
+  }
+
+  .flexRowContent--prices-on {
+    justify-content: center;
   }
 }

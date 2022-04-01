@@ -139,3 +139,44 @@
   transition: none !important;
   transform: none !important;
 }
+
+.productNameContainer--quickview {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.productDescriptionTitle {
+  display: none;
+}
+
+.productDescriptionText {
+  color: #000;
+}
+
+.frameAround {
+  border-color: #E5707E;
+}
+
+.shareLabel {
+  color: #000;
+}
+
+.caretIcon {
+  color: #000;
+}
+
+.swiper-pagination {
+  display: none;
+}
+
+.skuSelectorName {
+  color: #000;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .productNameContainer--quickview {
+    text-align: center;
+  }
+}
