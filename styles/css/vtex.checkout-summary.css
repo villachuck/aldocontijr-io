@@ -1,3 +1,7 @@
 .summarySmallDisclaimer {
     display: none;
 }
+
+.summaryItemLabel, .summaryItemPrice {
+    color: #000;
+}

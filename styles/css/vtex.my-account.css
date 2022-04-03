@@ -1,0 +1,19 @@
+.boxContainerFooter :global(.vtex-button) {
+    background: #E5707E;
+    border-color: #E5707E;
+}
+
+.boxContainerFooter :global(.vtex-button__label) {
+    color: #fff;
+}
+
+.boxContainerBody :global(.vtex-button) {
+    background: #E5707E;
+    border-color: #E5707E;
+}
+
+.boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+    background: #E8E9A1;
+    border-color: #E8E9A1;
+    color: #000;
+}

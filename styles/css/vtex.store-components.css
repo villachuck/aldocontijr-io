@@ -160,6 +160,7 @@
 
 .shareLabel {
   color: #000;
+  font-weight: 600;
 }
 
 .caretIcon {
@@ -178,5 +179,9 @@
 @media screen and (max-width: 768px) {
   .productNameContainer--quickview {
     text-align: center;
+  }
+
+  .shareSocialButton {
+    margin: 0 10px;
   }
 }

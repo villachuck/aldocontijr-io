@@ -1,0 +1,3 @@
+.container :global(.vtex-dropdown__arrow) {
+    color: #000;
+}

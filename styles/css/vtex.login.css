@@ -18,3 +18,50 @@
 .container :global(.vtex-button):active {
     background: #A3DDCB;
 }
+
+.accessCodeOptionBtn :global(.vtex-button),
+.emailPasswordOptionBtn :global(.vtex-button) {
+    background: #E8E9A1;
+    border: 1px solid #E8E9A1;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label),
+.emailPasswordOptionBtn :global(.vtex-button__label) {
+    color: #000;
+}
+
+.box {
+    right: -131px !important;
+}
+
+.sendButton :global(.vtex-button) {
+    background: #E5707E;
+    border-color: #E5707E;
+}
+
+.forgotPasswordLink, .dontHaveAccount {
+    color: #000;
+    text-decoration: revert;
+}
+
+.backButton :global(.vtex-button) {
+    background: #fff;
+}
+
+.backButton :global(.vtex-button__label) {
+    color: #000;
+}
+
+.profile, .accountOptions :global(.vtex-button__label) {
+    color: #000;
+}
+
+.button {
+    color: #000;
+    background: #E6B566
+}
+
+.accountOptions :global(.vtex-button):hover {
+    background: #E8E9A1
+}
+

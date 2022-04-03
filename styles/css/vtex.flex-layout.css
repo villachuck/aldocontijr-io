@@ -316,6 +316,11 @@
   border: #E5707E;
 }
 
+.flexRowContent--body-pdp {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 @media screen and (max-width:768px) {
   .flexCol--slider-home {
     padding-right: 0;

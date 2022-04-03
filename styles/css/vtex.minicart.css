@@ -25,11 +25,16 @@
     top: -0.7rem;
     right: -40px;
     z-index: 9;
+    background: #E5707E;
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
     background: #e5707e;
     border: #e5707e;
+}
+
+.minicartTitle {
+    color: #000;
 }
 
 @media screen and (max-width:768px) {
