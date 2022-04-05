@@ -1,0 +1,459 @@
+{
+    "store.custom#como-comprar": {
+        "blocks": [
+            "responsive-layout.desktop",
+            "responsive-layout.phone"
+        ]
+    },
+    "responsive-layout.desktop": {
+        "children":[
+            "flex-layout.row#bloque-comprar1",
+            "flex-layout.row#bloque-comprar2",
+            "flex-layout.row#bloque-comprar3",
+            "flex-layout.row#bloque-comprar4",
+            "flex-layout.row#bloque-comprar5",
+            "flex-layout.row#bloque-comprar6",
+            "flex-layout.row#bloque-comprar7",
+            "flex-layout.row#bloque-comprar8",
+            "flex-layout.row#bloque-comprar9",
+            "flex-layout.row#bloque-comprar10"
+        ],
+        "props": {
+            "blockClass": "terms-body"
+        }
+    },
+    "flex-layout.row#bloque-comprar1": {
+        "children": [
+            "flex-layout.col#img-bloque1",
+            "flex-layout.col#text-bloque1"            
+        ],
+        "props": {
+            "blockClass": "terms-blocks"
+        }
+    },
+    "flex-layout.col#img-bloque1": {
+        "children":[
+            "image#img-bloque1"
+        ],
+        "props": {
+            "blockClass": "left-image"
+        }
+    },
+    "image#img-bloque1": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/proceso_de_compras_001.jpg",
+            "maxHeight": 250
+        }
+    },
+    "flex-layout.col#text-bloque1": {
+        "children": [
+            "rich-text#text-bloque1"
+        ],
+        "props":{
+            "blockClass": "right-text"
+        }
+    },
+    "rich-text#text-bloque1": {
+        "props": {
+            "text": "#### Cómo comprar\nComprar en ALDOCONTI-JR.COM es sencillo, fácil y seguro. Solo sigue los siguientes pasos:",
+            "blockClass": "text-terms"
+        }
+    },
+    "flex-layout.row#bloque-comprar2": {
+        "children":[
+            "flex-layout.col#text-bloque2",
+            "flex-layout.col#img-bloque2" 
+        ],
+        "props": {
+            "blockClass": "terms-blocks"
+        }
+    },
+    "flex-layout.col#text-bloque2": {
+        "children": [
+            "rich-text#text-bloque2"
+        ],
+        "props":{
+            "blockClass": "left-text"
+        }
+    },
+    "rich-text#text-bloque2": {
+        "props": {
+            "text": "#### Producto\nEncuentra el producto que buscas desde la barra de búsqueda, nuestro menú de categorías o utiliza los filtros de productos seleccionados para descubrir la variedad de artículos que ALDOCONTI-JR.COM tiene para ti",
+            "blockClass": ["text-terms", "toleftthis"]
+        }
+    },
+    "flex-layout.col#img-bloque2": {
+        "children":[
+            "image#img-bloque2"
+        ],
+        "props": {
+            "blockClass": "right-image"
+        }
+    },
+    "image#img-bloque2": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/proceso_de_compras_002.jpg",
+            "maxHeight": 250
+        }
+    },
+    "flex-layout.row#bloque-comprar3": {
+        "children":[
+            "flex-layout.col#img-bloque3",
+            "flex-layout.col#text-bloque3"         
+        ],
+        "props": {
+            "blockClass": "terms-blocks"
+        }
+    },
+    "flex-layout.col#img-bloque3": {
+        "children":[
+            "image#img-bloque3"
+        ],
+        "props": {
+            "blockClass": "left-image"
+        }
+    },
+    "image#img-bloque3": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/proceso_de_compras_003.jpg",
+            "maxHeight": 250
+        }
+    },
+    "flex-layout.col#text-bloque3": {
+        "children": [
+            "rich-text#text-bloque3"
+        ],
+        "props":{
+            "blockClass": "right-text"
+        }
+    },
+    "rich-text#text-bloque3": {
+        "props": {
+            "text": "#### Clic\nElige y da clic al produto de tu interés para obtener diferentes vistas y detalles de la prenda, asi como tallas disponibles, descripción y precio.",
+            "blockClass": "text-terms"
+        }
+    },
+    "flex-layout.row#bloque-comprar4": {
+        "children":[
+            "flex-layout.col#text-bloque4",
+            "flex-layout.col#img-bloque4"         
+        ],
+        "props": {
+            "blockClass": "terms-blocks"
+        }
+    },
+    "flex-layout.col#text-bloque4": {
+        "children": [
+            "rich-text#text-bloque4"
+        ],
+        "props":{
+            "blockClass": "left-text"
+        }
+    },
+    "rich-text#text-bloque4": {
+        "props": {
+            "text": "#### Comprar ahora\nSelecciona la talla de la prenda y da clic en COMPRAR AHORA para realiazar tu pedido o en AÑADIR AL CARRITO para elegir entre seguir comprando o finalizar tu compra.",
+            "blockClass": ["text-terms", "toleftthis"]
+        }
+    },
+    "flex-layout.col#img-bloque4": {
+        "children":[
+            "image#img-bloque4"
+        ],
+        "props": {
+            "blockClass": "right-image"
+        }
+    },
+    "image#img-bloque4": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/proceso_de_compras_004.jpg",
+            "maxHeight": 250
+        }
+    },
+    "flex-layout.row#bloque-comprar5": {
+        "children": [
+            "flex-layout.col#img-bloque5",
+            "flex-layout.col#text-bloque5"            
+        ],
+        "props": {
+            "blockClass": "terms-blocks"
+        }
+    },
+    "flex-layout.col#img-bloque5": {
+        "children":[
+            "image#img-bloque5"
+        ],
+        "props": {
+            "blockClass": "left-image"
+        }
+    },
+    "image#img-bloque5": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/proceso_de_compras_005.jpg",
+            "maxHeight": 250
+        }
+    },
+    "flex-layout.col#text-bloque5": {
+        "children": [
+            "rich-text#text-bloque5"
+        ],
+        "props":{
+            "blockClass": "right-text"
+        }
+    },
+    "rich-text#text-bloque5": {
+        "props": {
+            "text": "#### Entrega\nIngresa tu correo electrónico y continúa el proceso llenando el sencillo formulario con tu nombre y teléfono movil. ¡Recuerda suscribirte a nuestro newsletter! Da clic en ENTREGA. Si ya estás registrado, tus datos se llenarán automáticamente.",
+            "blockClass": "text-terms"
+        }
+    },
+    "flex-layout.row#bloque-comprar6": {
+        "children":[
+            "flex-layout.col#text-bloque6",
+            "flex-layout.col#img-bloque6"         
+        ],
+        "props": {
+            "blockClass": "terms-blocks"
+        }
+    },
+    "flex-layout.col#text-bloque6": {
+        "children": [
+            "rich-text#text-bloque6"
+        ],
+        "props":{
+            "blockClass": "left-text"
+        }
+    },
+    "rich-text#text-bloque6": {
+        "props": {
+            "text": "#### Pago\nIntroduce tu código postal, y completa los campos de la dirección de envío, ahora da clic en PAGO.",
+            "blockClass": ["text-terms", "toleftthis"]
+        }
+    },
+    "flex-layout.col#img-bloque6": {
+        "children":[
+            "image#img-bloque6"
+        ],
+        "props": {
+            "blockClass": "right-image"
+        }
+    },
+    "image#img-bloque6": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/proceso_de_compras_006.jpg",
+            "maxHeight": 250
+        }
+    },
+    "flex-layout.row#bloque-comprar7": {
+        "children": [
+            "flex-layout.col#img-bloque7",
+            "flex-layout.col#text-bloque7"            
+        ],
+        "props": {
+            "blockClass": "terms-blocks"
+        }
+    },
+    "flex-layout.col#img-bloque7": {
+        "children":[
+            "image#img-bloque7"
+        ],
+        "props": {
+            "blockClass": "left-image"
+        }
+    },
+    "image#img-bloque7": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/proceso_de_compras_007.jpg",
+            "maxHeight": 250
+        }
+    },
+    "flex-layout.col#text-bloque7": {
+        "children": [
+            "rich-text#text-bloque7"
+        ],
+        "props":{
+            "blockClass": "right-text"
+        }
+    },
+    "rich-text#text-bloque7": {
+        "props": {
+            "text": "#### Comprar ahora\nSelecciona un método de pago: Paypal, tarjeta de crédito o débito. Pago en Efectivvo y confirma tu pedido dando clic en COMPRA AHORA y ¡LISTO! Has terminado exitosamente tu compra en ALDOCONTI-JR.COM Tu orden ha sido registrada en el sistema.",
+            "blockClass": "text-terms"
+        }
+    },
+    "flex-layout.row#bloque-comprar8": {
+        "children":[
+            "flex-layout.col#text-bloque8",
+            "flex-layout.col#img-bloque8"         
+        ],
+        "props": {
+            "blockClass": "terms-blocks"
+        } 
+    },
+    "flex-layout.col#text-bloque8": {
+        "children": [
+            "rich-text#text-bloque8"
+        ],
+        "props":{
+            "blockClass": "left-text"
+        }
+    },
+    "rich-text#text-bloque8": {
+        "props": {
+            "text": "#### Valida\nUna vez que sea valido tu pago, recibíras un email con el resumen de tu compra y el número de orden para el seguimiento de la misma.",
+            "blockClass": ["text-terms", "toleftthis"]
+        }
+    },
+    "flex-layout.col#img-bloque8": {
+        "children":[
+            "image#img-bloque8"
+        ],
+        "props": {
+            "blockClass": "right-image"
+        }
+    },
+    "image#img-bloque8": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/proceso_de_compras_008.jpg",
+            "maxHeight": 250
+        }
+    },
+    "flex-layout.row#bloque-comprar9": {
+        "children": [
+            "flex-layout.col#img-bloque9",
+            "flex-layout.col#text-bloque9"            
+        ],
+        "props": {
+            "blockClass": "terms-blocks"
+        }
+    },
+    "flex-layout.col#img-bloque9": {
+        "children":[
+            "image#img-bloque9"
+        ],
+        "props": {
+            "blockClass": "left-image"
+        }
+    },
+    "image#img-bloque9": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/proceso_de_compras_009.jpg",
+            "maxHeight": 250
+        }
+    },
+    "flex-layout.col#text-bloque9": {
+        "children": [
+            "rich-text#text-bloque9"
+        ],
+        "props":{
+            "blockClass": "right-text"
+        }
+    },
+    "rich-text#text-bloque9": {
+        "props": {
+            "text": "#### Resuelve tus dudas\nRecuerda que estamso para resolver tus dudas vía telefónica, correo electronico o chat en vivo de lunes a sábado de 09:00 a.m. a 06:00 p.m. En **ALDOCONTI-JR.COM queremos llevar tus compras a otro nivel.**",
+            "blockClass": "text-terms"
+        }
+    },
+    "flex-layout.row#bloque-comprar10": {
+        "children":[
+            "flex-layout.col#text-bloque10",
+            "flex-layout.col#img-bloque10"         
+        ],
+        "props": {
+            "blockClass": "terms-blocks"
+        }
+    },
+    "flex-layout.col#text-bloque10": {},
+    "flex-layout.col#img-bloque10": {
+        "children":[
+            "image#img-bloque10"
+        ],
+        "props": {
+            "blockClass": "right-image"
+        }
+    },
+    "image#img-bloque10": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/proceso_de_compras_00010.jpg",
+            "maxHeight": 250
+        }
+    },
+
+    "responsive-layout.phone": {
+        "children":[
+            "flex-layout.row#mobile-comprar1",
+            "flex-layout.row#mobile-comprar2",
+            "flex-layout.row#mobile-comprar3",
+            "flex-layout.row#mobile-comprar4",
+            "flex-layout.row#mobile-comprar5",
+            "flex-layout.row#mobile-comprar6",
+            "flex-layout.row#mobile-comprar7",
+            "flex-layout.row#mobile-comprar8",
+            "flex-layout.row#mobile-comprar9",
+            "flex-layout.row#mobile-comprar10"
+        ],
+        "props": {
+            "blockClass": "terms-body"
+        }
+    },
+    "flex-layout.row#mobile-comprar1": {
+        "children":[
+            "flex-layout.col#img-bloque1",
+            "flex-layout.col#text-bloque1"  
+        ]
+    },
+    "flex-layout.row#mobile-comprar2": {
+        "children":[
+            "flex-layout.col#img-bloque2",
+            "flex-layout.col#text-bloque2"  
+        ]
+    },
+    "flex-layout.row#mobile-comprar3": {
+        "children":[
+            "flex-layout.col#img-bloque3",
+            "flex-layout.col#text-bloque3"  
+        ]
+    },
+    "flex-layout.row#mobile-comprar4": {
+        "children":[
+            "flex-layout.col#img-bloque4",
+            "flex-layout.col#text-bloque4"  
+        ]
+    },
+    "flex-layout.row#mobile-comprar5": {
+        "children":[
+            "flex-layout.col#img-bloque5",
+            "flex-layout.col#text-bloque5"  
+        ]
+    },
+    "flex-layout.row#mobile-comprar6": {
+        "children":[
+            "flex-layout.col#img-bloque6",
+            "flex-layout.col#text-bloque6"  
+        ]
+    },
+    "flex-layout.row#mobile-comprar7": {
+        "children":[
+            "flex-layout.col#img-bloque7",
+            "flex-layout.col#text-bloque7"  
+        ]
+    },
+    "flex-layout.row#mobile-comprar8": {
+        "children":[
+            "flex-layout.col#img-bloque8",
+            "flex-layout.col#text-bloque8"  
+        ]
+    },
+    "flex-layout.row#mobile-comprar9": {
+        "children":[
+            "flex-layout.col#img-bloque9",
+            "flex-layout.col#text-bloque9"  
+        ]
+    },
+    "flex-layout.row#mobile-comprar10": {
+        "children":[
+            "flex-layout.col#img-bloque10"
+        ]
+    }
+}

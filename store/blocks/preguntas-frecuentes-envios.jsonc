@@ -1,0 +1,130 @@
+{
+    "store.custom#frecuentes-envios": {
+        "blocks": [
+            "flex-layout.row#frecuentes-envios"
+        ]
+    },
+    "flex-layout.row#frecuentes-envios": {
+        "children": [
+            "flex-layout.col#frecuentes-envios"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#frecuentes-envios": {
+        "children":[
+            "flex-layout.row#frecuentes-envios-titulo",
+            "flex-layout.row#envios-1",
+            "flex-layout.row#envios-2",
+            "flex-layout.row#envios-3",
+            "flex-layout.row#envios-4",
+            "flex-layout.row#envios-5",
+            "flex-layout.row#envios-6",
+            "flex-layout.row#envios-7",
+            "flex-layout.row#envios-8"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#frecuentes-envios-titulo": {
+        "children":[
+            "rich-text#frecuentes-envios-titulo"
+        ]
+    },
+    "rich-text#frecuentes-envios-titulo": {
+        "props": {
+            "text": "#### Envíos",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#envios-1": {
+        "children":[
+            "rich-text#envios-1"
+        ]
+    },
+    "rich-text#envios-1": {
+        "props": {
+            "text": "##### ¿Puedo saber en qué estado se encuentra mi pedido?\nSí. Accede al apartado 'Rastrea tu pedido' y podrá ver el estado de tu pedido en tiempo real, unicamente proporcionando tu numero de guía.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#envios-2": {
+        "children":[
+            "rich-text#envios-2"
+        ]
+    },
+    "rich-text#envios-2": {
+        "props": {
+            "text": "##### ¿Qué debo hacer si me llega un artículo defectuoso?\nAldo Conti Italia sólo vende artículos en perfecto estado, por lo que si, excepcionalmente, te llega una prenda con algún defecto, ponte en contacto con nuestro departamento de atención a clientes marcando sin costo al 800-3980-000.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#envios-3": {
+        "children":[
+            "rich-text#envios-3"
+        ]
+    },
+    "rich-text#envios-3": {
+        "props": {
+            "text": "##### ¿Qué debo hacer si me llega un artículo incorrecto?\nSi en alguna ocasión, por error, te llega un artículo que no has pedido, ponte en contacto con nuestro departamento de atención a clientes marcando sin costo al 800-3980-000.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#envios-4": {
+        "children":[
+            "rich-text#envios-4"
+        ]
+    },
+    "rich-text#envios-4": {
+        "props": {
+            "text": "##### ¿Cómo puedo contactar con el departamento de Atención al Cliente?\nPuedes marcar sin costo al 800-3980-000, o mandanos un correo a ecommerce@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#envios-5": {
+        "children":[
+            "rich-text#envios-5"
+        ]
+    },
+    "rich-text#envios-5": {
+        "props": {
+            "text": "##### ¿Dónde puedo recibir mi pedido?\nPuedes recibirlo en la dirección que elijas (domicilio, trabajo... pero nunca en apartado de correos ni hoteles).",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#envios-6": {
+        "children":[
+            "rich-text#envios-6"
+        ]
+    },
+    "rich-text#envios-6": {
+        "props": {
+            "text": "##### ¿Cuánto tardará en llegar mi pedido?\nLos plazos de entrega dependen de la lejanía de donde nos estes pidiendo la entrega. Nuestro centro de distribución esta ubicado en la Ciudad de Mexico, es por esto que tu pedido estará llegando de 2 a 7 dias hábiles después de haber recibido el correo de aprobación de tu banco.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#envios-7": {
+        "children":[
+            "rich-text#envios-7"
+        ]
+    },
+    "rich-text#envios-7": {
+        "props": {
+            "text": "##### ¿Cuánto he de pagar de gastos de envío?\n- Si tu pedido en menor a 500$ te estaremos cobrando 60$ MXN por los gastos de envio.\n- Si tu pedido supera los 500$ de compra tu envio es totalmente gratis.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#envios-8": {
+        "children":[
+            "rich-text#envios-8"
+        ]
+    },
+    "rich-text#envios-8": {
+        "props": {
+            "text": "##### ¿Cuál es el proceso de la entrega en domicilio?\nTe enviaremos un e-mail de confirmación cuando tu pago sea aprobado por tu banco, otro correo cuando tu pedido ha sido facturado, y el último cuando este mismo haya salido de nuestro almacén.",
+            "blockClass": "faqs-askme"
+        }
+    }
+}

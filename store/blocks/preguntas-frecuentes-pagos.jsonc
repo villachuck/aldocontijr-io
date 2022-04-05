@@ -1,0 +1,89 @@
+{
+    "store.custom#frecuentes-pagos": {
+        "blocks": [
+            "flex-layout.row#frecuentes-pagos"
+        ]
+    },
+    "flex-layout.row#frecuentes-pagos": {
+        "children": [
+            "flex-layout.col#frecuentes-pagos"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#frecuentes-pagos": {
+        "children":[
+            "flex-layout.row#frecuentes-pagos-titulo",
+            "flex-layout.row#pagos-1",
+            "flex-layout.row#pagos-2",
+            "flex-layout.row#pagos-3",
+            "flex-layout.row#pagos-4"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#frecuentes-pagos-titulo": {
+        "children":[
+            "rich-text#frecuentes-pagos-titulo"
+        ]
+    },
+    "rich-text#frecuentes-pagos-titulo": {
+        "props": {
+            "text": "#### Pagos",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#pagos-1": {
+        "children":[
+            "rich-text#pagos-1"
+        ]
+    },
+    "rich-text#pagos-1": {
+        "props": {
+            "text": "##### ¿Qué forma de pago puedo utilizar para realizar mi compra?\nDisponemos de los siguientes medios de pago con tarjetas de crédito y debito: Visa, Mastercard, American Express y Paypal. Pagos en efectivo en tiendas OXXO y SEVEN ELEVEN.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#pagos-2": {
+        "children":[
+            "image#method1",
+            "image#method2",
+            "image#method3",
+            "image#method4",
+            "image#method5",
+            "image#method6",
+            "image#method7",
+            "image#method8",
+            "image#method9",
+            "image#method10",
+            "image#method11"
+        ],
+        "props": {
+            "blockClass": "faqs-payment-methods"
+        }
+    },
+    "flex-layout.row#pagos-3": {        
+        "children":[
+            "rich-text#pagos-3"
+        ]
+    },
+    "rich-text#pagos-3": {
+        "props": {
+            "text": "##### ¿Por qué razón puede ser rechazada mi tarjeta de crédito?\nTu tarjeta puede ser rechazada por una de las siguientes razones:\n- La tarjeta puede estar caducada: comprueba que tu tarjeta no exceda la fecha de validez.\n- Puede que se haya alcanzado el límite de la tarjeta: consulta con tu banco que la tarjeta no haya excedido el importe permitido para efectuar compras.\n- Puede que algún dato introducido sea incorrecto: comprueba que hayas rellenado correctamente todos los campos necesarios.",
+            "blockClass": "faqs-askme"
+        } 
+    },
+    "flex-layout.row#pagos-4": {        
+        "children":[
+            "rich-text#pagos-4"
+        ]
+    },
+    "rich-text#pagos-4": {
+        "props": {
+            "text": "##### ¿Es seguro usar mi tarjeta de crédito en la web?\nSí, los datos se transmiten de forma encriptada SSL. Tras verificar que la tarjeta está adherida al sistema CES, el sistema contactará con el banco que la ha emitido para que el comprador autorice la compra. Cuando el banco confirme la autenticidad, se efectuará el cargo en la tarjeta. En caso contrario, el pedido será cancelado.",
+            "blockClass": "faqs-askme"
+        } 
+    }
+}

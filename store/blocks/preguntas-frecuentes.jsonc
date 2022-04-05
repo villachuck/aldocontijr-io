@@ -1,0 +1,190 @@
+{
+    "store.custom#preguntas-frecuentes": {
+        "blocks": [
+            "flex-layout.row#preguntas-frecuentes"
+        ]
+    },
+    "flex-layout.row#preguntas-frecuentes": {
+        "children": [
+            "flex-layout.col#preguntas-frecuentes"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#preguntas-frecuentes": {
+        "children":[
+            "flex-layout.row#preguntas-frecuentes-titulo",
+            "flex-layout.row#preguntas-1",
+            "flex-layout.row#preguntas-2",
+            "flex-layout.row#preguntas-3",
+            "flex-layout.row#preguntas-4",
+            "flex-layout.row#preguntas-5",
+            "flex-layout.row#preguntas-6",
+            "flex-layout.row#preguntas-7",
+            "flex-layout.row#preguntas-8",
+            "flex-layout.row#preguntas-9",
+            "flex-layout.row#preguntas-10",
+            "flex-layout.row#preguntas-11",
+            "flex-layout.row#preguntas-12",
+            "flex-layout.row#preguntas-13"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#preguntas-frecuentes-titulo": {
+        "children":[
+            "rich-text#faqs-titulo"
+        ]
+    },
+    "rich-text#faqs-titulo": {
+        "props": {
+            "text": "#### Preguntas Frecuentes",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#preguntas-1": {
+        "children":[
+            "rich-text#preguntas-1"
+        ]
+    },
+    "rich-text#preguntas-1": {
+        "props": {
+            "text": "##### ¿Los precios de la tienda online y mi tienda habitual de Aldo Conti Italia son los mismos?\nSí, pero si existiera cualquier diferencia entre los precios que figuran en la Web, y los marcados en las etiquetas de las prendas, el precio correcto será siempre el de las etiquetas, las tiendas outlet y tiendas con precios especiales no entran en esta categoría.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-2": {
+        "children":[
+            "rich-text#preguntas-2"
+        ]
+    },
+    "rich-text#preguntas-2": {
+        "props": {
+            "text": "##### ¿Repondremos los artículos con indicación 'agotado'?\nSi un artículo está agotado, puedes solicitar que te avisemos cuando lo repongamos. En el caso de que vuelva a estar disponible antes de 15 días, te enviaremos un e-mail informándote. Si no hubiese más stock, lo retiraríamos de la web.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-3": {
+        "children":[
+            "rich-text#preguntas-3"
+        ]
+    },
+    "rich-text#preguntas-3": {
+        "props": {
+            "text": "##### ¿Recibiré el mismo producto que veo en la foto?\nAsí es usted recibirá exactamente el mismo producto que ve en la foto publicada por cada producto.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-4": {
+        "children":[
+            "rich-text#preguntas-4"
+        ]
+    },
+    "rich-text#preguntas-4": {
+        "props": {
+            "text": "##### ¿Es posible recibir información periódica en mi e-mail con las últimas novedades y ofertas de Aldo Conti Italia?\nSí. Simplemente suscribiéndote a nuestro 'NEWSLETTER' recibirás información sobre las últimas Promociones, novedades, lookbook y eventos Aldo Conti.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-5": {
+        "children":[
+            "rich-text#preguntas-5"
+        ]
+    },
+    "rich-text#preguntas-5": {
+        "props": {
+            "text": "##### ¿Cómo puedo asegurarme de haber realizado bien mi compra?\nUna vez hecho tu pedido, recibirás un e-mail de confirmación. Si no lo recibieses, ponte en contacto con nuestro departamento de Atención al Cliente a través del siguiente numero telefónico sin costo 01 800 3980 000 o manda un correo a ecommerce@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-6": {
+        "children":[
+            "rich-text#preguntas-6"
+        ]
+    },
+    "rich-text#preguntas-6": {
+        "props": {
+            "text": "##### ¿Puedo saber en qué estado se encuentra mi pedido?\nSí. Accede al apartado 'Rastrea tu pedido' y podrá ver el estado de tu pedido en tiempo real, únicamente proporcionando tu numero de guía.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-7": {
+        "children":[
+            "rich-text#preguntas-7"
+        ]
+    },
+    "rich-text#preguntas-7": {
+        "props": {
+            "text": "##### ¿Qué debo hacer si me llega un artículo defectuoso?\nAldo Conti Italia sólo vende artículos en perfecto estado, por lo que si, excepcionalmente, te llega una prenda con algún defecto, ponte en contacto con nuestro departamento de atención a clientes marcando sin costo al 800-3980-000.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-8": {
+        "children":[
+            "rich-text#preguntas-8"
+        ]
+    },
+    "rich-text#preguntas-8": {
+        "props": {
+            "text": "##### ¿Qué debo hacer si me llega un artículo incorrecto?\nSi en alguna ocasión, por error, te llega un artículo que no has pedido, ponte en contacto con nuestro departamento de atención a clientes marcando sin costo al 800-3980-000.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-9": {
+        "children":[
+            "rich-text#preguntas-9"
+        ]
+    },
+    "rich-text#preguntas-9": {
+        "props": {
+            "text": "##### ¿Cómo puedo contactar con el departamento de Atención al Cliente?\nPuedes marcar sin costo al 01800-3980-000 o mándanos un correo a ecommerce@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-10": {
+        "children":[
+            "rich-text#preguntas-10"
+        ]
+    },
+    "rich-text#preguntas-10": {
+        "props": {
+            "text": "##### ¿Dónde puedo recibir mi pedido?\nPuedes recibirlo en la dirección que elijas (domicilio, trabajo... pero nunca en apartado de correos ni hoteles).",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-11": {
+        "children":[
+            "rich-text#preguntas-11"
+        ]
+    },
+    "rich-text#preguntas-11": {
+        "props": {
+            "text": "##### ¿Cuánto tardará en llegar mi pedido?\nLos plazos de entrega dependen de la lejanía de donde nos estés pidiendo la entrega. Nuestro centro de distribución esta ubicado en la Ciudad de México, es por esto que tu pedido estará llegando de 7 a 10 días hábiles (dependiendo el destino) después de haber recibido el correo de aprobación de tu banco.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-12": {
+        "children":[
+            "rich-text#preguntas-12"
+        ]
+    },
+    "rich-text#preguntas-12": {
+        "props": {
+            "text": "##### ¿Cuánto he de pagar de gastos de envío?\n- Si tu pedido en menor a $600 te estaremos cobrando $99 MXN por los gastos de envío.\n- Si tu pedido supera los $600 de compra tu envío es totalmente gratis.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#preguntas-13": {
+        "children":[
+            "rich-text#preguntas-13"
+        ]
+    },
+    "rich-text#preguntas-13": {
+        "props": {
+            "text": "##### ¿Cuál es el proceso de la entrega en domicilio?\nTe enviaremos un e-mail de confirmación cuando tu pago sea aprobado por tu banco, otro correo cuando tu pedido ha sido facturado, y el último cuando este mismo haya salido de nuestro almacén.",
+            "blockClass": "faqs-askme"
+        }
+    }
+}

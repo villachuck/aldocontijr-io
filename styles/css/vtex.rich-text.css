@@ -67,6 +67,25 @@
   font-weight: 700;
 }
 
+.wrapper--text-terms {
+  max-width: 50%;
+}
+
+.container--toleftthis {
+  justify-content: end;
+}
+
+.headingLevel4--text-terms {
+  margin-bottom: 0;
+  color: #000;
+  font-weight: 600;
+}
+
+.paragraph--text-terms {
+  color: #000;
+  font-size: 14px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -193,4 +212,44 @@
 .paragraph--footer {
   text-align: center;
   color: #000;
+}
+
+.wrapper--faqs-titulo {
+  width: 100%;
+}
+
+.heading--faqs-titulo {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.heading--faqs-askme {
+  color: #000;
+}
+
+.paragraph--faqs-askme,
+.listItem--faqs-askme {
+  color: #000;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper--text-terms {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .paragraph--text-terms {
+    color: #000;
+    font-size: 15px;
+  }
+
+  .headingLevel4--text-terms {
+    text-align: center;
+  }
+
+  .list--faqs-askme {
+    padding-left: 20px;
+  }
 }

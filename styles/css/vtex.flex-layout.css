@@ -321,6 +321,15 @@
   padding-bottom: 0;
 }
 
+.flexColChild--left-image {
+  text-align: end;
+}
+
+.flexRowContent--faqs-body {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width:768px) {
   .flexCol--slider-home {
     padding-right: 0;
@@ -347,5 +356,16 @@
 
   .flexRowContent--prices-on {
     justify-content: center;
+  }
+
+  .flexColChild--left-image,
+  .flexColChild--right-image {
+    text-align: center;
+  }
+
+  .flexRowContent--faqs-payment-methods .stretchChildrenWidth {
+    width: 25% !important;
+    display: inline-flex;
+    margin-bottom: 10px;
   }
 }
