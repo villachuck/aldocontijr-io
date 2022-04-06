@@ -1,0 +1,61 @@
+{
+    "store.custom#rastrea-pedido": {
+        "blocks": [
+            "flex-layout.row#rastrea-pedido"
+        ]
+    },
+    "flex-layout.row#rastrea-pedido": {
+        "children": [
+            "flex-layout.col#rastrea-pedido"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#rastrea-pedido": {
+        "children":[
+            "flex-layout.row#rastrea-pedido-titulo",
+            "flex-layout.row#rastrea-1",
+            "flex-layout.row#rastrea-2"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#rastrea-pedido-titulo": {
+        "children":[
+            "rich-text#rastrea-pedido-titulo"
+        ]
+    },
+    "rich-text#rastrea-pedido-titulo": {
+        "props": {
+            "text": "#### Rastrea tu pedido",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#rastrea-1": {
+        "children":[
+            "rich-text#rastrea-1"
+        ]
+    },
+    "rich-text#rastrea-1": {
+        "props": {
+            "text": "Para rastrear tu pedido es necesario introducir tu numero de guía proprcionado por nosotros, en ocaciones este numero de guía tarda en llegar 2 días hábiles después de haber realizado tu compra.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#rastrea-2": {
+        "children":[
+            "iframe"
+        ],
+        "props":{
+            "blockClass": "iframe-space"
+        }
+    },
+    "iframe": {
+        "props": {
+            "src": "https://rastreositecorecms.azurewebsites.net/?lang=0",
+            "height": 300
+        }
+    }
+}

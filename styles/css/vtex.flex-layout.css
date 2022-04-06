@@ -330,6 +330,19 @@
   margin: 0 auto;
 }
 
+.flexCol--whoweare-texts {
+  margin: 0 10px;
+  justify-content: space-around;
+}
+
+.flexColChild--whoweare-texts {
+  height: auto !important;
+}
+
+.flexColChild--quien-somos-img {
+  text-align: right;
+}
+
 @media screen and (max-width:768px) {
   .flexCol--slider-home {
     padding-right: 0;
@@ -367,5 +380,9 @@
     width: 25% !important;
     display: inline-flex;
     margin-bottom: 10px;
+  }
+
+  .flexColChild--quien-somos-img {
+    text-align: center;
   }
 }

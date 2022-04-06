@@ -1,0 +1,115 @@
+{
+    "store.custom#quienes-somos": {
+        "blocks": [
+            "flex-layout.row#quienes-somos"
+        ]
+    },
+    "flex-layout.row#quienes-somos": {
+        "children": [
+            "flex-layout.col#quienes-somos"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#quienes-somos": {
+        "children":[
+            "flex-layout.row#quienes-somos-titulo",
+            "flex-layout.row#quienes-somos-body"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#quienes-somos-titulo": {
+        "children":[
+            "rich-text#quienes-somos-titulo"
+        ]
+    },
+    "rich-text#quienes-somos-titulo": {
+        "props": {
+            "text": "#### Quiénes Somos",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#quienes-somos-body": {
+        "children":[
+            "flex-layout.col#quienes-somos-body",
+            "flex-layout.col#quienes-somos-img"
+        ],
+        "props":{
+            "blockClass": "split-body"
+        }
+    },
+    "flex-layout.col#quienes-somos-body": {
+        "children":[
+            "flex-layout.row#quienes-somos-1",
+            "flex-layout.row#quienes-somos-2",
+            "flex-layout.row#quienes-somos-3",
+            "flex-layout.row#quienes-somos-4"
+        ],
+        "props":{
+            "blockClass": "whoweare-texts"
+        }
+    },
+    "flex-layout.row#quienes-somos-1": {
+        "children":[
+            "rich-text#quienes-somos-1"
+        ]
+    },
+    "rich-text#quienes-somos-1": {
+        "props": {
+            "text": "Aldo Conti es una empresa mexicana de renombre internacional con mas de 30 años de historia y experiencia en incorporar tendencias de vanguardia, formalidad y elegancia al mundo del vestido.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#quienes-somos-2": {
+        "children":[
+            "rich-text#quienes-somos-2"
+        ]
+    },
+    "rich-text#quienes-somos-2": {
+        "props": {
+            "text": "Le distingue sus diseños, la calidad en materiales nacionales y de importación, lo innovador de su estilo y la gama de accesorios como cinturones, zapatos, bufandas, sombreros, carteras y relojes entre muchos otros artículos.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#quienes-somos-3": {
+        "children":[
+            "rich-text#quienes-somos-3"
+        ]
+    },
+    "rich-text#quienes-somos-3": {
+        "props": {
+            "text": "Ahora los jóvenes también pueden lucir su propio estilo, resaltando su buen gusto al vestir con la nueva línea Aldo Conti Junior nace con la idea de atacar un nuevo segmento del mercado ya que sabemos que actualmente los niños y los jóvenes en México son mucho más determinantes cuando se trata de decidir su vestimenta, por lo que este concepto de tiendas especializadas vienen a cubrir una creciente necesidad con la mejor calidad que siempre nos ha caracterizado, con el concepto de ropa casual y formal para niños y jóvenes con prendas y accesorios para el segmento de niños y jóvenes de entre 1 a 18.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#quienes-somos-4": {
+        "children":[
+            "rich-text#quienes-somos-4"
+        ]
+    },
+    "rich-text#quienes-somos-4": {
+        "props": {
+            "text": "Ahora los jóvenes también pueden lucir su propio estilo, resaltando su buen gusto al vestir con la nueva línea Aldo Conti Junior nace con la idea de atacar un nuevo segmento del mercado ya que sabemos que actualmente los niños y los jóvenes en México son mucho más determinantes cuando se trata de decidir su vestimenta, por lo que este concepto de tiendas especializadas vienen a cubrir una creciente necesidad con la mejor calidad que siempre nos ha caracterizado, con el concepto de ropa casual y formal para niños y jóvenes con prendas y accesorios para el segmento de niños y jóvenes de entre 1 a 18.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#quienes-somos-img": {
+        "children": [
+            "image#quienes-somos-img"
+        ],
+        "props":{
+            "blockClass": "quien-somos-img"
+        }
+    },
+    "image#quienes-somos-img": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_acerca-de-nosotros-derecha.jpg",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "quien-somos-img"
+        }
+    }
+}

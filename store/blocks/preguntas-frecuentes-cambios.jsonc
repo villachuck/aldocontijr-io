@@ -1,0 +1,82 @@
+{
+    "store.custom#frecuentes-cambios": {
+        "blocks": [
+            "flex-layout.row#frecuentes-cambios"
+        ]
+    },
+    "flex-layout.row#frecuentes-cambios": {
+        "children": [
+            "flex-layout.col#frecuentes-cambios"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#frecuentes-cambios": {
+        "children":[
+            "flex-layout.row#frecuentes-cambios-titulo",
+            "flex-layout.row#cambios-1",
+            "flex-layout.row#cambios-2",
+            "flex-layout.row#cambios-3",
+            "flex-layout.row#cambios-4"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#frecuentes-cambios-titulo": {
+        "children":[
+            "rich-text#frecuentes-cambios-titulo"
+        ]
+    },
+    "rich-text#frecuentes-cambios-titulo": {
+        "props": {
+            "text": "#### Cambios y devoluciones",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#cambios-1": {
+        "children":[
+            "rich-text#cambios-1"
+        ]
+    },
+    "rich-text#cambios-1": {
+        "props": {
+            "text": "##### Cambios y devoluciones en compras realizadas en la Tienda en Línea\nEn caso de que su producto no le haya quedado o lo quiera cambiar, usted puede realizar su cambio en cualquier sucursal de la república mexicana, únicamente presentando lo siguiente:\n- Las prendas en perfecto estado.\n-Las prendas con todas sus etiquetas originales.\n- Su ticket de compra.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#cambios-2": {
+        "children":[
+            "rich-text#cambios-2"
+        ]
+    },
+    "rich-text#cambios-2": {
+        "props": {
+            "text": "El plazo para cambio es de 1 mes a partir de la fecha de su ticket de compra. En compras en línea usted tiene el derecho de realizar cambios todo el año, pero en temporada de Liquidación los cambios serán exclusivamente por “Talla”. Si necesita orientación para realizar su cambio estamos a sus ordene a través del siguiente número telefónico, (55) 5241 4545 ext. 3041 de **Lunes a Viernes de 9:00 a 18:00 y Sábados de 9:00 a 14:00, o envíanos un correo a ecommerce@aldoconti-jr.com**",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#cambios-3": {
+        "children":[
+            "rich-text#cambios-3"
+        ]
+    },
+    "rich-text#cambios-3": {
+        "props": {
+            "text": "##### Cambios y devoluciones en compras realizadas en Sucursales.\nUsted puede realizar su cambio en cualquier sucursal de la república Mexicana, únicamente presentando lo siguiente:\n- Las prendas en perfecto estado.\n- Las prendas con todas sus etiquetas originales.\n- Su ticket de compra.",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#cambios-4": {
+        "children":[
+            "rich-text#cambios-4"
+        ]
+    },
+    "rich-text#cambios-4": {
+        "props": {
+        "text": "El plazo para cambio es de 1 mes a partir de la fecha de su ticket de compra.\n\nEn época de liquidación **NO HAY CAMBIOS NI DEVOLUCIONES.**\n\nEn tiendas outlet o tiendas con precios especiales **NO ACEPTAMOS CAMBIOS NI DEVOLUCIONES.**\n\nAldo Conti Italia no acepta devolución monetaria únicamente cambios, respetando los parámetros antes dichos, para cualquier duda o aclaración favor de comunicarse sin costo a nuestro departamento de atención a clientes a través del siguiente número telefónico, **800-3980-000** o envíanos un correo a ecommerce@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    }
+}

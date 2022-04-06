@@ -1,0 +1,62 @@
+{
+    "store.custom#contacto": {
+        "blocks": [
+            "flex-layout.row#contacto"
+        ]
+    },
+    "flex-layout.row#contacto": {
+        "children": [
+            "flex-layout.col#contacto"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#contacto": {
+        "children":[
+            "flex-layout.row#contacto-titulo",
+            "flex-layout.row#contacto-2",
+            "flex-layout.row#contacto-1"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#contacto-titulo": {
+        "children":[
+            "rich-text#contacto-titulo"
+        ]
+    },
+    "rich-text#contacto-titulo": {
+        "props": {
+            "text": "#### Contacto",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#contacto-1": {
+        "children":[
+            "rich-text#contacto-1"
+        ]
+    },
+    "rich-text#contacto-1": {
+        "props": {
+            "text": "Calle Norte 35 No 695 Int. 100 al 111, Colonia Coltongo Delegacion, Azcapotzalco C.P. 02630, Ciudad de Mexico.\n\nPara ventas en línea: ecommerce@aldoconti-jr.com\n\nPara servicio al cliente: ecommerce@aldoconti-jr.com\n\nTelefono: 800 3980 000",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#contacto-2": {
+        "children":[
+            "iframe#contacto"
+        ],
+        "props":{
+            "blockClass": "iframe-space"
+        }
+    },
+    "iframe#contacto": {
+        "props": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.3962270549896!2d-99.15721528775423!3d19.48158165355683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f858258d96cb:0xf05cee04aa03fde!2sNte 35 695, Coltongo, 02630 Ciudad de MÃ©xico, CDMX!5e0!3m2!1ses-419!2smx!4v1487005020370",
+            "width": "100%",
+            "height": 450
+        }
+    }
+}
