@@ -1,0 +1,103 @@
+{
+    "store.custom#ventas-corporativas": {
+        "blocks": [
+            "flex-layout.row#ventas-corporativas"
+        ]
+    },
+    "flex-layout.row#ventas-corporativas": {
+        "children": [
+            "flex-layout.col#ventas-corporativas"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#ventas-corporativas": {
+        "children":[
+            "flex-layout.row#ventas-corporativas-titulo",
+            "flex-layout.row#ventas-corporativas-body"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#ventas-corporativas-titulo": {
+        "children":[
+            "rich-text#ventas-corporativas-titulo"
+        ]
+    },
+    "rich-text#ventas-corporativas-titulo": {
+        "props": {
+            "text": "#### Ventas Corporativas",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#ventas-corporativas-body": {
+        "children":[
+            "flex-layout.col#ventas-corporativas-body",
+            "flex-layout.col#ventas-corporativas-img"
+        ],
+        "props":{
+            "blockClass": "split-body"
+        }
+    },
+    "flex-layout.col#ventas-corporativas-body": {
+        "children":[
+            "flex-layout.row#ventas-corporativas-1",
+            "flex-layout.row#ventas-corporativas-2",
+            "flex-layout.row#ventas-corporativas-3"
+        ],
+        "props":{
+            "blockClass": "whoweare-texts"
+        }
+    },
+    "flex-layout.row#ventas-corporativas-1": {
+        "children":[
+            "rich-text#ventas-corporativas-1"
+        ]
+    },
+    "rich-text#ventas-corporativas-1": {
+        "props": {
+            "text": "##### Convenio de Crédito\nAldo Conti ofrece excelentes oportunidades comerciales a Empresas y beneficios a sus empleados. Nos sentimos orgullosos de contribuir a la imagen corporativa de nuestros clientes, que han confiado año con año en el diseño y desarrollo de nuevos modelos cada temporada. En nuestra fábrica contamos con el mejor equipo de colaboradores especializados en el arte de la confección y fabricación de uniformes corporativos. Contamos con ejecutivos de ventas altamente especializados para toda la República Mexicana, para asesorar a nuestros clientes, negocio y/o empresa. Contáctenos. Para que usted pueda recibir una atención personalizada, Ventas Corporativas pone a su disposición el siguiente teléfono, o si lo prefiriere, envíenos su información a través de nuestro e-mail, usted será atendido de inmediato: ecommerce@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#ventas-corporativas-2": {
+        "children":[
+            "rich-text#ventas-corporativas-2"
+        ]
+    },
+    "rich-text#ventas-corporativas-2": {
+        "props": {
+            "text": "##### Convenio de Crédito\nCuenta con un descuento especial permanente y está diseñado para aquellas empresas que otorgan beneficios a sus empleados, a través de descuentos vía nómina. Contáctanos enviando un mail a: ecommerce@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#ventas-corporativas-3": {
+        "children":[
+            "rich-text#ventas-corporativas-3"
+        ]
+    },
+    "rich-text#ventas-corporativas-3": {
+        "props": {
+            "text": "##### Uniformes\nAldo Conti, se especializa desde hace mucho tiempo en uniformes, dando la mejor calidad, siempre puntuales y excelente precio, para continuar, fabricando uniformes según los requerimientos e imagen de tu empresa, se requiere una venta para más de 50 empleados. Contáctanos enviando un mail a: ecommerce@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#ventas-corporativas-img": {
+        "children": [
+            "image#ventas-corporativas-img"
+        ],
+        "props":{
+            "blockClass": "quien-somos-img"
+        }
+    },
+    "image#ventas-corporativas-img": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_ventas-corporativas-derecha.jpg",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "quien-somos-img"
+        }
+    }
+}

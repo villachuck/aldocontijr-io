@@ -1,0 +1,197 @@
+{
+    "store.custom#nuestras-marcas": {
+        "blocks": [
+            "flex-layout.row#nuestras-marcas"
+        ]
+    },
+    "flex-layout.row#nuestras-marcas": {
+        "children": [
+            "flex-layout.col#nuestras-marcas"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#nuestras-marcas": {
+        "children":[
+            "flex-layout.row#nuestras-marcas-titulo",
+            "flex-layout.row#marcas-1",
+            "flex-layout.row#marcas-2",
+            "flex-layout.row#marcas-3",
+            "flex-layout.row#marcas-4"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#nuestras-marcas-titulo": {
+        "children":[
+            "rich-text#nuestras-marcas-titulo"
+        ]
+    },
+    "rich-text#nuestras-marcas-titulo": {
+        "props": {
+            "text": "#### Nuestras Marcas",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#marcas-1": {
+        "children": [
+            "image#marcas-1"
+        ]
+    },
+    "image#marcas-1": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_marca-aldo-conti.jpg",
+            "maxHeight": 600
+        }
+    },
+    "flex-layout.row#marcas-2": {
+        "children":[
+            "flex-layout.col#imagen-2",
+            "flex-layout.col#imagen-3",
+            "flex-layout.col#imagen-4",
+            "flex-layout.col#imagen-5"
+        ],
+        "props": {
+            "blockClass": "marcas-imgs"
+        }
+    },
+    "flex-layout.col#imagen-2": {
+        "children":[
+            "image#marcas-2"
+        ],
+        "props":{
+            "blockClass": "marcas-imgs"
+        }
+    },
+    "image#marcas-2": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_marca-aldo-conti-arezzo.jpg",
+            "maxHeight": 200
+        }
+    },
+    "flex-layout.col#imagen-3": {
+        "children":[
+            "image#marcas-3"
+        ],
+        "props":{
+            "blockClass": "marcas-imgs"
+        }
+    },
+    "image#marcas-3": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_marca-aldo-conti-argento.jpg",
+            "maxHeight": 200
+        }
+    },
+    "flex-layout.col#imagen-4": {
+        "children":[
+            "image#marcas-4"
+        ],
+        "props":{
+            "blockClass": "marcas-imgs"
+        }
+    },
+    "image#marcas-4": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_marca-aldo-conti-argento-by-aldo-conti.jpg",
+            "maxHeight": 200
+        }
+    },
+    "flex-layout.col#imagen-5": {
+        "children":[
+            "image#marcas-5"
+        ],
+        "props":{
+            "blockClass": "marcas-imgs"
+        }
+    },
+    "image#marcas-5": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_marca-aldo-conti-cadini.jpg",
+            "maxHeight": 200
+        }
+    },
+    "flex-layout.row#marcas-3": {
+        "children":[
+            "flex-layout.col#imagen-6",
+            "flex-layout.col#imagen-7",
+            "flex-layout.col#imagen-8",
+            "flex-layout.col#imagen-9"
+        ],
+        "props": {
+            "blockClass": "marcas-imgs"
+        }
+    },
+    "flex-layout.col#imagen-6": {
+        "children":[
+            "image#marcas-6"
+        ],
+        "props":{
+            "blockClass": "marcas-imgs"
+        }
+    },
+    "image#marcas-6": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_marca-aldo-conti-lexus.jpg",
+            "maxHeight": 200
+        }
+    },
+    "flex-layout.col#imagen-7": {
+        "children":[
+            "image#marcas-7"
+        ],
+        "props":{
+            "blockClass": "marcas-imgs"
+        }
+    },
+    "image#marcas-7": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_marca-aldo-conti-qubo.jpg",
+            "maxHeight": 200
+        }
+    },
+    "flex-layout.col#imagen-8": {
+        "children":[
+            "image#marcas-8"
+        ],
+        "props":{
+            "blockClass": "marcas-imgs"
+        }
+    },
+    "image#marcas-8": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_marca-aldo-conti-slim-fit.jpg",
+            "maxHeight": 200
+        }
+    },
+    "flex-layout.col#imagen-9": {
+        "children":[
+            "image#marcas-9"
+        ],
+        "props":{
+            "blockClass": "marcas-imgs"
+        }
+    },
+    "image#marcas-9": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_marca-aldo-conti-vasanti.jpg",
+            "maxHeight": 200
+        }
+    },
+    "flex-layout.row#marcas-4": {
+        "children": [
+            "image#marcas-10"
+        ],
+        "props":{
+            "blockClass": "img-onleft"
+        }
+    },
+    "image#marcas-10": {
+        "props": {
+            "src": "https://www.aldoconti-jr.com/arquivos/images_marca-aldo-conti-vermonti.jpg",
+            "maxHeight": 200
+        }
+    }
+}

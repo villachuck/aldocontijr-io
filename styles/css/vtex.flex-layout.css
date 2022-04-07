@@ -343,6 +343,10 @@
   text-align: right;
 }
 
+.flexColChild--marcas-imgs {
+  text-align: center;
+}
+
 @media screen and (max-width:768px) {
   .flexCol--slider-home {
     padding-right: 0;
@@ -384,5 +388,10 @@
 
   .flexColChild--quien-somos-img {
     text-align: center;
+  }
+
+  .flexRowContent--marcas-imgs .stretchChildrenWidth {
+    width: 50% !important;
+    display: inline-block;
   }
 }

@@ -28,5 +28,11 @@
   },
   "store.custom#contacto": {
     "path": "/contacto"
+  },
+  "store.custom#nuestras-marcas": {
+    "path": "/nuestras-marcas"
+  },
+  "store.custom#ventas-corporativas": {
+    "path": "/ventas-corporativas"
   }
 }
