@@ -1,0 +1,562 @@
+{
+    "store.custom#sucursales": {
+        "blocks": [
+            "flex-layout.row#sucursales"
+        ]
+    },
+    "flex-layout.row#sucursales": {
+        "children": [
+            "flex-layout.col#sucursales"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#sucursales": {
+        "children":[
+            "flex-layout.row#sucursales-titulo",
+            "flex-layout.row#sucursales-subtitle-1",
+            "flex-layout.row#sucursales-1",
+            "flex-layout.row#sucursales-2",
+            "flex-layout.row#sucursales-3",
+            "flex-layout.row#sucursales-subtitle-2",
+            "flex-layout.row#sucursales-4",
+            "flex-layout.row#sucursales-5",
+            "flex-layout.row#sucursales-6",
+            "flex-layout.row#sucursales-7",
+            "flex-layout.row#sucursales-subtitle-3",
+            "flex-layout.row#sucursales-8",
+            "flex-layout.row#sucursales-subtitle-4",
+            "flex-layout.row#sucursales-9",
+            "flex-layout.row#sucursales-subtitle-5",
+            "flex-layout.row#sucursales-10",
+            "flex-layout.row#sucursales-subtitle-6",
+            "flex-layout.row#sucursales-11",
+            "flex-layout.row#sucursales-subtitle-7",
+            "flex-layout.row#sucursales-12"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#sucursales-titulo": {
+        "children":[
+            "rich-text#sucursales-titulo"
+        ]
+    },
+    "rich-text#sucursales-titulo": {
+        "props": {
+            "text": "#### Sucursales",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#sucursales-subtitle-1": {
+        "children":[
+            "rich-text#sucursales-subtitle-1"
+        ]
+    },
+    "rich-text#sucursales-subtitle-1": {
+        "props": {
+            "text": "##### **Ciudad de México**",
+            "blockClass": "faqs-subtitle"
+        }
+    },
+    "flex-layout.row#sucursales-1": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-1",
+            "flex-layout.col#sucursales-bloque-2",
+            "flex-layout.col#sucursales-bloque-3"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-1": {
+        "children":[
+            "rich-text#sucursales-bloque-1"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-1": {
+        "props": {
+            "text": "**20 de Noviembre**\nDirección: 20 de noviembre #133 Local A y B, Colonia Centro, Ciudad de México, C.P. 06000\nTeléfono: 57-09-14-01\nMail: 20denoviembre@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-2": {
+        "children":[
+            "rich-text#sucursales-bloque-2"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-2": {
+        "props": {
+            "text": "**Centro Comercial Paseo Acoxpa**\nDirección: Calz. Acoxpa #430 Local 108 Primer nivel, Colonia Ex-Hacienda Coapa, Ciudad de México, C.P. 14300\nTeléfono: 51-60-68-83",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-3": {
+        "children":[
+            "rich-text#sucursales-bloque-3"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-3": {
+        "props": {
+            "text": "**El Rosario**\nDirección: Avenida El Rosario 1025, Local P-04b. El Rosario, Ciudad de México, C.P. 02100\nTeléfono: 55-57-64-47",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#sucursales-2": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-4",
+            "flex-layout.col#sucursales-bloque-5",
+            "flex-layout.col#sucursales-bloque-6"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-4": {
+        "children":[
+            "rich-text#sucursales-bloque-4"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-4": {
+        "props": {
+            "text": "**Plaza Tepeyac**\nDirección: Calzada de Guadalupe #431 Local L-55, Colonia Guadalupe Tepeyac, Ciudad de México C.P. 07840\nTeléfono: 55-17-56-35\nMail: tepeyac@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-5": {
+        "children":[
+            "rich-text#sucursales-bloque-5"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-5": {
+        "props": {
+            "text": "**Centro Comercial Pabellón Polanco**\nDirección: Ejercito Nacional #980 Local L-213, Colonia Chapultepec Morales, Ciudad de México, C.P. 11510\nTeléfono: 55-57-64-47",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-6": {
+        "children":[
+            "rich-text#sucursales-bloque-6"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-6": {
+        "props": {
+            "text": "**Plaza Universidad**\nDirección: Av. Universidad #1000 Local L-188, Colonia Santa Cruz Atoyac, Ciudad de México. C.P. 03310\nTeléfono: 56-04-45-48\nMail: universidad@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#sucursales-3": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-7",
+            "flex-layout.col#sucursales-bloque-8",
+            "flex-layout.col#sucursales-bloque-9"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-7": {
+        "children":[
+            "rich-text#sucursales-bloque-7"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-7": {
+        "props": {
+            "text": "**Centro Comercial Santa Fe**\nDirección: Av. Vasco de Quiroga #3800, LOCAL L-682, Colonia Santa Fe, Ciudad de México C.P. 05109\nTeléfono: 55-70-58-71",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-8": {
+        "children":[
+            "rich-text#sucursales-bloque-8"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-8": {
+        "props": {
+            "text": "**Outlet Tacuba**\nDirección: Calle Tacuba No. 69 Local â€œAâ€ Col. Centro, Ciudad de MÃ©xico, MÃ©xico C.P. 06000",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-9": {},
+    "flex-layout.row#sucursales-subtitle-2": {
+        "children":[
+            "rich-text#sucursales-subtitle-2"
+        ]
+    },
+    "rich-text#sucursales-subtitle-2": {
+        "props": {
+            "text": "##### **Estado de México**",
+            "blockClass": "faqs-subtitle"
+        }
+    },
+    "flex-layout.row#sucursales-4": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-10",
+            "flex-layout.col#sucursales-bloque-11",
+            "flex-layout.col#sucursales-bloque-12"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-10": {
+        "children":[
+            "rich-text#sucursales-bloque-10"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-10": {
+        "props": {
+            "text": "**Multiplaza Aragón**\nDirección: Av. Hank González #120 Local L-59A, Colonia Rinconada de Aragón, Estado de México C.P. 55140\nTeléfono: 24-59-23-47",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-11": {
+        "children":[
+            "rich-text#sucursales-bloque-11"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-11": {
+        "props": {
+            "text": "**Multiplaza Aragón**\nDirección: Av. Hank González #120 Local L-59A, Colonia Rinconada de Aragón, Estado de México C.P. 55140\nTeléfono: 24-59-23-47",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-12": {
+        "children":[
+            "rich-text#sucursales-bloque-12"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-12": {
+        "props": {
+            "text": "**Galerias Perinorte**\nDirección: Hacienda del Parque Local 127A, Cuautitlánn Izcalli Estado de Mexico, C.P. 54769\nTeléfono: 58-93-97-68\nMail: perinorte@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#sucursales-5": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-13",
+            "flex-layout.col#sucursales-bloque-14",
+            "flex-layout.col#sucursales-bloque-15"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-13": {
+        "children":[
+            "rich-text#sucursales-bloque-13"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-13": {
+        "props": {
+            "text": "**Ixtapaluca**\nDirección: Carretera Federal México-Cuautla Km. 37, Col. Sta. Bárbara, Estado de México, C.P. 56538\nTeléfono: 25-96-94-33\nMail: ixtapaluca@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-14": {
+        "children":[
+            "rich-text#sucursales-bloque-14"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-14": {
+        "props": {
+            "text": "**Lerma**\nDirección: Carretera México - Toluca Km. 50 S/N Local L-41, Lerma, Estado de México, C.P. 52000\nTeléfono: 728-284-53-57\nMail: lerma@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-15": {
+        "children":[
+            "rich-text#sucursales-bloque-15"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-15": {
+        "props": {
+            "text": "**Plaza Sendero Toluca**\nDirección: Blvd. Aeropuerto Miguel Alemán No. 55 Local 09A, Zona D, Col. Parque Industrial Lerma, Estado de México, C.P. 52000\nTeléfono: 722-317-31-66",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#sucursales-6": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-16",
+            "flex-layout.col#sucursales-bloque-17",
+            "flex-layout.col#sucursales-bloque-18"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-16": {
+        "children":[
+            "rich-text#sucursales-bloque-16"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-16": {
+        "props": {
+            "text": "**Centro Comercial Mundo E**\nDirección: Blvd. Manuel Avila Camacho No. 1007 local 58, Col. San Lucas Tepetlacalco - Tlalnepantla, Estado de México, C.P. 54055",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-17": {
+        "children":[
+            "rich-text#sucursales-bloque-17"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-17": {
+        "props": {
+            "text": "**Plaza Ciudad Jardín Neza**\nDirección: Av. Bordo De Xochiaca No. 3, Ciudad Jardin Bicentenario, Nezahualcóyotl, C.P. 57205\nTeléfono: 55-50-85-16-29\nMail: cd_jardin@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-18": {
+        "children":[
+            "rich-text#sucursales-bloque-18"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-18": {
+        "props": {
+            "text": "**Tecámac Power Center**\nDirección: Carretera México-Pachuca, KM. 36.5, M2 Int Locales M02 Y M04, Col. Hueyotenco, Tecámac, C.P. 55749\nTeléfono: 55-13-83-87-88\nMail: tecamac@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.row#sucursales-7": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-19",
+            "flex-layout.col#sucursales-bloque-20",
+            "flex-layout.col#sucursales-bloque-21"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-19": {
+        "children":[
+            "rich-text#sucursales-bloque-19"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-19": {
+        "props": {
+            "text": "**Las Américas Ecatepec**\nDirección: Av. Central S/N Local 48 A, Fraccionamiento Las Américas, Ecatepec, Edo. de Mex. C.P. 55070\nTeléfono: 55-24-86-48-46\nMail: lasamericas@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-20": {
+        "children":[
+            "rich-text#sucursales-bloque-20"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-20": {
+        "props": {
+            "text": "**Parque Tezontle**\nDirección: Avenida Canal de Tezontle No 1512 Col. Alfonso Ortiz tirado Del. Iztapalapa México, D.F. Local 104 B. C.P. 09020\nTeléfono: 55-91-37-16-01\nMail: parquetezontle@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-21": {},
+    "flex-layout.row#sucursales-subtitle-3": {
+        "children":[
+            "rich-text#sucursales-subtitle-3"
+        ]
+    },
+    "rich-text#sucursales-subtitle-3": {
+        "props": {
+            "text": "##### **Cuernavaca**",
+            "blockClass": "faqs-subtitle"
+        }
+    },
+    "flex-layout.row#sucursales-8": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-22",
+            "flex-layout.col#sucursales-bloque-23",
+            "flex-layout.col#sucursales-bloque-24"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-22": {
+        "children":[
+            "rich-text#sucursales-bloque-22"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-22": {
+        "props": {
+            "text": "**Plaza Cuernavaca**\nDirección: Vicente Guerrero #110 Local L-C3, Col. Lomas de la Selva Cuernavaca, Morelos, C.P. 62270\nTeléfono: 777-314-07-84\nMail: cuernavaca@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-23": {},
+    "flex-layout.col#sucursales-bloque-24": {},
+    "flex-layout.row#sucursales-subtitle-4": {
+        "children":[
+            "rich-text#sucursales-subtitle-4"
+        ]
+    },
+    "rich-text#sucursales-subtitle-4": {
+        "props": {
+            "text": "##### **Durango**",
+            "blockClass": "faqs-subtitle"
+        }
+    },
+    "flex-layout.row#sucursales-9": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-25",
+            "flex-layout.col#sucursales-bloque-26",
+            "flex-layout.col#sucursales-bloque-27"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-25": {
+        "children":[
+            "rich-text#sucursales-bloque-25"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-25": {
+        "props": {
+            "text": "**Durango**\nDirección: Av. 20 de Noviembre #700 1er piso, Entre constitución y Esq. Bruno Martínez, C.P. 34000\nTeléfono: 618-828-83-47\nMail: durango@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-26": {},
+    "flex-layout.col#sucursales-bloque-27": {},
+    "flex-layout.row#sucursales-subtitle-5": {
+        "children":[
+            "rich-text#sucursales-subtitle-5"
+        ]
+    },
+    "rich-text#sucursales-subtitle-5": {
+        "props": {
+            "text": "##### **Guadalajara**",
+            "blockClass": "faqs-subtitle"
+        }
+    },
+    "flex-layout.row#sucursales-10": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-28",
+            "flex-layout.col#sucursales-bloque-29",
+            "flex-layout.col#sucursales-bloque-30"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-28": {
+        "children":[
+            "rich-text#sucursales-bloque-28"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-28": {
+        "props": {
+            "text": "**Guadalajara**\nDirección: Av Juárez 351 2do. nivel, Zona Centro, Guadalajara Jalisco C.P. 44100\nTeléfono: 333-613-72-40\nMail: guadalajara.centro@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-29": {},
+    "flex-layout.col#sucursales-bloque-30": {},
+    "flex-layout.row#sucursales-subtitle-6": {
+        "children":[
+            "rich-text#sucursales-subtitle-6"
+        ]
+    },
+    "rich-text#sucursales-subtitle-6": {
+        "props": {
+            "text": "##### **Pachuca**",
+            "blockClass": "faqs-subtitle"
+        }
+    },
+    "flex-layout.row#sucursales-11": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-31",
+            "flex-layout.col#sucursales-bloque-32",
+            "flex-layout.col#sucursales-bloque-33"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-31": {
+        "children":[
+            "rich-text#sucursales-bloque-31"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-31": {
+        "props": {
+            "text": "**Galerías Pachuca**\nDirección: Camino Real de la Plata 102, Local 204 B, Zona Plateada, Pachuca de Soto, Hgo. C.P. 42083\nTeléfono: 771-489-22-97",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-32": {},
+    "flex-layout.col#sucursales-bloque-33": {},
+    "flex-layout.row#sucursales-subtitle-7": {
+        "children":[
+            "rich-text#sucursales-subtitle-7"
+        ]
+    },
+    "rich-text#sucursales-subtitle-7": {
+        "props": {
+            "text": "##### **Puebla**",
+            "blockClass": "faqs-subtitle"
+        }
+    },
+    "flex-layout.row#sucursales-12": {
+        "children":[
+            "flex-layout.col#sucursales-bloque-34",
+            "flex-layout.col#sucursales-bloque-35",
+            "flex-layout.col#sucursales-bloque-36"
+        ]
+    },
+    "flex-layout.col#sucursales-bloque-34": {
+        "children":[
+            "rich-text#sucursales-bloque-34"
+        ],
+        "props": {
+            "blockClass": "sucursales-separator"
+        }
+    },
+    "rich-text#sucursales-bloque-34": {
+        "props": {
+            "text": "**Galerías Serdan Puebla**\nDirección: Boulevard Hermanos Serdan 270, Local 256, Rancho Posadas C.P. 72060\nTeléfono: 222-263-97-88\nMail: pueblaserdan@aldoconti-jr.com",
+            "blockClass": "faqs-askme"
+        }
+    },
+    "flex-layout.col#sucursales-bloque-35": {},
+    "flex-layout.col#sucursales-bloque-36": {}
+}

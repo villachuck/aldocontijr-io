@@ -234,6 +234,20 @@
   font-size: 15px;
 }
 
+.wrapper--faqs-subtitle {
+  width: 100%;
+}
+
+.heading--faqs-subtitle {
+  color: #000;
+  background: #E8E9A1;
+  padding: 10px;
+}
+
+.paragraph--justify-askme {
+  text-align: justify;
+}
+
 @media screen and (max-width: 768px) {
   .wrapper--text-terms {
     width: 100%;

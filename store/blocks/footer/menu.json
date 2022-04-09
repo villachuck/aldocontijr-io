@@ -28,7 +28,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/como-comprar",
         "noFollow": false,
         "tagTitle": "¿Cómo comprar?",
         "text": "¿Cómo comprar?"
@@ -44,7 +44,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/preguntas-frecuentes",
         "noFollow": false,
         "tagTitle": "Preguntas frecuentes",
         "text": "Preguntas frecuentes"
@@ -60,7 +60,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/preguntas-frecuentes-pagos",
         "noFollow": false,
         "tagTitle": "Pagos",
         "text": "Pagos"
@@ -76,7 +76,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/preguntas-frecuentes-envios",
         "noFollow": false,
         "tagTitle": "Envío",
         "text": "Envío"
@@ -92,7 +92,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/preguntas-frecuentes-cambios",
         "noFollow": false,
         "tagTitle": "Cambios y devoluciones",
         "text": "Cambios y devoluciones"
@@ -108,7 +108,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/rastrea-tu-pedido",
         "noFollow": false,
         "tagTitle": "Rastrea tu pedido",
         "text": "Rastrea tu pedido"
@@ -124,7 +124,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/facturacion",
         "noFollow": false,
         "tagTitle": "Facturación",
         "text": "Facturación"
@@ -161,7 +161,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/quienes-somos",
         "noFollow": true,
         "tagTitle": "¿Quiénes somos?",
         "text": "¿Quiénes somos?"
@@ -177,7 +177,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/contacto",
         "noFollow": false,
         "tagTitle": "Contacto",
         "text": "Contacto"
@@ -193,7 +193,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nuestras-marcas",
         "noFollow": false,
         "tagTitle": "Nuestras marcas",
         "text": "Nuestras marcas"
@@ -225,7 +225,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/ventas-corporativas",
         "noFollow": false,
         "tagTitle": "Ventas corporativas",
         "text": "Ventas corporativas"
@@ -241,7 +241,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/sucursales",
         "noFollow": false,
         "tagTitle": "Sucursales",
         "text": "Sucursales"
@@ -261,9 +261,7 @@
       "menu-item#candidatos",
       "menu-item#politica-compra",
       "menu-item#tyc",
-      "menu-item#aviso-de-privacidad",
-      "menu-item#promo-tu-escoges",
-      "menu-item#tyc-promociones"
+      "menu-item#aviso-de-privacidad"
     ]
   },
   "rich-text#politicas": {
@@ -280,7 +278,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/politicas-de-privacidad",
         "noFollow": true,
         "tagTitle": "Políticas de privacidad",
         "text": "Políticas de privacidad"
@@ -296,7 +294,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/politicas-de-cookies",
         "noFollow": true,
         "tagTitle": "Políticas de cookies",
         "text": "Políticas de cookies"
@@ -312,7 +310,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/politicas-de-candidatos",
         "noFollow": true,
         "tagTitle": "Políticas de candidatos",
         "text": "Políticas de candidatos"
@@ -328,7 +326,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/politicas-de-compra",
         "noFollow": true,
         "tagTitle": "Políticas de compra",
         "text": "Políticas de compra"
@@ -344,7 +342,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terminos-y-condiciones",
         "noFollow": true,
         "tagTitle": "Términos y condiciones",
         "text": "Términos y condiciones"
@@ -360,42 +358,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/aviso-de-privacidad",
         "noFollow": true,
         "tagTitle": "Aviso de privacidad",
         "text": "Aviso de privacidad"
-      },
-      "blockClass": "list-footer"
-    }
-  },
-  "menu-item#promo-tu-escoges": {
-    "props": {
-      "id": "menu-item-promo-tu-escoges",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Términos y condiciones promoción 'Tú escoges'",
-        "text": "Términos y condiciones promoción 'Tú escoges'"
-      },
-      "blockClass": "list-footer"
-    }
-  },
-  "menu-item#tyc-promociones": {
-    "props": {
-      "id": "menu-item-tyc-promociones",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Términos y condiciones promocionales",
-        "text": "Términos y condiciones promocionales"
       },
       "blockClass": "list-footer"
     }

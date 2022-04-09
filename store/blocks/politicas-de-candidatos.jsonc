@@ -1,0 +1,190 @@
+{
+    "store.custom#politicas-candidatos": {
+        "blocks": [
+            "flex-layout.row#politicas-candidatos"
+        ]
+    },
+    "flex-layout.row#politicas-candidatos": {
+        "children": [
+            "flex-layout.col#politicas-candidatos"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#politicas-candidatos": {
+        "children":[
+            "flex-layout.row#politicas-candidatos-titulo",
+            "flex-layout.row#candidatos-1",
+            "flex-layout.row#candidatos-2",
+            "flex-layout.row#candidatos-3",
+            "flex-layout.row#candidatos-4",
+            "flex-layout.row#candidatos-5",
+            "flex-layout.row#candidatos-6",
+            "flex-layout.row#candidatos-7",
+            "flex-layout.row#candidatos-8",
+            "flex-layout.row#candidatos-9",
+            "flex-layout.row#candidatos-10",
+            "flex-layout.row#candidatos-11",
+            "flex-layout.row#candidatos-12",
+            "flex-layout.row#candidatos-13"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#politicas-candidatos-titulo": {
+        "children":[
+            "rich-text#politicas-candidatos-titulo"
+        ]
+    },
+    "rich-text#politicas-candidatos-titulo": {
+        "props": {
+            "text": "#### Políticas de Candidatos",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#candidatos-1": {
+        "children":[
+            "rich-text#candidatos-1"
+        ]
+    },
+    "rich-text#candidatos-1": {
+        "props": {
+            "text": "27 MICRAS INTERNACIONAL, S.A. de C.V. (comercialmente conocido como 'ALDO CONTI') reconoce que nos estás proporcionando tus datos de contacto, así como tus datos laborales y académicos que aparecen en tu CV. Nuestro compromiso es tratar estos datos únicamente para los fines de promoción laboral propios de este sitio, así como para ofrecerte promociones comerciales de bienes o servicios propios o de terceros que consideramos que pueden ser de tu interés. Antes de que nos proporciones cualquier información, deberás de leer y comprender los términos de este Aviso de Privacidad, manifestando expresamente su consentimiento al Aceptar los mismos.\n\nA continuación, el texto integral del Aviso de Privacidad:",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-2": {
+        "children":[
+            "rich-text#candidatos-2"
+        ]
+    },
+    "rich-text#candidatos-2": {
+        "props": {
+            "text": "**I. DE LA IDENTIDAD Y DOMICILIO DEL RESPONSABLE.** Este documento es el AVISO DE PRIVACIDAD de 27 MICRAS INTERNACIONAL, S.A. de C.V. (el 'Responsable'), quien será el encargado de tratar los datos personales que usted (el 'Titular') nos proporcione. Para los efectos señalados en el presente Aviso de Privacidad, el Responsable señala como su domicilio el ubicado en Calle Norte 35 No. 695, Interior 100 al 111, Colonia Coltongo, Alcaldía Azcapotzalco, Ciudad de México, C.P. 02630.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-3": {
+        "children":[
+            "rich-text#candidatos-3"
+        ]
+    },
+    "rich-text#candidatos-3": {
+        "props": {
+            "text": "**II. DE LOS DATOS PERSONALES QUE SERÁN SOMETIDOS A TRATAMIENTO.** Los datos personales que el Titular proporcione a través del llenado y remisión electrónica de formularios contenidos en el sitio web y que serán sometidos a tratamiento son: (i) nombre(s), apellido paterno y apellido materno; (ii) domicilio; (iii) correo electrónico; (iv) número de teléfono, celular y/o fax; (v) fotografía; (vi) información sobre grados académicos (vii) lo relativo a historial académico y laboral (empleos anteriores); (viii) y datos relativos a interés en puestos de trabajo; (ix) aptitudes y capacidades; y (x) pretensiones laborales (incluyendo sueldo) (los 'Datos'), (x) número de identificación oficial, clave del Registro Federal de Contribuyentes (RFC) y Clave Única de Registro de Población (CURP), (xi) manejo de idiomas, conocimientos y habilidades, (xii) teléfono del patrón actual y/o anteriores; puesto y funciones del trabajo actual y/o anteriores; nombre y puesto del jefe inmediato actual y/o anteriores; (xiii) fecha de ingreso y salida del o los trabajos anteriores; sueldo inicial y final del o los trabajos anteriores; motivo de salida del o los trabajos anteriores; y número de seguridad social (xiv) Datos patrimoniales: créditos contratados con entidades gubernamentales (INFONAVIT).",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-4": {
+        "children":[
+            "rich-text#candidatos-4"
+        ]
+    },
+    "rich-text#candidatos-4": {
+        "props": {
+            "text": "**III. DE LOS DATOS PERSONALES SENSIBLES.** El Responsable no solicitará en forma alguna, y el Titular no proporcionará en ningún momento al Responsable, 'datos personales sensibles', es decir, aquellos datos personales íntimos o cuya utilización indebida pueda dar origen a discriminación o conlleve un riesgo grave para el Titular. El Titular se obliga a no proporcionar al Responsable ninguna información relativa a su origen racial o étnico, estado de salud presente y/o futuro, información genética, creencias religiosas, filosóficas y/o morales, afiliación sindical, opiniones políticas y/o preferencia sexual. En caso de que el Titular proporcione datos sensibles a través de documentos subidos al sitio web, o por medio de los formularios, acepta y consiente que los mismos sean tratados conforme a los términos y condiciones del sitio web y a su AVISO DE PRIVACIDAD, siendo obligación del Titular no proporcionar este tipo de datos en la información que sea subida al sitio web.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-5": {
+        "children":[
+            "rich-text#candidatos-5"
+        ]
+    },
+    "rich-text#candidatos-5": {
+        "props": {
+            "text": "**IV. DE LOS DATOS FINANCIEROS.** El Responsable recaba datos financieros que resultan necesarios para efectos de pago de nuestros bienes y/o servicios con cargo a tarjeta de crédito. Entre estos datos se encuentran: (i) Tipo de tarjeta; (ii) Número de tarjeta; (iii) Código de verificación de tarjeta; (iv) Información de contacto; y (v) Datos de facturación.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-6": {
+        "children":[
+            "rich-text#candidatos-6"
+        ]
+    },
+    "rich-text#candidatos-6": {
+        "props": {
+            "text": "**V. DEL USO A SUS DATOS.** Sus Datos serán tratados para las siguientes finalidades:\n\n-**Finalidad Primaria: Prestación de servicios a través de su sitio de internet para proporcionar una plataforma para la publicación de ofertas de trabajo y búsqueda de empleo por terceros**, incluyendo: (i) Promoción de oferta laboral frente a terceros; (ii) Procesos de contratación laboral o de prestación de servicios independientes frente a terceros; (iii)Entrega de referencias en caso de que otra persona o empresa solicite informes sobre posibles candidatos a un puesto, trabajo, cargo o comisión; (iv) Para publicarlos para posibles reclutadores.\n\n-**Finalidad Secundaria: Mejora del proceso comercial y de mercadotecnia así como participación en asistencia social**, utilizando la información para: (i) La compra de bienes o servicios; (ii) Procurar un servicio eficiente y proveer una mejor atención al Titular, así como para mejorar su experiencia en el uso de ciertos productos y/o servicios; (iii) Enviarle y presentarle bienes y/o servicios que puedan resultar relevantes o atractivos, incluyendo su participación en promociones, encuestas, ofertas y campañas de publicidad, propias o de terceros; (iv) Informar sobre cambios o nuevos productos o servicios que consideramos puedan ser de su interés; (v) Dar cumplimiento a obligaciones legales; (vi) Evaluar la calidad del servicio o realizar estudios internos sobre hábitos de consumo;",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-7": {
+        "children":[
+            "rich-text#candidatos-7"
+        ]
+    },
+    "rich-text#candidatos-7": {
+        "props": {
+            "text": "**VI. DEL TRATAMIENTO DE LOS DATOS Y SU NEGATIVA.** Para poder cumplir con las finalidades de este AVISO DE PRIVACIDAD, así como para poder tratar los Datos, es posible que el Responsable entregue todo o parte de los Datos a terceras personas, las que podrán ser físicas o morales, nacionales o extranjeras, empresas filiales o subsidiarias, incluyendo proveedores de bienes o servicios, que requieran conocer esta información, Los terceros receptores, podrán ser, de forma enunciativa, más no limitativa, empresas industriales, comerciales y/o de servicios.\n\nEl Titular no deberá añadir datos personales no requeridos o diferentes a aquellos solicitados por el Responsable en los campos designados para ello, ya que cualquier conducta contraria no garantiza la confidencialidad de dicha información.\n\nA efecto de que el Titular pueda manifestar su negativa o revocar el consentimiento para el tratamiento de sus datos personales, deberá dirigirse al Responsable por medio del procedimiento establecido para el ejercicio de los Derechos ARCO (cuyo término se define más adelante), señalado en la Sección VII del presente Aviso de Privacidad.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-8": {
+        "children":[
+            "rich-text#candidatos-8"
+        ]
+    },
+    "rich-text#candidatos-8": {
+        "props": {
+            "text": "**VII. DEL EJERCICIO DE LOS DERECHOS ARCO.** El Titular tendrá derecho para solicitar al Responsable en cualquier momento el acceso, rectificación, cancelación u oposición respecto de sus Datos (los **'Derechos ARCO'**), para lo cual deberá enviar una solicitud al Responsable, a la atención del área de Recursos Humanos, a la siguiente dirección de correo electrónico: reclutamiento@aycss.com\n\nLa solicitud para ejercer los Derechos ARCO, o para revocar el consentimiento al tratamiento de los datos personales, deberá contener y estar acompañada de lo siguiente: (i) el nombre, apellido paterno y materno del Titular; (ii) su domicilio y/o correo electrónico y/o cualquier otro medio para comunicarle la respuesta a su solicitud; (iii) los documentos oficiales que acrediten la identidad o, en su caso, la representación legal del Titular; (iv) la descripción clara y precisa de los Datos respecto de los que se busca ejercer alguno de los derechos antes mencionados; y (v) cualquier otro elemento o documento que facilite la localización de los Datos del Titular.\n\nUna vez que el Responsable reciba el escrito del Titular referente al ejercicio de sus Derechos ARCO, el Responsable dentro de los 15 días hábiles tendrá que analizar, atender y enviar al Titular la respuesta correspondiente. El medio del envío de la respuesta podrá ser por la forma que indique el Titular o utilizando el mismo medio por el cual el Titular le hizo llegar el correspondiente escrito al Responsable.\n\nEl Titular tiene derecho a: (i) limitar el uso o divulgación de sus datos personales; (ii) acceder a los datos personales que posee el Responsable; (iii) conocer el tratamiento que el Responsable le da a los mismos; (iv) solicitar la rectificación de sus datos personales en los casos en que la información sea inexacta o incompleta; (v) solicitar la cancelación de sus datos personales; (v) oponerse al tratamiento de sus datos personales; y (vi) revocar su consentimiento para el tratamiento de sus datos personales.\n\nPara hacer valer cualquiera de los derechos señalados en el párrafo anterior, el Titular deberá presentar la solicitud respectiva, la cual deberá contener nombre y domicilio del Titular; documento que acredite la identidad del Titular o los documentos que acrediten la representación del mismo; una descripción clara y precisa de los datos personales respecto de los cuales busca ejercer alguno de los derechos señalados en el párrafo anterior, así como cualquier otro elemento que facilite la identificación de los datos personales, y en su caso, la documentación que ampare la procedencia de las correcciones que solicita.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-9": {
+        "children":[
+            "rich-text#candidatos-9"
+        ]
+    },
+    "rich-text#candidatos-9": {
+        "props": {
+            "text": "**VIII. DE OTROS MEDIOS PARA LIMITAR EL USO O DIVULGACIÓN DE LOS DATOS.** Para limitar el tratamiento de los Datos, el Titular únicamente tendrá los medios señalados en el presente Aviso de Privacidad. Quedará a elección del Titular, acudir o solicitar vía telefónica su inscripción al Registro Público de Consumidores previsto por la Ley Federal de Protección al Consumidor y/o al Registro Público de Usuarios previsto por la Ley de Protección y Defensa al Usuario de Servicios Financieros, a efecto de limitar el uso de los datos personales en posesión de los particulares.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-10": {
+        "children":[
+            "rich-text#candidatos-10"
+        ]
+    },
+    "rich-text#candidatos-10": {
+        "props": {
+            "text": "**IX. DE LOS MECANISMOS DE COMUNICACIÓN.** Cualquier comunicación que el Titular dirija al Responsable relacionada al presente Aviso de Privacidad, deberá realizarse a las direcciones proporcionadas para el ejercicio de los Derechos ARCO, mencionando de manera clara y precisa: (i) el nombre, apellido paterno y materno del Titular; (ii) su domicilio y/o correo electrónico y/o cualquier otro medio para comunicarle la respuesta a su solicitud; (iii) los documentos oficiales que acrediten la identidad o, en su caso, la representación legal del Titular; y (iv) la descripción clara y precisa del objeto de su comunicación.\n\nDe la misma manera, el Responsable atenderá y responderá cualquier comunicación que le sea dirigida dentro de los 15 días hábiles al haber recibido dicho escrito, ya sea en la en la misma forma en el que le hicieron llegar la comunicación o en la forma en que hubiesen indicado.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-11": {
+        "children":[
+            "rich-text#candidatos-11"
+        ]
+    },
+    "rich-text#candidatos-11": {
+        "props": {
+            "text": "**X. DE LOS MEDIOS REMOTOS.** En caso de que el Titular proporcione sus Datos a través de medios electrónicos, incluyendo el sitio web (Internet) del Responsable, entonces el Titular entiende, acepta y reconoce que:\n\na) El sitio web del Responsable puede incluir enlaces a sitios web de terceros, que de accederse, ocasionará que se abandone el sitio web del Responsable, por lo cual el Responsable no asume ninguna responsabilidad en relación con esos sitios web de terceros. b) El sitio web del Responsable puede incluir enlaces a sitios que administran redes sociales, en cuyo caso el Titular acepta que al proporcionar cualquier tipo de información o Datos en dichos sitios, ocasionará que la misma pueda ser leída, vista, accedida, retransmitida y tratada por cualquier persona, y por lo tanto libera de cualquier responsabilidad al Responsable. c) Es posible que los sistemas del Responsable recopilen Datos del Titular tales como tipo de navegador, sistema operativo, páginas de Internet visitadas, dirección IP, etc., a través 'cookies' o 'web beacons', entre otros.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-12": {
+        "children":[
+            "rich-text#candidatos-12"
+        ]
+    },
+    "rich-text#candidatos-12": {
+        "props": {
+            "text": "**XI. DE LAS MODIFICACIONES AL AVISO DE PRIVACIDAD.** El Responsable podrá modificar el presente Aviso de Privacidad tantas veces como considere necesario, tanto para guardar congruencia con los ordenamientos legales aplicables, a petición de las autoridades competentes y/o a nuestra propia conveniencia. En tanto el Responsable no modifique su identidad, se requieran del Titular más datos de los aquí mencionados, se modifique el fin del presente Aviso de Privacidad y/o cambien las condiciones de transferencia, el Titular está de acuerdo y conforme en que la forma de notificar cualquier cambio a este Aviso de Privacidad, será a través de la publicación en la página www.aldoconti.com. Es obligación del Titular visitar periódicamente dicho sitio a fin de verificar la versión más actual del Aviso de Privacidad.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#candidatos-13": {
+        "children":[
+            "rich-text#candidatos-13"
+        ]
+    },
+    "rich-text#candidatos-13": {
+        "props": {
+            "text": "**XII. DE LA ACEPTACIÓN DE LOS TÉRMINOS.** Si el Titular utiliza los servicios en cualquiera de los sitios del Responsable, significa que ha leído, entendido y acordado los términos antes expuestos. La oposición a la aceptación del presente Aviso de Privacidad traerá como consecuencia la imposibilidad para prestar el servicio dentro de la plataforma para oferentes y demandantes de empleo.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "store.custom#aviso-privacidad": {
+        "blocks": [
+            "flex-layout.row#aviso-privacidad"
+        ]
+    },
+    "flex-layout.row#aviso-privacidad": {
+        "children": [
+            "flex-layout.col#aviso-privacidad"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#aviso-privacidad": {
+        "children":[
+            "flex-layout.row#aviso-privacidad-titulo",
+            "flex-layout.row#aviso-1",
+            "flex-layout.row#aviso-2",
+            "flex-layout.row#aviso-3",
+            "flex-layout.row#aviso-4",
+            "flex-layout.row#aviso-5",
+            "flex-layout.row#aviso-6",
+            "flex-layout.row#aviso-7",
+            "flex-layout.row#aviso-8"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#aviso-privacidad-titulo": {
+        "children":[
+            "rich-text#aviso-privacidad-titulo"
+        ]
+    },
+    "rich-text#aviso-privacidad-titulo": {
+        "props": {
+            "text": "#### Aviso de Privacidad",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#aviso-1": {
+        "children":[
+            "rich-text#aviso-1"
+        ]
+    },
+    "rich-text#aviso-1": {
+        "props": {
+            "text": "En cumplimiento a lo establecido en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su Reglamento y los Lineamientos del Aviso de Privacidad, 27 MICRAS INTERNACIONAL, S.A. DE C.V., con domicilio en Calle Norte 35 No. 695 Int. 100 al 111, Col. Coltongo, Delegación: Azcapotzalco C. P. 02630, Ciudad de México (el “Responsable”), pone el presente Aviso de Privacidad (el “Aviso”) a disposición de cualquier persona física respecto de la cual trate sus datos personales con motivo de la comercialización y promoción de los productos que ofrece el Responsable (el “Titular”).",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#aviso-2": {
+        "children":[
+            "rich-text#aviso-2"
+        ]
+    },
+    "rich-text#aviso-2": {
+        "props": {
+            "text": "##### I. DATOS PERSONALES.\nEl Responsable puede obtener los datos personales cuando el Titular los proporciona de forma personal o directa en las sucursales, en el centro de atención a clientes o en la página de internet del Responsable.\n\nEl Responsable podrá tratar los siguientes datos personales del Titular, dependiendo de las finalidades para las cuales sean obtenidos: imagen, nombre, apellidos, domicilio (convencional, laboral y/o fiscal), fecha de nacimiento, firma autógrafa, número de tarjeta de débito o crédito, clave del Registro Federal de Contribuyentes (RFC), correo electrónico, número telefónico (fijo y/o móvil), número de fax y empresa para la que labora el Titular.\n\nLos datos personales patrimoniales o financieros del Titular serán recabados únicamente cuando sea necesarios para dar cumplimiento a las obligaciones derivadas de la relación que el Titular mantiene con el Responsable. El Responsable manifiesta que para las finalidades indicadas en el presente Aviso, no recaba datos personales sensibles del Titular.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#aviso-3": {
+        "children":[
+            "rich-text#aviso-3"
+        ]
+    },
+    "rich-text#aviso-3": {
+        "props": {
+            "text": "##### II. FINALIDADES.\nEl Responsable podrá tratar los datos personales del Titular para las siguientes finalidades: (I) proveer los productos o servicios requeridos por el Titular; (II) confirmar la recepción de envíos; (III) realizar cambios en los productos o servicios adquiridos por el Titular; (IV) cumplir las obligaciones contraídas con o por el Titular; (V) cumplir los convenios o contratos celebrados con terceros en favor del Titular; (VI) hacer efectivas las promociones a las que tuviera derecho el Titular; (VII) entregar los premios a los que se hubiera hecho acreedor el Titular; (VIII) atender las dudas, quejas o sugerencias que presente el Titular; y (IX) con fines mercadotécnicos, publicitarios y/o de prospección comercial del Responsable.\n\nLa finalidad referida en el inciso (IX) anterior, no es necesaria para la existencia y cumplimiento de la relación jurídica con el Responsable. Por lo anterior, en caso de que los Datos Personales del Titular se pretendan recabar para dichas finalidades en los establecimientos del Responsable, el gerente o encargado del establecimiento preguntará al Titular si desea recibir información promocional o publicitaria de los productos que ofrece el Responsable. En caso de que el Titular manifieste su negativa, el gerente o encargado del establecimiento no registrará al Titular en la base de datos que para tal efecto exista.\n\nEn caso de que los datos personales se hubieren obtenido en la página de internet del Responsable, el Titular podrá manifestar su negativa a través de las casillas de marcado que se encontrarán a su disposición en cada uno de los formatos electrónicos a través de los cuales se recaben sus datos personales. El Responsable manifiesta que los datos personales que sean proporcionados en el centro de atención a clientes únicamente serán tratados para la finalidad referida en el inciso (VIII) anterior.\n\nEn los casos en que el Responsable pretenda tratar los datos personales para una finalidad distinta a las contenidas en el presente Aviso de Privacidad, el Responsable se compromete a hacerlo del conocimiento del Titular y a obtener su consentimiento para el nuevo tratamiento.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#aviso-4": {
+        "children":[
+            "rich-text#aviso-4"
+        ]
+    },
+    "rich-text#aviso-4": {
+        "props": {
+            "text": "##### III. TECNOLOGÍAS.\nEl Responsable hace uso de las siguientes tecnologías que le permiten recabar información de manera automática y simultánea al momento en que el Titular accede a la página de internet del Responsable: COOKIES: son pequeñas piezas de información enviadas por la página de internet y almacenadas en el disco duro de la computadora del Titular. Las cookies de la página de internet del Responsable no recaban información que permita identificar al Titular, son utilizadas para rastrear la siguiente información temporal: los contenidos que el Titular carga y descarga dentro de la página de internet; recordar al Titular cuando éste se da de alta en la página de internet; recordar el país y preferencias de idioma del Titular; información acerca de lo que el Titular visualizó en la página de internet y lo que visitó en el contenido del correo electrónico. Las cookies son utilizadas para que la página de internet opere correctamente; evaluar el uso de la página de internet; administrar y presentar información de la página y las fotografías desplegadas en la computadora del Titular; entregar información específica de acuerdo con los intereses del Titular; así como entender el tamaño de audiencia y los patrones de tráfico de la página de internet. WEB BEACONS: El Responsable también utiliza pequeños Gifs rastreadores o Beacons en su página de internet, en publicidad online con terceros y en su correo electrónico. Estos Beacons se utilizan en conexión con las cookies, para recolectar datos no personales sobre el uso de la página de internet: fecha y hora de visita; los sitios visitados; el sitio web referente; el tipo de navegador (Internet Explorer, Firefox, etc.); el tipo de sistema operativo (Windows, Linux, Mac); y el nombre del dominio del proveedor de internet del Titular (por ejemplo AOL). Esta información es recolectada sobre miles de visitas de sitios y analizada en conjunto. Es útil para rastrear el desempeño de la publicidad del Responsable en línea y para determinar en donde se colocará publicidad en el futuro en otros sitios web. En caso de que el Titular no desee que su información sea recolectada a través del uso de las cookies y web Beacons, puede inhabilitar estas funciones por medio de las preferencias de su explorador, considerando que esto limitará el desempeño y la funcionalidad de la página de internet del Responsable. El explorador utilizado por el Titular debe de contener la información relativa a la inhabilitación de las cookies y web Beacons.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#aviso-5": {
+        "children":[
+            "rich-text#aviso-5"
+        ]
+    },
+    "rich-text#aviso-5": {
+        "props": {
+            "text": "##### IV. CONSENTIMIENTO.\nEl consentimiento del Titular para el tratamiento de sus datos personales conforme a los términos de este Aviso se entiende otorgado cuando el Titular: (I) no manifiesta oposición alguna una vez que el presente Aviso haya sido puesto a su disposición; (II) lo manifieste expresamente; y/o (III) tenga una relación vigente con el Responsable.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#aviso-6": {
+        "children":[
+            "rich-text#aviso-6"
+        ]
+    },
+    "rich-text#aviso-6": {
+        "props": {
+            "text": "##### V. TRANSFERENCIAS.\nEl Responsable manifiesta que los datos personales del Titular no serán transferidos a terceros en ningún caso, salvo que la transferencia sea necesaria para el cumplimiento de las obligaciones derivadas de la relación jurídica que mantiene con el Titular; o bien, se actualice alguna de las excepciones previstas por el artículo 37 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#aviso-7": {
+        "children":[
+            "rich-text#aviso-7"
+        ]
+    },
+    "rich-text#aviso-7": {
+        "props": {
+            "text": "##### VI. DERECHOS DEL TITULAR.\nEl Titular tiene derecho a: (I) acceder a sus datos personales y conocer el tratamiento que se le da a los mismos; (IV) rectificar sus datos personales en los casos en que la información sea inexacta o incompleta; (V) cancelar sus datos personales cuando no se requieran para llevar a cabo las finalidades señaladas en el Aviso; se haya utilizado en contravención a lo dispuesto en el Aviso; y/o haya finalizado la relación por la cual fueron recabados; (VI) oponerse al tratamiento de sus datos personales para finalidades específicas; y (VI) revocar su consentimiento al tratamiento de sus datos personales. Para hacer valer cualquiera de los derechos señalados en el párrafo anterior, el Titular deberá presentar una solicitud por escrito en el domicilio del Responsable o a la siguiente dirección datospersonales@aldoconti.com, la cual deberá contener nombre y domicilio del Titular; documento que acredite la identidad del Titular o los documentos que acrediten la representación del mismo; una descripción clara y precisa de los datos personales respecto de los cuales busca ejercer alguno de los derechos señalados en el párrafo anterior; así como, cualquier otro elemento que facilite la identificación de los datos personales, y en su caso, exhibir la documentación que ampare la procedencia de las correcciones que solicita. La solicitud del Titular será atendida por el departamento de protección de datos personales del Responsable, el cual deberá dar contestación en un término de 20 (veinte) días hábiles contados a partir de la fecha de presentación de la solicitud. En los casos en que el Titular ejercite su derecho de acceso a la información, el Responsable dará cumplimiento poniendo a disposición del Titular los datos personales, expidiendo copias simples, documentos electrónicos o cualquier otro medio que permita al Titular acceder a sus datos personales. Cuando el Titular decida limitar el uso y divulgación de sus datos personales, el Titular será registrado en un listado de exclusión del propio Responsable denominado “Limitación al Tratamiento de Datos Personales” a fin de que sus datos personales no sean tratados para fines mercadotécnicos, publicitarios o de prospección comercial por parte del Responsable.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#aviso-8": {
+        "children":[
+            "rich-text#aviso-8"
+        ]
+    },
+    "rich-text#aviso-8": {
+        "props": {
+            "text": "##### VII. MODIFICACIONES.\nEl Responsable se reserva el derecho a efectuar en cualquier momento modificaciones y/o actualizaciones al Aviso, en atención a nuevas disposiciones legislativas y a nuevas políticas internas, mismas que estarán disponibles en la página de internet (http://aldoconti.com/), en los establecimientos y en el domicilio del Responsable.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    }
+}

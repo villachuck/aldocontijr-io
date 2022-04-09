@@ -80,5 +80,105 @@
             "menu-item#subcategoria-tirantes",
             "menu-item#subcategoria-todos-accesorios"
         ]
+    },
+    "disclosure-layout#guia-de-compras": {
+        "children": [
+            "disclosure-trigger#compras", 
+            "disclosure-content#compras"
+        ],
+        "props": {
+            "blockClass": "accordion-category"
+        }
+    },
+    "disclosure-trigger#compras": {
+        "children":[
+            "rich-text#disclosure-compras"
+        ],
+        "props":{
+            "blockClass": "ropa-title-mobile"
+        }
+    },
+    "rich-text#disclosure-compras": {
+        "props":{
+            "text": "Guía de compras",
+            "blockClass": "ropa-title-mobile"
+        }
+    },
+    "disclosure-content#compras": {
+        "children": [
+            "menu-item#como-comprar",
+            "menu-item#preguntas-frecuentes",
+            "menu-item#pagos",
+            "menu-item#envio",
+            "menu-item#cambios-devoluciones",
+            "menu-item#rastrea-pedido",
+            "menu-item#facturacion"
+        ]
+    },
+    "disclosure-layout#empresa": {
+        "children": [
+            "disclosure-trigger#empresa", 
+            "disclosure-content#empresa"
+        ],
+        "props": {
+            "blockClass": "accordion-category"
+        }
+    },
+    "disclosure-trigger#empresa": {
+        "children":[
+            "rich-text#disclosure-empresa"
+        ],
+        "props":{
+            "blockClass": "ropa-title-mobile"
+        }
+    },
+    "rich-text#disclosure-empresa": {
+        "props":{
+            "text": "Empresa",
+            "blockClass": "ropa-title-mobile"
+        }
+    },
+    "disclosure-content#empresa": {
+        "children": [
+            "menu-item#quien-somos",
+            "menu-item#contacto",
+            "menu-item#nuestras-marcas",
+            "menu-item#proveedores",
+            "menu-item#ventas-corporativas",
+            "menu-item#sucursales"
+        ]
+    },
+    "disclosure-layout#politicas": {
+        "children": [
+            "disclosure-trigger#politicas", 
+            "disclosure-content#politicas"
+        ],
+        "props": {
+            "blockClass": "accordion-category"
+        }
+    },
+    "disclosure-trigger#politicas": {
+        "children":[
+            "rich-text#disclosure-politicas"
+        ],
+        "props":{
+            "blockClass": "ropa-title-mobile"
+        }
+    },
+    "rich-text#disclosure-politicas": {
+        "props":{
+            "text": "Políticas",
+            "blockClass": "ropa-title-mobile"
+        }
+    },
+    "disclosure-content#politicas": {
+        "children": [
+            "menu-item#privacidad",
+            "menu-item#cookies",
+            "menu-item#candidatos",
+            "menu-item#politica-compra",
+            "menu-item#tyc",
+            "menu-item#aviso-de-privacidad"
+        ]
     }
 }

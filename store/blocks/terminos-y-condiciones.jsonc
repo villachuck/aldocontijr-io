@@ -1,0 +1,58 @@
+{
+    "store.custom#terminos-condiciones": {
+        "blocks": [
+            "flex-layout.row#terminos-condiciones"
+        ]
+    },
+    "flex-layout.row#terminos-condiciones": {
+        "children": [
+            "flex-layout.col#terminos-condiciones"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#terminos-condiciones": {
+        "children":[
+            "flex-layout.row#terminos-condiciones-titulo",
+            "flex-layout.row#terminos-1",
+            "flex-layout.row#terminos-2"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#terminos-condiciones-titulo": {
+        "children":[
+            "rich-text#terminos-condiciones-titulo"
+        ]
+    },
+    "rich-text#terminos-condiciones-titulo": {
+        "props": {
+            "text": "#### Términos y Condiciones",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#terminos-1": {
+        "children":[
+            "rich-text#terminos-1"
+        ]
+    },
+    "rich-text#terminos-1": {
+        "props": {
+            "text": "El acceso y uso de este sitio web está sujeto a los siguientes términos y condiciones y todas las leyes aplicables, así como a las políticas y principios que rigen a 27 MICRAS INTERNACIONAL, S.A. de C.V. al acceder y navegar éste sitio web, usted acepta, sin limitación ni condición alguna, los presentes términos y condiciones. En caso de no estar de acuerdo, le sugerimos abandone la presente página web.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#terminos-2": {
+        "children":[
+            "rich-text#terminos-2"
+        ]
+    },
+    "rich-text#terminos-2": {
+        "props": {
+            "text": "##### Contenido\nTodo contenido de la página web, incluyendo pero no limitando a texto, imágenes, gráficos, videos, etc., así como los derechos de autor, marcas registradas, imágenes comerciales y/u otra propiedad intelectual en dicho material, son propiedad de 27 MICRAS INTERNACIONAL, S.A. DE C.V., quien se reserva el derecho de emitir permisos para su explotación comercial. Usted puede descargar o copiar los contenidos y otros materiales descargables exhibidos en el sitio solo para uso personal. sin embargo, usted al leer el presente aviso, acepta que no puede distribuir, modificar, transmitir, reutilizar, reenviar o utilizar el contenido de este sitio para fines de comercialización o publicidad, incluyendo el audio y/o video salvo con permiso por escrito de 27 MICRAS, S.A. DE C.V.\n\nSi no te quedó o no te gusto tu prenda, cámbiala en cualquiera de nuestras 150 sucursales. Únicamente deberás presentar:\n\n-Ticket de compra.\n\n-Tu prenda en perfecto estado y con todas sus etiquetas.\n\n-Todo cambio o devolución debe efectuarse, a más tardar, **30 días posteriores a la entrega del producto.**\n\nPuedes ver todas nuestras Políticas de Compra aquí: https://www.aldoconti-jr.com/politicas-de-compra",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    }
+}

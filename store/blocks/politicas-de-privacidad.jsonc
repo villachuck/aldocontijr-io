@@ -1,0 +1,106 @@
+{
+    "store.custom#politicas-privacidad": {
+        "blocks": [
+            "flex-layout.row#politicas-privacidad"
+        ]
+    },
+    "flex-layout.row#politicas-privacidad": {
+        "children": [
+            "flex-layout.col#politicas-privacidad"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#politicas-privacidad": {
+        "children":[
+            "flex-layout.row#politicas-privacidad-titulo",
+            "flex-layout.row#privacidad-1",
+            "flex-layout.row#privacidad-2",
+            "flex-layout.row#privacidad-3",
+            "flex-layout.row#privacidad-4",
+            "flex-layout.row#privacidad-5",
+            "flex-layout.row#privacidad-6"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#politicas-privacidad-titulo": {
+        "children":[
+            "rich-text#politicas-privacidad-titulo"
+        ]
+    },
+    "rich-text#politicas-privacidad-titulo": {
+        "props": {
+            "text": "#### Políticas de Privacidad",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#privacidad-1": {
+        "children":[
+            "rich-text#privacidad-1"
+        ]
+    },
+    "rich-text#privacidad-1": {
+        "props": {
+            "text": "La Política de Privacidad, de Protección de Datos Personales y Cookies (en adelante la “POLITICA”) queda determinada por lo establecido en el presente documento y regula la recolección, almacenamiento, tratamiento, administración, transferencia, transmisión y protección de aquella información que se reciba de terceros como  puede ser de manera enunciativa más no limitativa nombre, apellidos, edad, dirección, número telefónico, correo electrónico, país, fecha de nacimiento, mensaje, secciones de interés, información sobre el medio de pago, entre otros (en adelante “DATOS PERSONALES”).\n\nLos titulares de los DATOS PERSONALES reconocen que el suministro de los mismos es realizado de manera voluntaria, teniendo en cuenta las características habilitadas para tal propósito y las facultades de uso por parte de 27 Micras Internacional, S.A. de C.V. (en adelante “ALDO CONTI”), en el entendido que tal información será objeto de tratamiento en una base de datos responsabilidad de ALDO CONTI.\n\nALDO CONTI recibe los datos personales, los almacena de forma adecuada y segura, lo que no impide que los usuarios, terceros o clientes puedan ejercer sus derechos de Acceso, Rectificación, Cancelación y Oposición (en adelante derechos ARCO), así como su derecho de revocar la autorización suministrada a ALDO CONTI por el tratamiento de sus DATOS  PERSONALES. Los datos que ALDO CONTI recolecta de usuarios, terceros o clientes se procesan y usan de conformidad con las regulaciones legales vigentes.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#privacidad-2": {
+        "children":[
+            "rich-text#privacidad-2"
+        ]
+    },
+    "rich-text#privacidad-2": {
+        "props": {
+            "text": "ALDO CONTI recopila los DATOS PERSONALES con fines de consulta, estadística, procesamiento y uso, cuya finalidad específica es la siguiente:\n\n-El desarrollo, cumplimiento y ejecución de los contrato de compraventa de los productos que haya adquirido o de cualquier otro contrato entre ALDO CONTI y clientes.\n\n-Para cumplir obligaciones derivadas de las relaciones jurídicas que surjan entre clientes, usuarios y terceros con ALDO CONTI o para compartir opiniones, quejas, sugerencias, reclamos y/o solicitudes como puede ser información corporativa, tarjetas regalo, tarjetas de lealtad, y atención al cliente en tiendas.\n\n-Asimismo, dentro de la relación entre clientes y/o terceros y ALDO CONTI, estará comprendido proporcionar información acerca de los productos de ALDO CONTI así como de otras marcas que comercialice y/o empresas del Grupo, incluyendo en relación con dichos productos, el envío de comunicaciones con fines comerciales a través de correos electrónicos, llamadas telefónicas, mensajes SMS y demás medios de comunicación electrónicos o físicos que resultaran adecuados y pertinentes para cumplir con la presente finalidad.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#privacidad-3": {
+        "children":[
+            "rich-text#privacidad-3"
+        ]
+    },
+    "rich-text#privacidad-3": {
+        "props": {
+            "text": "Podrá dar de baja su suscripción a través de la sección Newsletter\n\nEn el caso de que el cliente o usuario aporten a ALDO CONTI datos personales de terceros, serán responsables de haber informado y haber obtenido el consentimiento de éstos para ser aportados con las finalidades que se detallan a continuación. En el caso de haber procedido a la compra de un producto o a la compra de una tarjeta regalo, los datos personales de terceros aportados serán utilizados únicamente para (i) la gestión del envío o la verificación de recepción de la mercancía; (ii) atender las solicitudes que nos plantee y, (iii) compartir con sus conocidos nuestros productos por correo electrónico.\n\n-ALDO CONTI almacena y transmite los datos de sus tarjetas conforme a los principales estándares de confidencialidad y seguridad internacionales de tarjetas de crédito y débito. El uso de esta funcionalidad, podrá requerir por motivos de seguridad la modificación de su clave de acceso. Recuerde que la seguridad en el uso del sitio web también depende de su correcta utilización y conservación de determinadas claves confidenciales.\n\n-Innovar, mejorar, desarrollar e implementar nuevas campañas promocionales de productos y servicios; diseñar y ofrecer nuevos productos y servicios mediante el análisis de las preferencias, gustos o perfilamiento de los clientes.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#privacidad-4": {
+        "children":[
+            "rich-text#privacidad-4"
+        ]
+    },
+    "rich-text#privacidad-4": {
+        "props": {
+            "text": "##### CONFIDENCIALIDAD DE LA INFORMACIÓN\nLa información que el titular de los DATOS PERSONALES proporciona voluntariamente debe ser veraz y completa, la misma no se utilizara o procesara más allá de los límites permitidos por el o por lo que establezca la legislación vigente. ALDO CONTI no se hace responsable  por la veracidad de la información suministrada por los usuarios. El titular autoriza a ALDO CONTI para transferir sus DATOS PERSONALES con sus aliados comerciales para gestión propia y dentro de Alianzas Comerciales.\n\nALDO CONTI compartirá y transferirá la información únicamente si está obligado a hacerlo por Orden de la Autoridad Administrativa o Judicial.\n\nALDO CONTI aclara que si bien las actividades de tratamiento de los datos personales son realizadas por su personal, también podrán ser realizadas por proveedores o prestadores de servicios que de cualquier manera pueden tener acceso a los datos personales cosignados en la Base de Datos de ALDO CONTI, en relación de un encargo o trabajo especial, por lo cual se encuentran obligados contractualmente a almacenar, tratar, proteger, y mantener dicha información como confidencial y no podrán tratar la misma con ninguna otra finalidad a la indicada contractualmente por ALD CONTI; por la aceptación de la presente POLITICA se aceptan los fines descritos en el presente párrafo.\n\nALDO CONTI como responsable de la base de datos se compromete a respetar la confidencialidad de los datos personales y a garantizar el ejercicio de sus Derechos Arco, con lo cual el titular de los datos podrá conocer, actualizar, rectificar y suprimir la información suministrada, igualmente podrá ejercer su derecho a revocar la autorización suministrada a ALDO CONTI, a través de carta dirigida a la dirección Norte 35 No. 695, Interior 100 al 111, Col. Coltongo, Del. Azcapotzalco, Ciudad de México, C.P. 02630, o bien, mediante correo electrónico dirigido a; atencionaclientes@aldoconti.com en caso de ser necesario se podrá solicitar copia de una Identificación Oficial.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#privacidad-5": {
+        "children":[
+            "rich-text#privacidad-5"
+        ]
+    },
+    "rich-text#privacidad-5": {
+        "props": {
+            "text": "Si el Usuario desea suprimir sus DATOS PERSONALES de la Base de Datos, deberá informarlo a ALDO CONTI, de lo contrario se considerar que autoriza a ALDO CONTI para que sus datos sean usados para las finalidades descritas anteriormente.\n\nAsimismo, le informamos que Usted, o su representante legal, podrá ejercer cualquiera de los derechos ARCO, así como revocar su consentimiento para el tratamiento de sus datos personales en cualquier momento, para que su solicitud proceda es indispensable completar la información que a continuación le enunciamos, la cual será utilizada para acreditar su identidad, tal y como se señala en los artículos 32, 34 y 35 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares:\n\n-DATOS DEL TITULAR: Nombre Completo, Domicilio Completo, Teléfono y Correo electrónico (donde se le comunicará la respuesta a su solicitud).\n\n-INFORMACIÓN DEL REPRESENTANTE (SÓLO SI APLICA): Nombre Completo y en caso de ser representante legal del titular deberá acompañar a su escrito el instrumento público correspondiente en original, o en su caso, carta poder firmada ante dos testigos.\n\n-DERECHOS ARCO: Indicar el/los derecho(s) que desea ejercer: Acceso, Rectificación, Cancelación y/o Oposición. Asimismo se deberá hacer una descripción de los datos personales respecto de los que se busca ejercer el/los derecho(s) señalados anteriormente y/o cualquier otro comentario que nos ayude a atender mejor su derecho.\n\n-OTRA DOCUMENTACIÓN NECESARIA: Favor de acompañar la documentación que considere sustente su solicitud y nos ayude a tramitarla convenientemente, para la solicitud de rectificación de datos personales (dato incorrecto, dato correcto y documento acreditativo). En caso de que la información proporcionada en su escrito sea errónea o insuficiente, o bien, no se acompañen los documentos de acreditación correspondientes, dentro de los cinco (5) días hábiles siguientes a la recepción de su escrito de solicitud de derechos, se le podrá requerir que aporte los elementos o documentos necesarios para dar trámite al mismo. Usted contará con diez (10) días hábiles para atender el requerimiento, contados a partir del día siguiente en que lo haya recibido. De no dar respuesta en dicho plazo, se tendrá por no presentado el escrito correspondiente. ALDO CONTI le comunicará la determinación adoptada en un plazo máximo de veinte (20) días hábiles contados desde la fecha en que se recibió su escrito a efecto de que, si resulta procedente, haga efectiva la misma dentro de los quince (15) días hábiles siguientes a que se comunique la respuesta. La respuesta se dará por la misma vía en que nos envió su solicitud.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#privacidad-6": {
+        "children":[
+            "rich-text#privacidad-6"
+        ]
+    },
+    "rich-text#privacidad-6": {
+        "props": {
+            "text": "Usted podrá limitar el uso y/o divulgación de sus datos personales enviando su solicitud al correo electrónico atencionaclientes@aldoconti.com. Los requisitos para acreditar su identidad, así como el procedimiento para atender su solicitud se regirán por los mismos criterios señalados en el apartado anterior. En caso de que su solicitud resulte procedente, ALDO CONTI lo registrará en nuestro listado de exclusión interno con el objeto de que usted deje de recibir nuestras promociones.\n\nALDO CONTI se reserva el derecho, bajo su exclusiva discreción, de cambiar, modificar, agregar o eliminar partes de la presente Política de Privacidad, de Protección de Datos Personales y Cookies en cualquier momento, en tal caso indicará la fecha de la última versión a través de su publicación en el presente sitio web.\n\nEl usuario garantiza que los datos personales proporcionados son ciertos y exactos y se compromete a notificar cualquier cambio o modificación de los mismos. Cualquier pérdida o daño causado al sitio o a la persona responsable del sitio web o a cualquier tercero mediante la comunicación de información errónea, inexacta o incompleta en los formularios de registro será responsabilidad exclusiva del usuario.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    }
+}

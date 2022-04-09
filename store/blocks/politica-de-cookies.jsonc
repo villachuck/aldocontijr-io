@@ -1,0 +1,82 @@
+{
+    "store.custom#politicas-cookies": {
+        "blocks": [
+            "flex-layout.row#politicas-cookies"
+        ]
+    },
+    "flex-layout.row#politicas-cookies": {
+        "children": [
+            "flex-layout.col#politicas-cookies"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#politicas-cookies": {
+        "children":[
+            "flex-layout.row#politicas-cookies-titulo",
+            "flex-layout.row#cookies-1",
+            "flex-layout.row#cookies-2",
+            "flex-layout.row#cookies-3",
+            "flex-layout.row#cookies-4"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#politicas-cookies-titulo": {
+        "children":[
+            "rich-text#politicas-cookies-titulo"
+        ]
+    },
+    "rich-text#politicas-cookies-titulo": {
+        "props": {
+            "text": "#### Políticas de Cookies",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#cookies-1": {
+        "children":[
+            "rich-text#cookies-1"
+        ]
+    },
+    "rich-text#cookies-1": {
+        "props": {
+            "text": "##### USO DE COOKIES\nEl usuario del Sitio Web acepta que ALDO CONTI podrá utilizar un sistema de seguimiento mediante la utilización de Cookies consintiendo su utilización.\n\nLas Cookies son pequeños archivos (información sobre la actividad de los usuarios) que se almacenan dentro de nuestro Sitio Web, tal información puede incluir la URL de la que provienen, la URL a la que acceden frecuentemente, el navegador utilizado, así como páginas visitadas, búsquedas realizadas, publicaciones, compras, ventas, mensajes, entre otras, dicha información ayuda a personalizar los servicios y son utilizadas con el fin de conocer los intereses, el comportamiento y la demografía de quienes visitan nuestro Sitio Web y de esta forma comprender necesidades o intereses de nuestros clientes o usuarios.\n\nEl sitio Web de ALDO CONTI ofrece ciertas funcionalidades que solo están disponibles mediante el empleo de Cookies\n\nEn caso de ser requerido el usuario podrá configurar su navegador para ser avisado en pantalla sobre la recepción de Cookies y para impedir la instalación de las mismas en su Disco Duro. Lo anterior es responsabilidad del Usuario.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#cookies-2": {
+        "children":[
+            "rich-text#cookies-2"
+        ]
+    },
+    "rich-text#cookies-2": {
+        "props": {
+            "text": "##### MODIFICACIÓN\nALDO CONTI podrá modificar en cualquier momento los términos y condiciones de esta política, cualquier cambio será publicado en el Sitio Web y será efectivo apenas se haya publicado. Dependiendo de la naturaleza del cambio podremos notificarlo mediante un correo electrónico a los titulares de Datos Personales o anunciar el mismo a través del Sitio Web. El continuo uso del Sitio Web de ALDO CONTI implica el conocimiento por parte del usuario de los términos de esta POLITICA.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#cookies-3": {
+        "children":[
+            "rich-text#cookies-3"
+        ]
+    },
+    "rich-text#cookies-3": {
+        "props": {
+            "text": "##### NULIDAD\nEn caso de que cualquier cláusula de la presente POLITICA sea declarada total o parcialmente Nula, las demás clausulas seguirán vigentes y se interpretaran tomando en cuenta la voluntad de las partes",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#cookies-4": {
+        "children":[
+            "rich-text#cookies-4"
+        ]
+    },
+    "rich-text#cookies-4": {
+        "props": {
+            "text": "##### ACEPTACIÓN\nLa utilización de este Sitio Web implica la aceptación de la POLITICA por parte del usuario, por lo que los usuarios que no estén de acuerdo con los términos incluidos deberán abstenerse de utilizar el sitio Web. Este documento es parte integrante de los Términos y Condiciones de ALDO CONTI.\n\nLa aceptación de la presente  Política de Privacidad, de Protección de Datos Personales y Cookies será un paso previo e indispensable a la adquisición de cualquier producto disponible a través del Sitio Web.\n\nCada vez que usa este sitio Web estará bajo la aplicación de la POLÍTICA vigente en el momento, debiendo revisar dicho texto para confirmar que está conforme con él.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    }
+}

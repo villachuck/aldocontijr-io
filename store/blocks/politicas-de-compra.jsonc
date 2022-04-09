@@ -1,0 +1,130 @@
+{
+    "store.custom#politicas-compra": {
+        "blocks": [
+            "flex-layout.row#politicas-compra"
+        ]
+    },
+    "flex-layout.row#politicas-compra": {
+        "children": [
+            "flex-layout.col#politicas-compra"
+        ],
+        "props": {
+            "blockClass": "faqs-body"
+        }
+    },
+    "flex-layout.col#politicas-compra": {
+        "children":[
+            "flex-layout.row#politicas-compra-titulo",
+            "flex-layout.row#compras-1",
+            "flex-layout.row#compras-2",
+            "flex-layout.row#compras-3",
+            "flex-layout.row#compras-4",
+            "flex-layout.row#compras-5",
+            "flex-layout.row#compras-6",
+            "flex-layout.row#compras-7",
+            "flex-layout.row#compras-8"
+        ],
+        "props":{
+            "blockClass": "faqs-blocks"
+        }
+    },
+    "flex-layout.row#politicas-compra-titulo": {
+        "children":[
+            "rich-text#politicas-compra-titulo"
+        ]
+    },
+    "rich-text#politicas-compra-titulo": {
+        "props": {
+            "text": "#### Políticas de Compra",
+            "blockClass": "faqs-titulo"
+        }
+    },
+    "flex-layout.row#compras-1": {
+        "children":[
+            "rich-text#compras-1"
+        ]
+    },
+    "rich-text#compras-1": {
+        "props": {
+            "text": "Dado que cumplimos con los más altos estándares de calidad en la fabricación de nuestros productos, le garantizamos la satisfacción total al adquirir cualquiera de ellos en nuestra tienda online.\n\nSin embargo, si usted no se encuentra conforme con el producto adquirido, le sugerimos lo comunique a nuestro centro de atención al cliente.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#compras-2": {
+        "children":[
+            "rich-text#compras-2"
+        ]
+    },
+    "rich-text#compras-2": {
+        "props": {
+            "text": "##### GARANTÍAS\nTodos nuestros productos son de excelente calidad, los colores y texturas exhibidas pueden variar. El cliente tiene la posibilidad de realizar cambio de sus prendas siempre y cuando cumpla con lo establecido en el apartado de políticas de cambios y devoluciones.\n\nLos colores y texturas de las prendas mostradas en este sitio pueden variar dependiendo de las características del equipo (computadora o dispositivo) desde donde accede a la página web.\n\nLas compras realizadas por el cliente, solo serán consideradas válidas, una vez que hayan sido procesadas por nuestro sistema informático. Ante tal situación, si no es validad dicha información, no nos comprometemos a realizar entregas físicas.\n\nEn caso de haberse facturado cargos que no correspondan con sus compras, usted deberá de comunicarse con nuestro equipo de atención al cliente para resolver la situación.\n\nTodos los precios publicados en este sitio incluyen I.V.A.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#compras-3": {
+        "children":[
+            "rich-text#compras-3"
+        ]
+    },
+    "rich-text#compras-3": {
+        "props": {
+            "text": "##### PAGOS SEGUROS\nLas compras realizadas por el cliente son completamente seguras ya que utilizamos el sistema de pagos OPENPAY el cual esta evaluado como una de las plataformas más seguras a nivel mundial en cuanto a pagos y seguridad de información del cliente, siéntase tranquilo comprando en este sitio web el cual también está certificado por la AMIPCI (asociación Mexicana de Internet).",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#compras-4": {
+        "children":[
+            "rich-text#compras-4"
+        ]
+    },
+    "rich-text#compras-4": {
+        "props": {
+            "text": "##### ENVÍOS SEGUROS\nNuestros envíos son distribuidos por la paquetería estafeta la cual goza de la confianza de grandes empresas a lo largo del país, siendo una de las paqueterías con menor índice de extravíos y errores de distribución.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#compras-5": {
+        "children":[
+            "rich-text#compras-5"
+        ]
+    },
+    "rich-text#compras-5": {
+        "props": {
+            "text": "##### DEVOLUCIONES\nLe informamos que Aldo Conti Italia no realiza devoluciones de pago, en caso de alguna inconformidad, tiene la opción a realizar cambio en cualquiera de nuestras sucursales.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#compras-6": {
+        "children":[
+            "rich-text#compras-6"
+        ]
+    },
+    "rich-text#compras-6": {
+        "props": {
+            "text": "##### CANCELACIONES\nUna vez realizado el pago, no se aceptan cancelaciones.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#compras-7": {
+        "children":[
+            "rich-text#compras-7"
+        ]
+    },
+    "rich-text#compras-7": {
+        "props": {
+            "text": "##### CAMBIOS FÍSICOS\nSi por algún motivo el cliente no está satisfecho con su compra y no ha usado o modificado la prenda, podemos ofrecerle un cambio por otra mercancía de diferente talla, color o modelo de la misma clase y marca. Para realizar cualquier cambio, el cliente podrá acudir a cualquiera de nuestras más de ciento treinta y cinco tiendas físicas de Aldo Conti Italia, con el artículo en su empaque original, conservando su etiqueta y la prenda en buen estado, presentando su ticket o factura de compra, en un lapso no mayor a 30 días después de la compra.\n\nEl cambio físico se aplica al valor de la promoción vigente al día del cambio. No se hacen devoluciones en efectivo ni en tarjeta de crédito débito, pagos de tiendas en conveniencias, transferencias ni depósitos bancarios.\n\nNo hay cambios en prendas con sastrería realizada y en artículos de liquidación.\n\nPor cuestiones de higiene, le informamos que no hay cambios en calcetines, ropa interior; para el caso de cambios en calzado, solo procederá en caso de que el defecto sea de fábrica, en un período máximo de 7 días después de la compra, en el entendido de que el zapato no deberá presentar signos de uso.\n\nSi el cliente quiere cambiar el producto por otro idéntico (mismo código, modelo, marca) solo por talla o color esto no le generará pago adicional alguno en dado caso de que en las tiendas físicas el precio sea mayor.\n\nSi el cambio es por otro producto diferente de la misma clase y marca pero de mayor precio, el cliente tendrá que pagar la diferencia en ese momento. Si el artículo es de menor precio no se regresará dinero en ningún caso.\n\nSi el motivo de cambio es atribuible a Aldo Conti Italia, es decir, si enviamos un producto erróneo o defectuoso deberá comunicarlo al correo ecommerce@aldoconti-jr.com indicando el motivo de la devolución. Si el producto se encuentra en stock, con gusto le podemos hacer el cambio físico; para el caso de que no se encuentre disponible, le haremos llegar el producto sin cargo alguno\n\nSi el producto presenta desperfectos atribuibles al cliente no procederá el cambio.",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    },
+    "flex-layout.row#compras-8": {
+        "children":[
+            "rich-text#compras-8"
+        ]
+    },
+    "rich-text#compras-8": {
+        "props": {
+            "text": "##### ENVÍOS GRATUITOS\nOfrecemos el servicio de envío gratuito de tu mercancía a partir de compras mayores a $500.00 (quinientos pesos 00/100 M.N); en caso contrario, el envío se le cobrará al cliente, con un costo de $55.00 (cincuenta y cinco pesos 00/100 M.N)",
+            "blockClass": ["faqs-askme", "justify-askme"]
+        }
+    }
+}

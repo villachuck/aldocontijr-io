@@ -34,5 +34,26 @@
   },
   "store.custom#ventas-corporativas": {
     "path": "/ventas-corporativas"
+  },
+  "store.custom#sucursales": {
+    "path": "/sucursales"
+  },
+  "store.custom#politicas-privacidad": {
+    "path": "/politicas-de-privacidad"
+  },
+  "store.custom#politicas-cookies": {
+    "path": "/politicas-de-cookies"
+  },
+  "store.custom#politicas-candidatos": {
+    "path": "/politicas-de-candidatos"
+  },
+  "store.custom#politicas-compra": {
+    "path": "/politicas-de-compra"
+  },
+  "store.custom#terminos-condiciones": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#aviso-privacidad": {
+    "path": "/aviso-de-privacidad"
   }
 }

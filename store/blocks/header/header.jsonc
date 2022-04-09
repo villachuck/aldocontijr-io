@@ -124,7 +124,10 @@
       "disclosure-layout#categoria-accesorios",
       "menu-item#categoria-zapatos",
       "menu-item#categoria-adultos",
-      "menu-item#categoria-sucursales"
+      "menu-item#categoria-sucursales",
+      "disclosure-layout#guia-de-compras",
+      "disclosure-layout#empresa",
+      "disclosure-layout#politicas"
     ],
     "props": {
       "orientation": "vertical",
