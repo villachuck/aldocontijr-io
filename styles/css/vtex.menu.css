@@ -15,13 +15,13 @@
 }
 
 .styledLinkContent--category-list {
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
     line-height: 30px;
 }
 
 .styledLinkContent--category-see-all {
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
     text-decoration: underline;
     line-height: 30px;
@@ -49,5 +49,23 @@
         padding: 16px 0;
         border-top: 1px solid #ccc;
         border-bottom: 1px solid #ccc;
+    }
+
+    .styledLinkContent--principal-categories {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .styledLinkContainer--list-footer {
+        margin-left: 1.5rem;
+    }
+
+    .menuItem--list-footer {
+        min-height: 38px;
+    }
+
+    .styledLinkContent--list-footer {
+        line-height: 30px;
+        font-size: 16px;
     }
 }

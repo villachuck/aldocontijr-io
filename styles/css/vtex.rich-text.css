@@ -266,4 +266,9 @@
   .list--faqs-askme {
     padding-left: 20px;
   }
+
+  .paragraph--ropa-title-mobile,
+  .paragraph--accesorios-title-mobile {
+    font-weight: 600;
+  }
 }
