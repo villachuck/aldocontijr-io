@@ -1,0 +1,231 @@
+
+  <!-- 
+=================================================
+ * Theme Name: Layout - Aldo Conti Jr
+ * Author: Carlos Villavicencio 
+ * TC - es un correo transaccional Cliente
+=================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <!-- So that mobile webkit will display zoomed in -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- disable auto telephone linking in iOS -->
+    <title>{{orders.0.sellers.0.name}}</title>
+</head>
+<body marginwidth="0" marginheight="0" bgcolor="#fff" style="padding:0px 0px;color:#333;" leftmargin="0" topmargin="0">
+<!-- 100% wrapper (grey background) -->
+    <table width="600" cellspacing="0" border="0" bgcolor="#fff" style="margin:0 auto;">
+        <tbody>
+            <!-- Header -->
+            <tr style="box-sizing: border-box !important;">
+                <td align="center" valign="middle" height="34" width="100%">
+                    <div style="box-sizing: border-box; width: 100%; margin-bottom: 1rem; margin-top: 2rem; margin-right: auto; margin-left: auto !important;background: #FFFFFF;">
+                        <a href="http://aldoconti-jr.com/" style="box-sizing: border-box !important;width: 100%;">
+                            <img src="http://aldocontijr.vteximg.com.br/arquivos/pedido-enviado.png" width="100%" style="display:block; border:0px;">
+                        </a>
+                    </div>  
+                </td>
+            </tr>
+            <!-- Finaliza Header -->
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td>
+                                <h1 style="color:#E6B566; font-size:19px; font-weight:600; font-family:'Open Sans', Helvetica, sans-serif; margin:0px; padding:0px;">
+                                    ¡Tu pedido ha sido enviado!
+                                </h1>
+                                <br>
+                                <p style="color:#000; font-size:14px; font-family:'Open Sans', Helvetica, sans-serif; margin:0px; padding:0px;">
+                                    Hola, <strong style="color:#000;">{{clientProfileData.firstName}}</strong>. Tu pedido ha sido recogido por nuestra paquetería Estafeta, pronto llegará a la dirección que nos especificaste.
+                                    <br><br>
+                                    Tu número de guía es: <strong>{{package.trackingNumber}}</strong>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" valign="middle" height="auto" width="100%">
+                    <div style="box-sizing: border-box; width: 100%; margin-bottom: 1rem; margin-top: 2rem; margin-right: auto; margin-left: auto !important;background: #FFFFFF;">
+                        <img src="http://aldocontijr.vteximg.com.br/arquivos/flujo-pedido-enviado.png" width="100%" style="display:block; border:0px;">
+                    </div>  
+                </td>
+            </tr>
+            <tr>
+                <td align="center" valign="middle">
+                    <div width="200" height="30" align="center" valign="middle" style="font-family:'Open Sans', Helvetica, sans-serif; width:200px; height:35px; font-size:14px; text-align:center; background:#E5707E; color:#fff; text-decoration:none; border-radius:5px;">
+                        <a href="http://www.aldocontijr.com/account/orders" style="text-decoration:none; display:block; width:100%; line-height:30px; height:35px; color:#fff">SIGUE TU PEDIDO</a>
+                    </div>    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#E8E9A1;margin-top: 15px;">
+                        <tbody>
+                            <tr>
+                                <td width="50%" height="70" valign="top" style="border-right: solid 2px #000;padding: 0 5px 10px 5px" >
+                                    <strong style="font-family: 'Poppins', sans-serif!important; display: inline-block; font-size: 16px; font-weight: 600; color: #000; margin: 15px 0; padding: 0;">Datos del pedido</strong>
+                                    <br/>
+                                    <p style="font-family: 'Roboto', sans-serif!important; display: block; font-size: 14px; font-weight: 400; color: #000; text-align: justify; margin: 0; padding: 0;">
+                                        Pedido realizado el día: <strong>{{formatDate creationDate}}</strong><br/>
+                                        Nº de orden: <strong>{{orderId}}</strong><br/>
+                                        Forma de pago: <strong>{{paymentData.transactions.0.payments.0.paymentSystemName}}</strong><br/>
+                                        Estado: <strong>Pedido Enviado</strong><br/>
+                                    </p>
+                                </td>
+                                <td width="50%" height="70" valign="top" cellpadding="20" style="padding: 0 5px 10px 5px">
+                                    <div>
+                                        <strong style="font-family: 'Poppins', sans-serif!important; display: inline-block; font-size: 16px; font-weight: 600; color: #000; margin: 15px 0; padding: 0;">Dirección de entrega</strong>
+                                        <br/>
+                                        <p style="font-family: 'Roboto', sans-serif!important; display: block; font-size: 14px; font-weight: 400; color: #000; text-align: justify; margin: 0; padding: 0;  text-transform: inherit;">
+                                            <strong style="text-transform: capitalize!important;">{{shippingData.address.receiverName}}</strong><br>
+                                            {{shippingData.address.street}} - {{shippingData.address.number}} - {{shippingData.address.neighborhood}}<br>
+                                            {{shippingData.address.city}} - {{shippingData.address.state}}<br>
+                                            {{shippingData.address.postalCode}}<br>
+                                            {{sellers.name}}
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="20" cellspacing="0" border="0">
+                        <!-- Inside Productos Orders. Begin -->
+                        
+                        <tr>
+                            <td>                                
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td width="20%" height="40" align="left" valign="middle" style="border-bottom: solid 1px #ccc;">
+                                            <strong style="font-family: 'Poppins', sans-serif!important; display: inline-block; font-size: 15px; font-weight: 600; color: #000; margin: 0; padding: 0;">Productos</strong>
+                                        </td>
+                                        <td width="35%" height="40" valign="middle" style="border-bottom: solid 1px #ccc;">&nbsp;</td>
+                                        <td width="20%" height="40" align="center" valign="middle" style="border-bottom: solid 1px #ccc;">
+                                            <strong style="font-family: 'Poppins', sans-serif!important; display: inline-block; font-size: 15px; font-weight: 600; color: #000; margin: 0; padding: 0;">Cantidad</strong>
+                                        </td>                                       
+                                        <td width="25%" height="40" align="right" valign="middle" style="border-bottom: solid 1px #ccc;">
+                                            <strong style="font-family: 'Poppins', sans-serif!important; display: inline-block; font-size: 15px; font-weight: 600; color: #000; margin: 0; padding: 0;">Precio</strong>
+                                        </td>
+                                    </tr>
+                                    {{#each items}}
+                                    <tr>
+                                        <td width="10%" height="70" align="left" valign="middle">
+                                            <img style="max-width: 70px; display: block; width: 100%; height: auto; vertical-align: middle; border: 0; -webkit-interpolation-mode: bicubic; -moz-interpolation-mode: bicubic; -ms-interpolation-mode: bicubic; -o-interpolation-mode: bicubic; interpolation-mode: bicubic;" src="https:{{replace imageUrl 'http:' ''}}" alt="{{name}} | AldoContiJr">
+                                        </td>
+                                        <td width="45%" height="70" align="left" valign="middle" class="width-100">
+                                            <a href="{{detailUrl}}" target="_blank" style="font-family: 'Poppins', sans-serif!important; font-size: 13px; font-weight: 500; color: #3e3e3e; text-decoration: none;"><span>{{name}}</span></a>
+                                        </td>
+                                        <td width="20%" height="70" align="center" valign="middle">
+                                            <p style="font-family: 'Roboto', sans-serif!important; font-size: 13px; font-weight: 400; color: #000;">{{quantity}}</p>
+                                        </td>
+                                        <td width="25%" height="70" align="right" valign="middle">
+                                            <p style="font-family: 'Roboto', sans-serif!important; font-size: 13px; font-weight: 400; color: #000;">$ {{formatUSDCurrency price}}</p>
+                                        </td>
+                                    </tr>    
+                                    {{/each}}
+                                </table>  
+                                <table cellspacing="0" cellpadding="4" border="0" align="right">
+                                    <tbody>
+                                        {{#each totals}}
+                                        {{#if value}}
+                                        <tr>
+                                            <td valign="top" align="right" style="font-family: 'Roboto', sans-serif!important; font-size: 14px; font-weight: 400; color: #000;">
+                                                {{#eq id "Items"}}Sub Total{{/eq}}
+                                                {{#eq id "Shipping"}}Costo de envío{{/eq}}
+                                                {{#eq id "Discounts"}}Descuento{{/eq}}
+                                                {{#eq id "Tax"}}Taxas{{/eq}}
+                                            </td>
+                                            <td valign="top" align="right" style="font-family: 'Roboto', sans-serif!important; font-size: 14px; font-weight: 600; color: #000;">
+                                                $ {{formatUSDCurrency value}}
+                                            </td>
+                                        </tr>
+                                        {{/if}}
+                                        {{/each}}
+                                        {{#if value}}
+                                        <tr>
+                                            <td valign="top" align="right" style="font-family: 'Roboto', sans-serif!important; font-size: 14px; font-weight: 400; color: #000;">
+                                                Total
+                                            </td>
+                                            <td valign="top" align="right" style="font-family: 'Roboto', sans-serif!important; font-size: 16px; font-weight: 600; color: #E5707E;">
+                                                $ {{formatUSDCurrency value}}
+                                            </td>
+                                        </tr>
+                                        {{/if}}
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        
+                        <!-- Inside Productos Orders. End -->
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid;">
+                    <p style="display:block; clear:both; color:#000; font-size:10px; font-family:'Open Sans', Helvetica, sans-serif; margin-top:10px; padding:0px;">
+                        ATENCIÓN: El plazo de entrega es considerado a partir de la confirmación del pago o inmediato en caso de bonificación.<br><br>
+                    </p>
+                    <p style="display:block; clear:both; color:#000; font-size:10px; font-family:'Open Sans', Helvetica, sans-serif; margin:0px; padding:0px;">
+                        ATENCIÓN: Si procesaste tu pedido despues de las 6:00pm este se empezara a despachar hasta el dia siguiente y no cuenta en plazo de la paqueteria seleccionada.<br><br>
+                    </p>
+                    <p style="color:#000; font-size:12px; font-family:'Open Sans', Helvetica, sans-serif; margin:0px; padding:0px;">
+                        <strong>Atentamente,<br>
+                        Equipo Aldo Conti Jr.</strong>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table cellspacing="0" cellpadding="0" border="0" bgcolor="#111" width="100%" style="background:#E8E9A1; padding-top:17px; padding-bottom:17px; margin-top:20px;">
+                        <tr>
+                            <td align="right" width="50%" style="padding-right:15px;">
+                                <p style="color:#000; font-size:12px; font-family:'Open Sans', Helvetica, sans-serif; margin:0px; padding:0px; padding-bottom:5px;">
+                                    <strong>SÍGUENOS EN NUESTRAS REDES SOCIALES</strong>
+                                </p>
+                                <a href="https://www.facebook.com/AldoContiJunior/" target="_blank" style="text-decoration: none;">
+                                    <img src="http://aldocontijr.vteximg.com.br/arquivos/fb-logo_mini.png" style="border:0px;" width="10">
+                                </a>
+                                <img src="http://aldocontijr.vteximg.com.br/arquivos/x.png" width="14" height="14" style="width:14px; height:14px; border:0px;">
+                                <a href="https://twitter.com/AldoContiJR" target="_blank" style="text-decoration: none;">
+                                    <img src="http://aldocontijr.vteximg.com.br/arquivos/tw-logo_mini.png" style="border:0px;" width="22">
+                                </a>
+                                <img src="http://aldocontijr.vteximg.com.br/arquivos/x.png" width="14" height="14" style="width:14px; height:14px; border:0px;">
+                                <a href="https://www.instagram.com/aldocontijunior/" target="_blank" style="text-decoration: none;">
+                                    <img src="http://aldocontijr.vteximg.com.br/arquivos/insta-logo_mini.png" style="border:0px;" width="18">
+                                </a>
+                            </td>
+                            <td>
+                                <table cellspacing="0" cellpadding="0" border="0" width="1" height="72" bgcolor="#fbfbfb" style="background:#000; width:1px; height:72px;">
+                                    <tr><td></td></tr>
+                                </table>
+                            </td>
+                            <td align="left" width="49%" style="padding-left:10px;">
+                                <p style="color:#000; font-size:12px; font-family:'Open Sans', Helvetica, sans-serif; margin:0px; padding:0px; padding-bottom:3px;">
+                                    <strong>ATENCIÓN A CLIENTES</strong>
+                                </p>
+                                <p style="color:#000; font-size:10px; font-family:'Open Sans', Helvetica, sans-serif; margin:0px; padding:0px;">
+                                    Calle Norte 35 No. 695 Int. 100 al 111,<br>
+                                    Col. Coltongo, Delegación: Azcapotzalco <br>
+                                    C.P. 02630, Ciudad de México<br><br>
+                                    <a href="mailto:ecommerce@aldoconti-jr.com">ecommerce@aldoconti-jr.com</a><br>
+                                    Atención a clientes sin costo llama al: 800 3980 000
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
